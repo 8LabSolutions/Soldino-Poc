@@ -1,2 +1,2 @@
-# Soldino-Poc
+# Soldino-PoC
 PoC of _Soldino_ project.
