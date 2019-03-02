@@ -31,7 +31,6 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "pre-commit": "^1.2.2",
     "truffle-contract": "^4.0.6"
-
   },
   "scripts": {
     "start": "truffle compile && truffle migrate --reset && npx react-scripts start",

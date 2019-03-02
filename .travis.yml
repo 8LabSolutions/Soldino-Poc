@@ -11,8 +11,6 @@ cache:
     - node_modules
 
 before_install:
-  - export COMMITTER_EMAIL="$(git log -1 $TRAVIS_COMMIT --pretty="%cE")"
-  - export AUTHOR_NAME="$(git log -1 $TRAVIS_COMMIT --pretty="%aN")"
   - npm install -g npm@latest
   - npm install -g ganache-cli truffle
 install:
@@ -23,9 +21,9 @@ jobs:
       script:
         - npm run lint
         - npm run build
-        - ganache-cli -p 7545 > /dev/null &
+        - ganache-cli -p 9545 > /dev/null &
         - sleep 5
-        - truffle migrate
+        - truffle migrate --reset
       deploy:
         provider: surge
         skip_cleanup: true

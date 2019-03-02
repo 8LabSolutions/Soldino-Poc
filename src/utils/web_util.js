@@ -1,6 +1,7 @@
 import Web3 from 'web3'
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from '../App'
 import Error from '../components/presentational/Error'
 
 export default function getWeb3(){
