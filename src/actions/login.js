@@ -5,7 +5,7 @@ export function logIn() {
   return {
     type: LOGIN,
     par: true
-  };
+  }
 }
 
 export function logOut() {
