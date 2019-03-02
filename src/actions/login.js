@@ -1,5 +1,8 @@
 // src/js/actions/index.js
+//import Web3 from 'web3'
 import { LOGIN, LOGOUT } from "../constants/actionTypes";
+//import getWeb3 from '../utils/web_util';
+
 
 export function logIn() {
   return {
@@ -14,3 +17,4 @@ export function logOut() {
     par: false
   };
 }
+
