@@ -6,10 +6,9 @@ import ReactDOM from 'react-dom';
 import App from '../App'
 import Error from '../components/presentational/Error'
 import { inflate } from 'zlib';
-*/console
+*/
 
 export default function getWeb3(){
-  
   var web3js
   if (typeof web3 !== 'undefined') {
     web3js = new Web3(window.web3.currentProvider) 
