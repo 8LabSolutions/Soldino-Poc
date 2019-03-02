@@ -1,12 +1,15 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-const Logged = () => {
-  return(
-    <div className="error">
-      <h1>
-       Coming soon
-      </h1>
-    </div>
-  )
+class Logged extends Component{
+  render(){
+    return(
+      <div className="error">
+        <h1>
+          Coming soon
+        </h1>
+      </div>
+    )
+  }
 }
+
 export default Logged

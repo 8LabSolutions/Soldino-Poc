@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Logged from '../containers/Logged'
 
 class LogButton extends Component {
   render() {
@@ -9,7 +10,10 @@ class LogButton extends Component {
       )
     }else{
       return (
-        <button type="button" onClick={props.logOut}>logout</button>
+        <div>
+          <button type="button" onClick={props.logOut}>logout</button>
+          <Logged />
+        </div>
       )
     }
   }
