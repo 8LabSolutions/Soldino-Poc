@@ -5,8 +5,7 @@ import store from "./store/index";
 import App from './App';
 
 
-// src/index.js
-
+//the App is rendered
 ReactDOM.render(
   <Provider store={store}>
     <App />
