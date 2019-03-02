@@ -1,19 +1,20 @@
 import React, {Component} from 'react';
-import Logged from '../containers/Logged'
+import Button from "@material-ui/core/Button";
 
 class LogButton extends Component {
   render() {
     let props = this.props
     if(props.logged === false){
       return (
-        <button type="button" onClick={props.logIn}>login</button>
+        <Button variant="contained" color="primary" onClick={props.logIn}>
+          login
+        </Button>
       )
     }else{
       return (
-        <div>
-          <button type="button" onClick={props.logOut}>logout</button>
-          <Logged />
-        </div>
+        <Button variant="contained" color="primary" onClick={props.logOut}>
+          logout
+        </Button>
       )
     }
   }

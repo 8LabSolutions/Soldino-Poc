@@ -1,8 +1,8 @@
 // src/js/actions/index.js
 //import Web3 from 'web3'
 import { LOGIN, LOGOUT } from "../constants/actionTypes";
-import getWeb3 from '../utils/web_util';
 import store from '../store/index'
+import getWeb3 from '../utils/web_util';
 
 export function logIn() {  
   return getWeb3().then( (value) => {  

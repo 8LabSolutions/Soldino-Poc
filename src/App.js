@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import NotLogged from './components/containers/NotLogged'
-import Logged from './components/containers/Logged'
+import ButtonAppBar from './components/containers/ButtonAppBar'
+import PageContent from './components/containers/PageContent'
 import store from './store/index'
 import './styles/App.css';
 
@@ -21,15 +21,17 @@ class App extends Component {
     if (logged === false){
       //ritorno la pagina di gestione utente non loggato
       return (
-        <NotLogged />
+        <div>
+          <ButtonAppBar />
+          <PageContent />
+        </div>
       )
-    } else {
+    }/* else {
       //ritorno la home page dell'utente loggato
       return (
-        <Logged />
+        <ButtonAppBar />
       );
-    }
-
+    }*/
   }
 }
 
