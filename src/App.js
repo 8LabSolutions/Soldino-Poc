@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ButtonAppBar from './components/containers/ButtonAppBar'
 import PageContent from './components/containers/PageContent'
 import store from './store/index'
-
+import './styles/App.css';
 //there is a distinction between logged and not logged user,
 //if a user is not logged in, the initial guide along with
 //the registration and login buttons will be displayed. On the
@@ -28,7 +28,10 @@ class App extends Component {
     } else {
       //ritorno la home page dell'utente loggato
       return (
-        <ButtonAppBar />
+        <div>
+          <ButtonAppBar />
+          <PageContent />        
+        </div>
       );
     }
   }

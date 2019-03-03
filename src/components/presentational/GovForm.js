@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import OutlinedTextFields from '../containers/OutlinedTextFields';
+import Government from '../containers/Government';
 
-
-class RegForm extends Component {
+class GovForm extends Component {
   render() {
     let props = this.props
     if(props.logged === false){
@@ -12,10 +12,11 @@ class RegForm extends Component {
       )
     }else{
       return (
-        <div />
+          //classname error da modificare(è solo per la prova)
+        <Government />
       )
     }
   }
 }
 
-export default RegForm;
+export default GovForm;

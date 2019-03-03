@@ -167,19 +167,13 @@ class OutlinedTextFields extends React.Component {
             exclusive
             onChange={this.handleType}
           >
-            <ToggleButton className={classes.toggle} value="citizen">
-              Citizen
-            </ToggleButton>
-            <ToggleButton className={classes.toggle} value="business">
-              Business
-            </ToggleButton>
+            <ToggleButton className={classes.toggle} value="citizen">Citizen</ToggleButton>
+            <ToggleButton className={classes.toggle} value="business">Business</ToggleButton>
           </ToggleButtonGroup>
         </div>
         {content()}
         <div className={classes.all}>
-          <Button className={classes.button} variant="contained" color="primary" onClick={this.handleSubmit}>
-            Sign in
-          </Button>
+          <Button className={classes.button} variant="contained" color="primary" onClick={this.handleSubmit}>Sign in</Button>
         </div>
 
       </form>

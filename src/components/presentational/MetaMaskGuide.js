@@ -2,9 +2,7 @@ import React from 'react'
 
 const MetaMaskGuide = () => {
   return(
-    <div>
-      Guida
-    </div>
+    <div>Guida</div>
   )
 }
 

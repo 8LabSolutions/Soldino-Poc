@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Grid from '@material-ui/core/Grid'
 import Register from '../containers/Register';
+import Government from '../containers/Government';
 import MetaMaskGuide from './MetaMaskGuide'
 
 class Page extends Component {
@@ -21,7 +22,10 @@ class Page extends Component {
       )
     }else{
       return (
-        <center><h1>Coming soon</h1></center>
+        <div>
+          <h1>Government page</h1>
+          <div><Government /></div>
+        </div>
       )
     }
   }

@@ -29,9 +29,7 @@ function ButtonAppBar(props) {
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" color="inherit" className={classes.grow}>
-            Soldino
-          </Typography>
+          <Typography variant="h6" color="inherit" className={classes.grow}>Soldino</Typography>
           <NotLogged />
         </Toolbar>
       </AppBar>

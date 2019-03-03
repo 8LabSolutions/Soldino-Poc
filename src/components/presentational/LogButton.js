@@ -6,15 +6,11 @@ class LogButton extends Component {
     let props = this.props
     if(props.logged === false){
       return (
-        <Button variant="contained" color="primary" onClick={props.logIn}>
-          login
-        </Button>
+        <Button variant="contained" color="primary" onClick={props.logIn}>login</Button>
       )
     }else{
       return (
-        <Button variant="contained" color="primary" onClick={props.logOut}>
-          logout
-        </Button>
+        <Button variant="contained" color="primary" onClick={props.logOut}>logout</Button>
       )
     }
   }
