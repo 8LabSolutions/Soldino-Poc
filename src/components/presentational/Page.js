@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Grid from '@material-ui/core/Grid'
-import Register from '../containers/Register';
+//import Register from '../containers/Register';
 import Government from '../containers/Government';
 import MetaMaskGuide from './MetaMaskGuide'
 
@@ -11,7 +11,7 @@ class Page extends Component {
       return (
         <Grid container direction="row" justify="center" alignItems="center">
           <Grid item xs={6}>
-            <Register />
+            ciao
           </Grid>
           <Grid item xs={6}>
             <center>

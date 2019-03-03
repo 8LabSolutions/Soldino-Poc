@@ -21,5 +21,4 @@ const mapDispatchToProps = (dispatch) => {
 
 const NotLogged = connect(mapStateToProps, mapDispatchToProps)(LogButton);
 
-
 export default NotLogged
