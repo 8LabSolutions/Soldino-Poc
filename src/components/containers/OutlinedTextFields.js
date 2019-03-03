@@ -3,16 +3,26 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button'
+import ToggleButton from '@material-ui/lab/ToggleButton'
+import ToggleButtonGroup from '@material-ui/lab/ToggleButtonGroup'
+import { Typography } from '@material-ui/core';
 
-const styles = theme => ({
+const styles = () => ({
   container: {
     display: 'flex',
+    width: '80%',
     flexWrap: 'wrap',
-    flexDirection: 'column'
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-around',
+    alignContent: 'center',
   },
   textField: {
-    marginLeft: theme.spacing.unit,
-    marginRight: theme.spacing.unit,
+    width: '46%',
+  },
+  button: {
+    width: '40%',
+    marginTop: 16,
   },
   dense: {
     marginTop: 16,
@@ -20,10 +30,22 @@ const styles = theme => ({
   menu: {
     width: 200,
   },
+  toggle: {
+    width: '50%',
+    clear: 'both'
+  },
+  title:{
+    width: '100%',
+    textAlign: 'center'
+  },
+  all:{
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'space-around',
+  }
 });
 
 class OutlinedTextFields extends React.Component {
-
 
   state={
     userType: 'citizen',
@@ -51,20 +73,21 @@ class OutlinedTextFields extends React.Component {
     //alla pagina dell'utente logged
   }
 
-  handleType(event){
+  handleType(event, value){
     this.setState({
       ...this.state,
-      userType: event.target.value
+      userType: value
     })
   }
 
   render() {
     const { classes } = this.props;
-
-    return (
-      <form onSubmit={this.handleSubmit} className={classes.container} noValidate autoComplete="off">
+    const { userType } = this.state;
+    const citizenContent = () => (
+      <div className={classes.container}>
         <TextField
           id="outlined-name"
+          className={classes.textField}
           name="name"
           label="Name"
           margin="normal"
@@ -74,6 +97,7 @@ class OutlinedTextFields extends React.Component {
 
         <TextField
           id="outlined-surname"
+          className={classes.textField}
           name="surname"
           label="Surname"
           margin="normal"
@@ -83,17 +107,81 @@ class OutlinedTextFields extends React.Component {
 
         <TextField
           id="outlined-email"
+          className={classes.textField}
           name="email"
           label="email"
           margin="normal"
           variant="outlined"
           onChange={this.handleChange}
         />
+      </div>
+    )
 
 
-        <Button variant="contained" color="primary" onClick={this.handleSubmit}>
-          Sign in
-        </Button>
+    const businessContent = () => (
+      <div className={classes.container}>
+        <TextField
+          id="outlined-name"
+          className={classes.textField}
+          name="name"
+          label="Name"
+          margin="normal"
+          variant="outlined"
+          onChange={this.handleChange}
+        />
+
+        <TextField
+          id="outlined-pIva"
+          className={classes.textField}
+          name="pIva"
+          label="pIva"
+          margin="normal"
+          variant="outlined"
+          onChange={this.handleChange}
+        />
+
+        <TextField
+          id="outlined-address"
+          className={classes.textField}
+          name="address"
+          label="address"
+          margin="normal"
+          variant="outlined"
+          onChange={this.handleChange}
+        />
+      </div>
+    )
+    const content = () => {
+      if (userType==='citizen')
+        return citizenContent()
+      else
+        return businessContent()
+    }
+    return (
+      <form onSubmit={this.handleSubmit} className={classes.container} noValidate autoComplete="off">
+        <Typography className={classes.title} variant="headline">Registration</Typography>
+        <div className={classes.all}>
+          <ToggleButtonGroup
+            className={classes.button}
+            value={userType}
+            exclusive
+            onChange={this.handleType}
+          >
+            <ToggleButton className={classes.toggle} value="citizen">
+              Citizen
+            </ToggleButton>
+            <ToggleButton className={classes.toggle} value="business">
+              Business
+            </ToggleButton>
+          </ToggleButtonGroup>
+        </div>
+        {content()}
+        <div className={classes.all}>
+          <Button className={classes.button} variant="contained" color="primary" onClick={this.handleSubmit}>
+            Sign in
+          </Button>
+        </div>
+
       </form>
     );
   }
