@@ -8,13 +8,13 @@ class RegForm extends Component {
     if(props.logged === false){
       return (
         /*onClick={props.signUp}*/
-        <center> 
-          <OutlinedTextFields />
-        </center>
+        <OutlinedTextFields />
       )
     }else{
       return (
-        <div />
+        <div>
+          oook
+        </div>
       )
     }
   }
