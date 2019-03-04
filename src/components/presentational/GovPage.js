@@ -89,10 +89,10 @@ class GovPage extends Component {
   handleClick(event) {
     let {mint, distribute } = this.props;
     var { address, amount } = this.state
-    if(event.target.name == "mint") {
+    if(event.target.name === "mint") {
       mint(address, amount)
     }
-    if(event.target.name == "distribute") {
+    if(event.target.name === "distribute") {
       distribute(address, amount)
     }
   }
