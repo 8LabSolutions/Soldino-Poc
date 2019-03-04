@@ -7,7 +7,8 @@ class GovForm extends Component {
     if(props.logged === false){
       return (
         /*onClick={props.signUp}*/
-        <div> ciao </div>
+        // eslint-disable-next-line react/no-unescaped-entities
+        <div>Errore, procedere con l'autenticazione </div>
       )
     }else{
       return (

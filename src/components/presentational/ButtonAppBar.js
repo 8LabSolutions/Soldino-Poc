@@ -5,11 +5,14 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-import LogButtonContainer from '../containers/LogButtonContainer'
+import LogButtonContainer from '../containers/LogButtonContainer';
 
 const styles = {
   root: {
-    flexGrow: 1,
+    flexGrow: 4,
+  },
+  appBar: {
+    backgroundColor: '#C72C41',
   },
   grow: {
     flexGrow: 1,
@@ -24,7 +27,7 @@ function ButtonAppBar(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar className={classes.appBar} position="static">
         <Toolbar>
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
             <MenuIcon />

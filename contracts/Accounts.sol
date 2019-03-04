@@ -25,7 +25,7 @@ contract Accounts {
 
     }
 
-    function register(address _address, bytes32 mail) public payable {
+    function register(address _address, bytes32 mail) public {
         require(isRegistered(_address) == false, "User already registered");
         addressToUser[_address].email = mail;
         addressToUser[_address].active = true;
