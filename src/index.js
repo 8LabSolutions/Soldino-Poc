@@ -5,7 +5,6 @@ import store from "./store/index";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-//setWeb3()
 ReactDOM.render(
   <Provider store={store}>
     <App />
