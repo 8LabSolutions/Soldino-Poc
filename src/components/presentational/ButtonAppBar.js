@@ -9,7 +9,7 @@ import LogButtonContainer from '../containers/LogButtonContainer'
 
 const styles = {
   root: {
-    flexGrow: 1,
+    flexGrow: 4,
   },
   grow: {
     flexGrow: 1,
@@ -29,7 +29,7 @@ function ButtonAppBar(props) {
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" color="inherit" className={classes.grow}>Soldino</Typography>
+          <Typography variant="h6" color="inherit" className={classes.grow} h3>Soldino</Typography>
           <LogButtonContainer />
         </Toolbar>
       </AppBar>
