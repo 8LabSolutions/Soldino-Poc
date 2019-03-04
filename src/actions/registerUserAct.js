@@ -8,10 +8,13 @@ export default function registerUserAction(email, addressB, VATNumber, name) {
     var { web3js } = store.getState()
     if(web3js !== null && web3js !== 'undefined') {
       var hexEmail = web3js.utils.asciiToHex(email,32)
-      var net = window.web3.version.network
+
+      //var net = window.web3.version.network
+      var net = await web3js.eth.net.getId()
       var abi = Accounts.abi
-    // console.log(web3js.eth.net.getId())
-      //console.log(netId)
+
+      console.log(net)
+
       var address = Accounts.networks[net].address
       const contract = new web3js.eth.Contract(abi, address)
       var alreadyRegistered = false
