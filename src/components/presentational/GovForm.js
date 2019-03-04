@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import OutlinedTextFields from '../containers/OutlinedTextFields';
 import Government from '../containers/Government';
 
 class GovForm extends Component {
@@ -8,7 +7,7 @@ class GovForm extends Component {
     if(props.logged === false){
       return (
         /*onClick={props.signUp}*/
-        <OutlinedTextFields />
+        <div>ciao</div>
       )
     }else{
       return (

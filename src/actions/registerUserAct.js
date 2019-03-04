@@ -10,12 +10,12 @@ export default function registerUserAction(email, addressB, VATNumber, name) {
       var hexEmail = web3js.utils.asciiToHex(email,32)
       var abi = Accounts["abi"]
       //console.log(await web3.eth.net.getId())
-      var address = Accounts["networks"][4447]["address"]
+      var net = window.web3.version.network
+      var address = Accounts["networks"][net]["address"]
       var contract = web3js.eth.Contract(abi, address)
-
       console.log(address)
-      contract.methods.register(web3js.defaultAccount, hexEmail)
-      .then( (result) => console.log(result))
+      //contract.methods.register(web3js.defaultAccount, hexEmail).send({from: web3js.defaultAccount})
+
     }
   })
 
