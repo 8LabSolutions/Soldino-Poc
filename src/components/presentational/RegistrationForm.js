@@ -19,23 +19,25 @@ const styles = theme => ({
     alignItems: 'center',
     justifyContent: 'space-around',
     alignContent: 'center',
+    margin: '30px',
 
   },
   textField: {
-    width: 'auto',
-    background: 'grey',
+    width: '50%',
+    marginLeft: '30%',
+    marginRight: '30%',
+    background: 'white',
     borderRadius: 3,
     //border: 0,
     color: 'white',
     height: 'auto',
-    padding: 'auto',
     //boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
   },
   button: {
-    width: '40%',
+    width: '50%',
     marginTop: 16,
-    backgroundColor: '#decba4',
-    color: '#3e5151',
+    backgroundColor: '#3f51b5',
+    color: 'white',
   },
   dense: {
     marginTop: 16,
@@ -45,7 +47,8 @@ const styles = theme => ({
   },
   toggle: {
     width: '50%',
-    clear: 'both'
+    clear: 'both',
+    color: 'white',
   },
   title:{
     color: "white",
@@ -53,7 +56,7 @@ const styles = theme => ({
     textAlign: 'center'
   },
   all:{
-    width: '100%',
+    width: '50%',
     display: 'flex',
     justifyContent: 'space-around',
   },
@@ -110,8 +113,7 @@ class RegistrationForm extends Component {
           id="name"
           className={classes.textField}
           name="name"
-          label="name"
-          margin="normal"
+          label="Name"
           variant="outlined"
           onChange={this.handleChange}
           value={this.state.name}
@@ -122,7 +124,6 @@ class RegistrationForm extends Component {
           className={classes.textField}
           name="VATNumber"
           label="VATNumber"
-          margin="normal"
           variant="outlined"
           onChange={this.handleChange}
           value={this.state.VATNumber}
@@ -133,7 +134,6 @@ class RegistrationForm extends Component {
           className={classes.textField}
           name="address"
           label="Address"
-          margin="normal"
           variant="outlined"
           onChange={this.handleChange}
           value={this.state.address}
@@ -144,7 +144,6 @@ class RegistrationForm extends Component {
           className={classes.textField}
           name="email"
           label="Email"
-          margin="normal"
           variant="outlined"
           onChange={this.handleChange}
           value={this.state.email}
