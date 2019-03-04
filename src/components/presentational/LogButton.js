@@ -6,6 +6,7 @@ import store from '../../store';
 const styles = {
   button: {
     backgroundColor: '#801336',
+    color: 'white',
   },
 };
 
@@ -24,7 +25,7 @@ class LogButton extends Component {
     }
 
     return (
-      <Button className={classes.button} variant="contained" color="primary" onClick={logAction}>
+      <Button className={classes.button} variant="contained" onClick={logAction}>
         {logButtonText}
       </Button>
     )
