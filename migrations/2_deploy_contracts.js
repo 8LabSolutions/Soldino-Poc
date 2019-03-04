@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 var Accounts = artifacts.require("Accounts");
 var Token = artifacts.require("TokenERC20")
 
