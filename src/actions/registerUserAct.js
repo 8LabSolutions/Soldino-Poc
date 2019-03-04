@@ -4,20 +4,29 @@ import store from '../store/index'
 import  Accounts  from '../contracts_build/Accounts';
 
 export default function registerUserAction(email, addressB, VATNumber, name) {
-  setWeb3().then(()  => {
-    var { web3js }= store.getState()
+  setWeb3().then(async ()  => {
+    var { web3js } = store.getState()
     if(web3js !== null && web3js !== 'undefined') {
       var hexEmail = web3js.utils.asciiToHex(email,32)
-      var abi = Accounts["abi"]
-      //console.log(await web3.eth.net.getId())
-      var net = window.web3.version.network
-      var address = Accounts["networks"][net]["address"]
-      var contract = web3js.eth.Contract(abi, address)
-      console.log(address)
-      //contract.methods.register(web3js.defaultAccount, hexEmail).send({from: web3js.defaultAccount})
+      var networkId
+      var abi = Accounts.abi
+    // console.log(web3js.eth.net.getId())
+      //console.log(netId)
+      var address = Accounts.networks[4447].address
+      const contract = new web3js.eth.Contract(abi, address)
+      var alreadyRegistered = false
+
+      await contract.methods.isRegistered(web3js.defaultAccount).call()
+        .then((value) => { alreadyRegistered = value })
+
+      if(alreadyRegistered === false) {
+        contract.methods.register(web3js.defaultAccount, hexEmail).send({from: web3js.defaultAccount})
+      }
+      else {
+        alert("User already registered.")
+      }
 
     }
   })
-
-}/*.then(console.log(store.getState().web3js.eth.defaultAccount))*/
+}
 

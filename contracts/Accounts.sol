@@ -22,17 +22,18 @@ contract Accounts {
         return false;
       }
       return(addresses[addressToUser[_address].index] == _address);
+
     }
 
-    function register(address _address) public {
+    function register(address _address, bytes32 mail) public payable {
         require(isRegistered(_address) == false, "User already registered");
-        //addressToUser[_address].email = mail;
+        addressToUser[_address].email = mail;
         addressToUser[_address].active = true;
         addressToUser[_address].index = addresses.push(_address) - 1;
     }
 
     function getUser(address _address) public view returns (bytes32, bool) {
-       // require(this.isRegistered(_address) == true, "User not found");
+        require(this.isRegistered(_address) == true, "User not found");
         return (addressToUser[_address].email, addressToUser[_address].active);
     }
 }
