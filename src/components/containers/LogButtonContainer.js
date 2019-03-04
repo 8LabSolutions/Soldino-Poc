@@ -20,7 +20,10 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return{
-    logIn: () => {logIn()},
+    logIn: () => {
+      logIn()
+      window.location="/government"
+    },
     logOut: () => {dispatch(logOut())}
   }
 
