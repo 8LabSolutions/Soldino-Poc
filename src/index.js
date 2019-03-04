@@ -3,6 +3,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import store from "./store/index";
 import App from './App';
+import * as serviceWorker from './serviceWorker';
 
 //setWeb3()
 ReactDOM.render(
@@ -14,3 +15,5 @@ ReactDOM.render(
 
 //da rimuovere
 window.store = store;
+
+serviceWorker.register();

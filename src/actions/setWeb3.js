@@ -17,10 +17,11 @@ export default function setWeb3()  {
         var defaultAccount = window.web3.eth.defaultAccount
         web3js.defaultAccount = defaultAccount
       })
-      resolve(store.dispatch({
+      store.dispatch({
         type: SETWEB3,
         instance: web3js
-      }))
+      })
+      resolve()
     } else {
       console.log("no metamask")
           //web3js = new Web3(new Web3.providers.HttpProvider("http://localhost:9545")).then(
