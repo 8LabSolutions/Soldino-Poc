@@ -28,7 +28,7 @@ export function logIn() {
       contractInstance = web3js.eth.Contract(abi, contractAddress)
       //call the contract
       console.log(contractInstance)
-      //contractInstance.methods.
+      //contractInstance.methods.isRegistered(userAddress).call().then((ris)=>console.log(ris))
     }
 
 
