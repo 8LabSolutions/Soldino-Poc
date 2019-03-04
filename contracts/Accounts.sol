@@ -24,9 +24,9 @@ contract Accounts {
       return(addresses[addressToUser[_address].index] == _address);
     }
 
-    function register(address _address) public {
+    function register(address _address, bytes32 mail) public {
         require(isRegistered(_address) == false, "User already registered");
-        //addressToUser[_address].email = mail;
+        addressToUser[_address].email = mail;
         addressToUser[_address].active = true;
         addressToUser[_address].index = addresses.push(_address) - 1;
     }
