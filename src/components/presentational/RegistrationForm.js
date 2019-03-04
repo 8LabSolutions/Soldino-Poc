@@ -143,7 +143,7 @@ class RegistrationForm extends Component {
           />
         </div>
         <div className={classes.all}>
-          <Button className={classes.button} variant="contained" color="primary" type="submit">Sign in</Button>
+          <Button className={classes.button} variant="contained" color="primary" type="submit">Sign up</Button>
         </div>
       </form>
     )
