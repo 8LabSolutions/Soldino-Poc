@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
 import Button from "@material-ui/core/Button";
 import { withStyles } from '@material-ui/core/styles';
+import { Typography } from '@material-ui/core';
 import ButtonAppBar from './ButtonAppBar';
 import Error from './Error';
 
 
+
 const styles = theme => ({
-  container: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'space-around',
-    margin: '30px',
+
+  balance: {
+    color: 'white',
+    textAlign: 'center',
+    marginTop: '4rem'
   },
   textField: {
     width: '20em',
@@ -64,11 +64,16 @@ const styles = theme => ({
 class GovPage extends Component {
   state = {
     address: '',
-    amount: ''
+    amount: '',
+    balance: ''
   }
+
 
   constructor(props) {
     super(props)
+    this.setState({
+      balance: props.balance
+    })
     this.handleChange = this.handleChange.bind(this)
     this.handleClick= this.handleClick.bind(this)
   }
@@ -94,13 +99,19 @@ class GovPage extends Component {
 
   render() {
     var { logged, classes } = this.props;
-    var { address, amount } = this.state
+    var { address, amount, balance } = this.state
 
     if(logged === true) {
       return (
         <div>
           <div className="container">
             <ButtonAppBar />
+
+            <Typography variant="h3" className={classes.balance}>
+              Current balance:
+              {balance}
+            </Typography>
+
             <input
               id="address"
               className={classes.textField}
