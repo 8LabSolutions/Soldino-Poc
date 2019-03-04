@@ -13,7 +13,7 @@ export default function registerUserAction(email, addressB, VATNumber, name) {
       var net = window.web3.version.network
       var address = Accounts["networks"][net]["address"]
       var contract = web3js.eth.Contract(abi, address)
-      console.log(address)
+      console.log(web3js)
       //contract.methods.register(web3js.defaultAccount, hexEmail).send({from: web3js.defaultAccount})
 
     }

@@ -10,24 +10,23 @@ const mapStateToProps = (state) => {
     logButtonText = "LOGIN"
   else
     logButtonText = "LOGOUT"
+  mapDispatchToProps()
   return {
     logged: state.logged,
     logButtonText: logButtonText
   }
+
 }
 
 const mapDispatchToProps = (dispatch) => {
-  let { logged } = store.getState()
-  var log
-  console.log("mapDispatchToProps")
-  if(logged === false)
-    log = () => logIn()
-  else
-    log = () => dispatch(logOut())
-  return {
-    log: log
+  return{
+    logIn: () => {logIn()},
+    logOut: () => {dispatch(logOut())}
   }
+
+
 }
+
 
 const NotLogged = connect(mapStateToProps, mapDispatchToProps)(LogButton);
 

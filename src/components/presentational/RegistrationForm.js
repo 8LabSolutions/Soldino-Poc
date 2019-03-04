@@ -172,7 +172,7 @@ class RegistrationForm extends Component {
         </div>
         {content()}
         <div className={classes.all}>
-          <Button className={classes.button} variant="contained" onClick={this.handleSubmit}>Sign in</Button>
+          <Button className={classes.button} variant="contained" color="primary" type="submit">Sign up</Button>
         </div>
       </form>
     )
