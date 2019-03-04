@@ -11,6 +11,9 @@ const styles = {
   root: {
     flexGrow: 4,
   },
+  appBar: {
+    backgroundColor: '#C72C41',
+  },
   grow: {
     flexGrow: 1,
   },
@@ -24,12 +27,12 @@ function ButtonAppBar(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar className={classes.appBar} position="static">
         <Toolbar>
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" color="inherit" className={classes.grow} h3>Soldino</Typography>
+          <Typography variant="h6" color="inherit" className={classes.grow}>Soldino</Typography>
           <LogButtonContainer />
         </Toolbar>
       </AppBar>

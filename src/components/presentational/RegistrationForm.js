@@ -13,7 +13,7 @@ const styles = theme => ({
   container: {
     display: 'flex',
     height: '10%',
-    width: '100%',
+    width: 'auto',
     flexWrap: 'wrap',
     flexDirection: 'row',
     alignItems: 'center',
@@ -36,7 +36,7 @@ const styles = theme => ({
   button: {
     width: '50%',
     marginTop: 16,
-    backgroundColor: '#3f51b5',
+    backgroundColor: '#801336',
     color: 'white',
   },
   dense: {
