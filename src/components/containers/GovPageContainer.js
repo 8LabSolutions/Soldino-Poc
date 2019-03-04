@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import {mint,distribute} from '../../actions/gov';
-import GovButton from '../presentational/GovButton';
+import GovPage from '../presentational/GovPage';
 
 const mapStateToProps = (state) => {
   return {
@@ -18,7 +18,7 @@ const mapDispatchToProps = (dispatch) => {
       }
     }
 }
-const Government = connect(mapStateToProps, mapDispatchToProps)(GovButton);
+const Government = connect(mapStateToProps, mapDispatchToProps)(GovPage);
 
 
 export default Government

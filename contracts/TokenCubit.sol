@@ -227,4 +227,3 @@ contract TokenERC20 is owned {
         emit Transfer(owner, target, mintedAmount);
     }
 }
-

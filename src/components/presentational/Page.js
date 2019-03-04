@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Grid from '@material-ui/core/Grid'
 //import Register from '../containers/Register';
-import Government from '../containers/Government';
+import GovPageContainer from '../containers/GovPageContainer';
 import MetaMaskGuide from './MetaMaskGuide'
 
 class Page extends Component {
@@ -24,7 +24,7 @@ class Page extends Component {
       return (
         <div>
           <h1>Government page</h1>
-          <div><Government /></div>
+          <div><GovPageContainer /></div>
         </div>
       )
     }

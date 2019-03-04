@@ -2,7 +2,7 @@ import { LOGIN, LOGOUT, SETWEB3 } from "../constants/actionTypes";
 
 
 const initialState = {
-  logged: false,
+  logged: true,
   web3js: null
 };
 function rootReducer(state = initialState, action) {

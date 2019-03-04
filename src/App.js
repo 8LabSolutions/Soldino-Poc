@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './styles/App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './components/presentational/Home'
-import Government from './components/containers/Government'
+import GovPageContainer from './components/containers/GovPageContainer'
 
 class App extends Component {
   render() {
@@ -10,7 +10,7 @@ class App extends Component {
       <Router>
         <div>
           <Route exact path="/" component={Home} />
-          <Route path="/government" component={Government} />
+          <Route path="/government" component={GovPageContainer} />
         </div>
       </Router>
     )
