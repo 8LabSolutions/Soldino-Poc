@@ -9,43 +9,62 @@ import ToggleButtonGroup from '@material-ui/lab/ToggleButtonGroup'
 import { Typography } from '@material-ui/core';
 
 
-const styles = () => ({
-    container: {
-      display: 'flex',
-      width: '80%',
-      flexWrap: 'wrap',
-      flexDirection: 'row',
-      alignItems: 'center',
-      justifyContent: 'space-around',
-      alignContent: 'center',
-    },
-    textField: {
-      width: '46%',
-    },
-    button: {
-      width: '40%',
-      marginTop: 16,
-    },
-    dense: {
-      marginTop: 16,
-    },
-    menu: {
-      width: 200,
-    },
-    toggle: {
-      width: '50%',
-      clear: 'both'
-    },
-    title:{
-      width: '100%',
-      textAlign: 'center'
-    },
-    all:{
-      width: '100%',
-      display: 'flex',
-      justifyContent: 'space-around',
-    }
-  });
+const styles = theme => ({
+  container: {
+    display: 'flex',
+    height: '10%',
+    width: '100%',
+    flexWrap: 'wrap',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-around',
+    alignContent: 'center',
+
+  },
+  textField: {
+    width: 'auto',
+    background: 'grey',
+    borderRadius: 3,
+    //border: 0,
+    color: 'white',
+    height: 'auto',
+    padding: 'auto',
+    //boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+  },
+  button: {
+    width: '40%',
+    marginTop: 16,
+    backgroundColor: '#decba4',
+    color: '#3e5151',
+  },
+  dense: {
+    marginTop: 16,
+  },
+  menu: {
+    width: 200,
+  },
+  toggle: {
+    width: '50%',
+    clear: 'both'
+  },
+  title:{
+    color: "white",
+    width: '100%',
+    textAlign: 'center'
+  },
+  all:{
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'space-around',
+  },
+  root: {
+    display: 'flex',
+    flexWrap: 'wrap',
+  },
+  margin: {
+    margin: theme.spacing.unit,
+  },
+});
 
 class RegistrationForm extends Component {
   state = {
@@ -84,66 +103,77 @@ class RegistrationForm extends Component {
   render() {
     let props = this.props
     const { classes } = props
+
+    const businessContent = () => (
+      <div className={classes.container}>
+        <TextField
+          id="name"
+          className={classes.textField}
+          name="name"
+          label="name"
+          margin="normal"
+          variant="outlined"
+          onChange={this.handleChange}
+          value={this.state.name}
+        />
+
+        <TextField
+          id="vatnumber"
+          className={classes.textField}
+          name="VATNumber"
+          label="VATNumber"
+          margin="normal"
+          variant="outlined"
+          onChange={this.handleChange}
+          value={this.state.VATNumber}
+        />
+
+        <TextField
+          id="address"
+          className={classes.textField}
+          name="address"
+          label="Address"
+          margin="normal"
+          variant="outlined"
+          onChange={this.handleChange}
+          value={this.state.address}
+        />
+
+        <TextField
+          id="email"
+          className={classes.textField}
+          name="email"
+          label="Email"
+          margin="normal"
+          variant="outlined"
+          onChange={this.handleChange}
+          value={this.state.email}
+        />
+      </div>
+    )
+    const content = () => {
+      /*if (userType==='citizen')
+        return citizenContent()
+      else*/
+        return businessContent()
+    }
     return (
       <form onSubmit={this.handleSubmit} className={classes.container} noValidate autoComplete="off">
         <Typography className={classes.title} variant="headline">Registration</Typography>
         <div className={classes.all}>
           <ToggleButtonGroup
             className={classes.button}
-            value="business"
+            //value={userType}
             exclusive
             onChange={this.handleType}
           >
             <ToggleButton className={classes.toggle} value="citizen">Citizen</ToggleButton>
             <ToggleButton className={classes.toggle} value="business">Business</ToggleButton>
           </ToggleButtonGroup>
-
-          <TextField
-            id="address"
-            className={classes.textField}
-            name="address"
-            label="Address"
-            margin="normal"
-            variant="outlined"
-            onChange={this.handleChange}
-            value={this.state.address}
-          />
-
-          <TextField
-            id="email"
-            className={classes.textField}
-            name="email"
-            label="Email"
-            margin="normal"
-            variant="outlined"
-            onChange={this.handleChange}
-            value={this.state.email}
-          />
-
-          <TextField
-            id="vatnumber"
-            className={classes.textField}
-            name="VATNumber"
-            label="VATNumber"
-            margin="normal"
-            variant="outlined"
-            onChange={this.handleChange}
-            value={this.state.VATNumber}
-          />
-
-          <TextField
-            id="name"
-            className={classes.textField}
-            name="name"
-            label="name"
-            margin="normal"
-            variant="outlined"
-            onChange={this.handleChange}
-            value={this.state.name}
-          />
         </div>
+        {content()}
         <div className={classes.all}>
-          <Button className={classes.button} variant="contained" color="primary" type="submit">Sign in</Button>
+          <Button className={classes.button} variant="contained" onClick={this.handleSubmit}>Sign in</Button>
         </div>
       </form>
     )
