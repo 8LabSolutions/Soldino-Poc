@@ -22,7 +22,7 @@ const mapDispatchToProps = (dispatch) => {
   return{
     logIn: () => {
       logIn()
-      window.location="/government"
+
     },
     logOut: () => {dispatch(logOut())}
   }

@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React, {Component} from 'react';
+import {withRouter} from 'react-router'
 import Button from "@material-ui/core/Button";
 import { withStyles } from '@material-ui/core/styles';
 import { Typography } from '@material-ui/core';
@@ -72,9 +73,8 @@ class GovPage extends Component {
 
   constructor(props) {
     super(props)
-    this.setState({
-      balance: props.balance
-    })
+    this.balance = props.balance
+    this.logged = props.logged
     this.handleChange = this.handleChange.bind(this)
     this.handleClick= this.handleClick.bind(this)
   }
@@ -153,4 +153,4 @@ class GovPage extends Component {
   }
 }
 
-export default withStyles(styles)(GovPage);
+export default withRouter(withStyles(styles)(GovPage))

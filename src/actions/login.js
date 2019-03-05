@@ -1,9 +1,11 @@
 // src/js/actions/index.js
 //import Web3 from 'web3'
+
 import { LOGIN, LOGOUT } from "../constants/actionTypes";
 import store from '../store/index'
 import setWeb3 from "./setWeb3";
 import Accounts from '../contracts_build/Accounts'
+
 
 export function logIn() {
   setWeb3().then(async ()  => {
@@ -28,7 +30,7 @@ export function logIn() {
         })
       }
       else {
-        alert("User already registered.")
+        alert("It seems like you are not registered")
       }
     }
   })
