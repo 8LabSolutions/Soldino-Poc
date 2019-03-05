@@ -10,9 +10,7 @@ class Page extends Component {
     if(props.logged === false) {
       return (
         <Grid container direction="row" justify="center" alignItems="center">
-          <Grid item xs={6}>
-            ciao
-          </Grid>
+          <Grid item xs={6}>ciao</Grid>
           <Grid item xs={6}>
             <center>
               <MetaMaskGuide />

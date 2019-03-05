@@ -4,7 +4,8 @@ import GovPage from '../presentational/GovPage';
 
 const mapStateToProps = (state) => {
   return {
-    logged: state.logged
+    logged: state.logged,
+    balance: state.balance
   }
 }
 

@@ -3,26 +3,25 @@ pragma solidity ^0.5.0;
 
 contract Accounts {
 
-    // Struct to store the email and userType of user
+// Struct to store the email and userType of user
     struct User {
         bytes32 email;
         bool active;
         uint index;
     }
 
-    // Array of addresses, in it is going to be saved the address of a user
-    // the same address is used to access the map addressToUser, that contains User structs
+// Array of addresses, in it is going to be saved the address of a user
+// the same address is used to access the map addressToUser, that contains User structs
     address[] private addresses;
 
     mapping(address => User) private addressToUser;
 
-    // Function to check if a given address is mapped to an account
+// Function to check if a given address is mapped to an account
     function isRegistered(address _address) public view returns (bool) {
-      if(addresses.length == 0) {
-        return false;
-      }
-      return(addresses[addressToUser[_address].index] == _address);
-
+        if(addresses.length == 0){
+            return false;
+        }
+        return(addresses[addressToUser[_address].index] == _address);
     }
 
     function register(address _address, bytes32 mail) public {

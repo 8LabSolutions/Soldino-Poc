@@ -1,45 +1,40 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 import React, {Component} from 'react';
 import Button from "@material-ui/core/Button";
 import { withStyles } from '@material-ui/core/styles';
-import { TextField } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 import ButtonAppBar from './ButtonAppBar';
 import Error from './Error';
 
+
+
 const styles = theme => ({
-  container: {
-    display: 'flex',
-    height: '10%',
-    width: 'auto',
-    flexWrap: 'wrap',
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-around',
-    alignContent: 'center',
-    margin: '30px',
+
+  balance: {
+    color: 'white',
+    textAlign: 'center',
+    marginTop: '4rem'
   },
   textField: {
-    width: '50%',
+    width: '20em',
+    display: 'block',
+    height: '3rem',
     marginTop: '2%',
-    marginLeft: '30%',
-    marginRight: '30%',
+    margin: 'auto',
     background: 'white',
     borderRadius: 3,
-    //border: 0,
-    color: 'white',
-    height: 'auto',
-    //boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+    fontSize: '1.2em',
+    color: 'black',
   },
   button: {
-    width: '50%',
-    marginTop: 16,
     backgroundColor: '#801336',
     color: 'white',
+    display: 'block',
+    margin: 'auto',
+    marginTop: '1rem'
   },
   dense: {
     marginTop: 16,
-  },
-  menu: {
-    width: 200,
   },
   toggle: {
     width: '50%',
@@ -70,11 +65,16 @@ const styles = theme => ({
 class GovPage extends Component {
   state = {
     address: '',
-    ammount: 0
+    amount: '',
+    balance: ''
   }
+
 
   constructor(props) {
     super(props)
+    this.setState({
+      balance: props.balance
+    })
     this.handleChange = this.handleChange.bind(this)
     this.handleClick= this.handleClick.bind(this)
   }
@@ -89,45 +89,55 @@ class GovPage extends Component {
 
   handleClick(event) {
     let {mint, distribute } = this.props;
-    var { address, ammount } = this.state
+    var { address, amount } = this.state
     if(event.target.name === "mint") {
-      mint(address, ammount)
+      mint(address, amount)
     }
     if(event.target.name === "distribute") {
-      distribute(address, ammount)
+      distribute(address, amount)
     }
   }
 
   render() {
     var { logged, classes } = this.props;
-    var { address, ammount } = this.state
+    var { address, amount, balance } = this.state
 
     if(logged === true) {
       return (
         <div>
-          <ButtonAppBar />
-          <TextField
-            id="address"
-            className={classes.textField}
-            name="address"
-            label="Address"
-            variant="outlined"
-            onChange={this.handleChange}
-            value={address}
-          />
+          <div className="container">
+            <ButtonAppBar />
 
-          <TextField
-            id="ammount"
-            className={classes.textField}
-            name="ammount"
-            label="Ammount"
-            variant="outlined"
-            onChange={this.handleChange}
-            type="number"
-            value={ammount}
-          />
-          <Button name="mint" variant="contained" color="primary" onClick={this.handleClick}>mint</Button>
-          <Button name="distribute" variant="contained" color="primary" onClick={this.handleClick}>distribute</Button>
+            <Typography variant="h3" className={classes.balance}>
+                Current balance:{balance}
+            </Typography>
+
+            <input
+              id="address"
+              className={classes.textField}
+              name="address"
+              label="Address"
+              placeholder="Address"
+              onChange={this.handleChange}
+              value={address}
+            />
+
+            <input
+              id="amount"
+              className={classes.textField}
+              type="number"
+              name="amount"
+              label="Amount"
+              onChange={this.handleChange}
+              placeholder="0"
+              value={amount}
+            />
+            <div className="container">
+              <Button name="mint" variant="contained" className={classes.button} onClick={this.handleClick}>mint</Button>
+              <Button name="distribute" variant="contained" className={classes.button} onClick={this.handleClick}>distribute</Button>
+            </div>
+
+          </div>
         </div>
       )
     }

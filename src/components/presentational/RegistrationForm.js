@@ -8,7 +8,6 @@ import ToggleButton from '@material-ui/lab/ToggleButton'
 import ToggleButtonGroup from '@material-ui/lab/ToggleButtonGroup'
 import { Typography } from '@material-ui/core';
 
-
 const styles = theme => ({
   container: {
     display: 'flex',
@@ -118,6 +117,7 @@ class RegistrationForm extends Component {
           onChange={this.handleChange}
           value={this.state.name}
         />
+        <br />
 
         <TextField
           id="vatnumber"
@@ -128,6 +128,7 @@ class RegistrationForm extends Component {
           onChange={this.handleChange}
           value={this.state.VATNumber}
         />
+        <br />
 
         <TextField
           id="address"
@@ -138,6 +139,7 @@ class RegistrationForm extends Component {
           onChange={this.handleChange}
           value={this.state.address}
         />
+        <br />
 
         <TextField
           id="email"
