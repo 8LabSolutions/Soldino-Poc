@@ -5,6 +5,7 @@ import store from '../store/index'
 import setWeb3 from "./setWeb3";
 import Accounts from '../contracts_build/Accounts'
 
+
 export function logIn() {
   setWeb3().then(async ()  => {
     var { web3js } = store.getState()

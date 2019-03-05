@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 import { logIn, logOut } from '../../actions/login';
 import LogButton from '../presentational/LogButton';
 import store from '../../store';
+import TokenInfo from '../../actions/token';
 
 const mapStateToProps = (state) => {
   let { logged } = store.getState()
@@ -22,6 +23,7 @@ const mapDispatchToProps = (dispatch) => {
   return{
     logIn: () => {
       logIn()
+      TokenInfo()
       window.location="/government"
     },
     logOut: () => {dispatch(logOut())}

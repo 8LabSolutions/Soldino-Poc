@@ -72,9 +72,7 @@ class GovPage extends Component {
 
   constructor(props) {
     super(props)
-    this.setState({
-      balance: props.balance
-    })
+    //this.setState({ })
     this.handleChange = this.handleChange.bind(this)
     this.handleClick= this.handleClick.bind(this)
   }
@@ -88,18 +86,18 @@ class GovPage extends Component {
   }
 
   handleClick(event) {
-    let {mint, distribute } = this.props;
+    let { mint } = this.props;
     var { address, amount } = this.state
     if(event.target.name === "mint") {
       mint(address, amount)
     }
-    if(event.target.name === "distribute") {
+    /*if(event.target.name === "distribute") {
       distribute(address, amount)
-    }
+    }*/
   }
 
   render() {
-    var { logged, classes } = this.props;
+    var { logged, classes, tokenSymbol} = this.props;
     var { address, amount, balance } = this.state
     logged = true
     if(logged) {
@@ -109,7 +107,8 @@ class GovPage extends Component {
             <ButtonAppBar />
 
             <Typography variant="h3" className={classes.balance}>
-                Current balance:{balance}
+                Current supply :{balance} {tokenSymbol}
+
             </Typography>
 
             <input
@@ -134,7 +133,7 @@ class GovPage extends Component {
             />
             <div className="container">
               <Button name="mint" variant="contained" className={classes.button} onClick={this.handleClick}>mint</Button>
-              <Button name="distribute" variant="contained" className={classes.button} onClick={this.handleClick}>distribute</Button>
+              {/* <Button name="distribute" variant="contained" className={classes.button} onClick={this.handleClick}>distribute</Button> */}
             </div>
 
           </div>

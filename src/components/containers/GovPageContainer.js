@@ -5,7 +5,8 @@ import GovPage from '../presentational/GovPage';
 const mapStateToProps = (state) => {
   return {
     logged: state.logged,
-    balance: state.balance
+    balance: state.balance,
+    tokenSymbol: state.tokenSymbol
   }
 }
 

@@ -6,3 +6,5 @@ export const SETWEB3 = "SETWEB3";
 
 export const MINT = "MINT";
 export const DISTRIBUTE = "DISTRIBUTE";
+
+export const TOKEN = "TOKEN";
