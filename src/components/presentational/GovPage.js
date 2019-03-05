@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 import React, {Component} from 'react';
 import Button from "@material-ui/core/Button";
 import { withStyles } from '@material-ui/core/styles';
@@ -89,10 +90,10 @@ class GovPage extends Component {
   handleClick(event) {
     let {mint, distribute } = this.props;
     var { address, amount } = this.state
-    if(event.target.name == "mint") {
+    if(event.target.name === "mint") {
       mint(address, amount)
     }
-    if(event.target.name == "distribute") {
+    if(event.target.name === "distribute") {
       distribute(address, amount)
     }
   }
@@ -108,8 +109,7 @@ class GovPage extends Component {
             <ButtonAppBar />
 
             <Typography variant="h3" className={classes.balance}>
-              Current balance:
-              {balance}
+                Current balance:{balance}
             </Typography>
 
             <input
