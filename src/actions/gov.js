@@ -29,10 +29,29 @@ export function mint(addressTo, ammount) {
         alert("Permission denied")
       }
       else {
+        contract.methods.totalSupply().call()
+          .then((value) => {
+            console.log(value)
+          })
+          .then(() => {
+            contract.methods.balanceOf(web3js.defaultAccount).call()
+              .then((value) => {
+                console.log("Balance: "+value)
+              })
+          })
+
         await contract.methods.mintToken(addressTo.toLowerCase(), parseInt(ammount)).send({from: web3js.defaultAccount}).then(() => {
-          contract.methods.transfer(addressTo.toLowerCase(), parseInt(ammount)).send({from: web3js.defaultAccount}).then(() => {console.log("Evviva.")
+          contract.methods.totalSupply().call()
+              .then((value) => {
+                console.log("Total supply: "+value)
+              })
+              .then(() => {
+                contract.methods.balanceOf(addressTo.toLowerCase()).call()
+              .then((value) => {
+                console.log("Balance to: "+value)
+              })
+              })
         })
-        }, () => {alert("Error")})
       }
     }
 
