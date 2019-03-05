@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import {withRouter} from 'react-router'
 import Button from "@material-ui/core/Button";
 import { withStyles } from '@material-ui/core/styles';
-import { Typography } from '@material-ui/core';
+//import { Typography } from '@material-ui/core';
 import ButtonAppBar from './ButtonAppBar';
 import Error from './Error';
 
@@ -95,11 +95,19 @@ class GovPage extends Component {
     /*if(event.target.name === "distribute") {
       distribute(address, amount)
     }*/
+
+    /* DA METTERE SOTTO */
+
+     /*<Typography variant="h3" className={classes.balance}>
+                Current supply :{balance} {tokenSymbol}
+
+            </Typography>
+            */
   }
 
   render() {
-    var { logged, classes, tokenSymbol} = this.props;
-    var { address, amount, balance } = this.state
+    var { logged, classes } = this.props;
+    var { address, amount  } = this.state
     logged = true
     if(logged) {
       return (
@@ -107,10 +115,6 @@ class GovPage extends Component {
           <div className="container">
             <ButtonAppBar />
 
-            <Typography variant="h3" className={classes.balance}>
-                Current supply :{balance} {tokenSymbol}
-
-            </Typography>
 
             <input
               id="address"

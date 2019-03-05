@@ -12636,12 +12636,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x7a98Bb92D7db74167F9803916232F636930A198E",
-      "transactionHash": "0xfbf4c9ded9ee18ee30f92ac04fecb26cd1d13f0a066db053e9356265e21b3a6b"
+      "address": "0xdB7aAFbc77b906975B646075628aDB9fF2f10781",
+      "transactionHash": "0xc08c732ce74c24918bd9da32e34e5703769f83dbfded2cb417e9ebf709c1c89f"
     }
   },
   "schemaVersion": "3.0.0-beta.2",
-  "updatedAt": "2019-03-05T09:12:53.304Z",
+  "updatedAt": "2019-03-05T10:54:40.934Z",
   "devdoc": {
     "methods": {
       "approve(address,uint256)": {
