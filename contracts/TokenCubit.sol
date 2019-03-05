@@ -86,7 +86,7 @@ contract TokenERC20 is owned {
         string memory tokenSymbol,
         address centralMinter)
         public {
-        if(centralMinter != address(0x0)) //controllo che l'indirizzo non sia invalido
+        if(centralMinter != address(0)) //controllo che l'indirizzo non sia invalido
             owner = centralMinter;
 
         totalSupply = initialSupply;
@@ -129,6 +129,9 @@ contract TokenERC20 is owned {
         return true;
     }
 
+    function getOwner() public view returns (address) {
+      return owner;
+    }
     /**
      * Transfer tokens from other address
      *
@@ -223,7 +226,7 @@ contract TokenERC20 is owned {
     function mintToken(address target, uint256 mintedAmount) onlyOwner public {
         balanceOf[target] += mintedAmount;
         totalSupply += mintedAmount;
-        emit Transfer(address(0x0), owner, mintedAmount);
+        emit Transfer(address(0), owner, mintedAmount);
         emit Transfer(owner, target, mintedAmount);
     }
 }

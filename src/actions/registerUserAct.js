@@ -20,6 +20,8 @@ export default function registerUserAction(email, addressB, VATNumber, name) {
       await contract.methods.isRegistered(web3js.defaultAccount).call()
         .then((value) => { alreadyRegistered = value })
 
+      alert(alreadyRegistered)
+
       if(alreadyRegistered === false) {
         contract.methods.register(web3js.defaultAccount, hexEmail).send({from: web3js.defaultAccount})
           .then(() => {alert("Sign up successful")})

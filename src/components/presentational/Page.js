@@ -7,7 +7,7 @@ import MetaMaskGuide from './MetaMaskGuide'
 class Page extends Component {
   render() {
     let props = this.props
-    if(props.logged === false){
+    if(props.logged === false) {
       return (
         <Grid container direction="row" justify="center" alignItems="center">
           <Grid item xs={6}>

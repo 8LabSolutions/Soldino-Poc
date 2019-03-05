@@ -10,11 +10,11 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-      mint: () => {
-        dispatch(mint())
+      mint: (address, ammount) => {
+        dispatch(mint(address, ammount))
       },
-      distribute: () => {
-        dispatch(distribute())
+      distribute: (address, ammount) => {
+        dispatch(distribute(address, ammount))
       }
     }
 }
