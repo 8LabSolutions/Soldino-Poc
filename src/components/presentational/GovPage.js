@@ -100,8 +100,8 @@ class GovPage extends Component {
   render() {
     var { logged, classes } = this.props;
     var { address, amount, balance } = this.state
-
-    if(logged === true) {
+    logged = true
+    if(logged) {
       return (
         <div>
           <div className="container">
@@ -145,6 +145,7 @@ class GovPage extends Component {
       return (
         <div>
           <Error message="Sign in to see this page." />
+
         </div>
       )
     }
