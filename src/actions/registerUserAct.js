@@ -8,6 +8,9 @@ export default function registerUserAction(email, addressB, VATNumber, name) {
     var { web3js } = store.getState()
     if(web3js !== null && web3js !== 'undefined') {
       var hexEmail = web3js.utils.asciiToHex(email,32)
+      var hexName = web3js.utils.asciiToHex(email,32)
+      var hexSede = web3js.utils.asciiToHex(email,32)
+      var hexVat = web3js.utils.asciiToHex(email,32)
 
       var net = await web3js.eth.net.getId()
       var abi = Accounts.abi
@@ -22,7 +25,7 @@ export default function registerUserAction(email, addressB, VATNumber, name) {
 
 
       if(alreadyRegistered === false) {
-        contract.methods.register(web3js.defaultAccount, hexEmail).send({from: web3js.defaultAccount})
+        contract.methods.register(web3js.defaultAccount, hexEmail, hexName, hexSede, hexVat).send({from: web3js.defaultAccount})
           .then(() => {alert("Sign up successful")})
       }
       else {
