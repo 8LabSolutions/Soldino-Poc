@@ -9,16 +9,18 @@ import "./UserStorage.sol";
   * @dev This contract define the storage for the citizen-type user
   */
   contract CitizenStorage is UserStorage {
-      struct Citizen {
+    struct Citizen {
         bytes32 email;
         bytes32 deliveryAddress;
         bytes32 name;
+        bytes32 surname;
         bool active;
         uint index;
     }
 
-    mapping(address => Citizen) private addressCitizen;
+    mapping(address => Citizen) addressCitizen;
 
+    // Overriding 
     function getName(address _userAddress) public view returns (bytes32) {
         return addressCitizen[_userAddress].name;
     }
@@ -34,4 +36,9 @@ import "./UserStorage.sol";
     function getActive(address _userAddress) public view returns (bool) {
         return addressCitizen[_userAddress].active;
     }
+
+    function getSurname(address _userAddress) public view returns (bytes32) {
+        return addressCitizen[_userAddress].surname;
+    }
+
   }

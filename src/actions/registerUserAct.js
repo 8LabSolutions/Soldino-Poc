@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import setWeb3 from './setWeb3'
 import store from '../store/index'
-import  Accounts  from '../contracts_build/Accounts';
+import  Proxy  from '../contracts_build/Proxy';
 
 export default function registerUserAction(email, addressB, VATNumber, name) {
   setWeb3().then(async ()  => {
@@ -13,18 +13,18 @@ export default function registerUserAction(email, addressB, VATNumber, name) {
       var hexVat = web3js.utils.asciiToHex(email,32)
 
       var net = await web3js.eth.net.getId()
-      var abi = Accounts.abi
-      var address = Accounts.networks[net].address
+      var abi = Proxy.abi
+      var address = Proxy.networks[net].address
 
       const contract = new web3js.eth.Contract(abi, address)
 
-      var alreadyRegistered = false
+      var alreadyRegistered = true
+      console.log(contract)
+      await contract.methods.upgradeTo(web3js.defaultAccount).call()
+        .then(() => { console.log("Fatto upgrade") })
 
-      await contract.methods.isRegistered(web3js.defaultAccount).call()
-        .then((value) => { alreadyRegistered = value })
 
-
-      if(alreadyRegistered === false) {
+      if(alreadyRegistered === true) {
         contract.methods.register(web3js.defaultAccount, hexEmail, hexName, hexSede, hexVat).send({from: web3js.defaultAccount})
           .then(() => {alert("Sign up successful")})
       }
