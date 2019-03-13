@@ -6,10 +6,13 @@ import "./CitizenStorage.sol";
 
 
 contract Proxy is BusinessStorage, CitizenStorage {
-
+  address public _implementation;
   event Upgraded(address indexed implementation);
 
-  address public _implementation;
+
+  constructor(address _logicAddress) public {
+    _implementation = _logicAddress;
+  }
 
   function implementation() public view returns (address) {
     return _implementation;
@@ -27,7 +30,7 @@ contract Proxy is BusinessStorage, CitizenStorage {
   }
  
   function () payable external {
-    /*address _impl = implementation();
+    address _impl = implementation();
     require(_impl != address(0));
     bytes memory data = msg.data;
 
@@ -39,9 +42,7 @@ contract Proxy is BusinessStorage, CitizenStorage {
       switch result
       case 0 { revert(ptr, size) }
       default { return(ptr, size) }
-    }*/
-    _implementation = address(0x87073C12C3e390f8119cB6c9A9587b9E93A7e8D6);
-    
+    }    
   }
 
 }

@@ -209,22 +209,22 @@
   ],
   "bytecode": "0x608060405234801561001057600080fd5b5061070d806100206000396000f3fe6080604052600436106100af576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630ead22b2146100b45780632ce962cf1461011957806335fe620f146101765780634fa7353c146101d1578063522ecace146102365780635fd4b08a1461029b578063ce10cf8814610300578063d4bc08891461037b578063daea3e3a146103d6578063ddc9f3731461043f578063e5252e751461049a575b600080fd5b3480156100c057600080fd5b50610103600480360360208110156100d757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104ff565b6040518082815260200191505060405180910390f35b34801561012557600080fd5b506101746004803603604081101561013c57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080351515906020019092919050505061054b565b005b34801561018257600080fd5b506101cf6004803603604081101561019957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019092919050505061054f565b005b3480156101dd57600080fd5b50610220600480360360208110156101f457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610553565b6040518082815260200191505060405180910390f35b34801561024257600080fd5b506102856004803603602081101561025957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061059f565b6040518082815260200191505060405180910390f35b3480156102a757600080fd5b506102ea600480360360208110156102be57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506105a6565b6040518082815260200191505060405180910390f35b34801561030c57600080fd5b506103396004803603602081101561032357600080fd5b81019080803590602001909291905050506105f2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561038757600080fd5b506103d46004803603604081101561039e57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610634565b005b3480156103e257600080fd5b50610425600480360360208110156103f957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610638565b604051808215151515815260200191505060405180910390f35b34801561044b57600080fd5b506104986004803603604081101561046257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610691565b005b3480156104a657600080fd5b506104e9600480360360208110156104bd57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610695565b6040518082815260200191505060405180910390f35b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600301549050919050565b5050565b5050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001549050919050565b6000919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600201549050919050565b6000808281548110151561060257fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b5050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060040160009054906101000a900460ff169050919050565b5050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010154905091905056fea165627a7a72305820c1b4cf2ca17918c0c40bc236103facbc4dd1ac0a4187a775bcd55c5a9019699e0029",
   "deployedBytecode": "0x6080604052600436106100af576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630ead22b2146100b45780632ce962cf1461011957806335fe620f146101765780634fa7353c146101d1578063522ecace146102365780635fd4b08a1461029b578063ce10cf8814610300578063d4bc08891461037b578063daea3e3a146103d6578063ddc9f3731461043f578063e5252e751461049a575b600080fd5b3480156100c057600080fd5b50610103600480360360208110156100d757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104ff565b6040518082815260200191505060405180910390f35b34801561012557600080fd5b506101746004803603604081101561013c57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080351515906020019092919050505061054b565b005b34801561018257600080fd5b506101cf6004803603604081101561019957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019092919050505061054f565b005b3480156101dd57600080fd5b50610220600480360360208110156101f457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610553565b6040518082815260200191505060405180910390f35b34801561024257600080fd5b506102856004803603602081101561025957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061059f565b6040518082815260200191505060405180910390f35b3480156102a757600080fd5b506102ea600480360360208110156102be57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506105a6565b6040518082815260200191505060405180910390f35b34801561030c57600080fd5b506103396004803603602081101561032357600080fd5b81019080803590602001909291905050506105f2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561038757600080fd5b506103d46004803603604081101561039e57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610634565b005b3480156103e257600080fd5b50610425600480360360208110156103f957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610638565b604051808215151515815260200191505060405180910390f35b34801561044b57600080fd5b506104986004803603604081101561046257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610691565b005b3480156104a657600080fd5b506104e9600480360360208110156104bd57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610695565b6040518082815260200191505060405180910390f35b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600301549050919050565b5050565b5050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001549050919050565b6000919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600201549050919050565b6000808281548110151561060257fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b5050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060040160009054906101000a900460ff169050919050565b5050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010154905091905056fea165627a7a72305820c1b4cf2ca17918c0c40bc236103facbc4dd1ac0a4187a775bcd55c5a9019699e0029",
-  "sourceMap": "204:987:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;204:987:2;;;;;;;",
-  "deployedSourceMap": "204:987:2:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1054:132;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1054:132:2;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1054:132:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1106:43:7;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1106:43:7;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1106:43:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;947:44;;8:9:-1;5:2;;;30:1;27;20:12;5:2;947:44:7;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;947:44:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;625:128:2;;8:9:-1;5:2;;;30:1;27;20:12;5:2;625:128:2;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;625:128:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;694:69:7;;8:9:-1;5:2;;;30:1;27;20:12;5:2;694:69:7;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;694:69:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;489:126:2;;8:9:-1;5:2;;;30:1;27;20:12;5:2;489:126:2;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;489:126:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;832:109:7;;8:9:-1;5:2;;;30:1;27;20:12;5:2;832:109:7;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;832:109:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;996:45;;8:9:-1;5:2;;;30:1;27;20:12;5:2;996:45:7;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;996:45:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;921:127:2;;8:9:-1;5:2;;;30:1;27;20:12;5:2;921:127:2;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;921:127:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1046:55:7;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1046:55:7;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1046:55:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;759:156:2;;8:9:-1;5:2;;;30:1;27;20:12;5:2;759:156:2;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;759:156:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1054:132;1117:7;1143:14;:28;1158:12;1143:28;;;;;;;;;;;;;;;:36;;;1136:43;;1054:132;;;:::o;1106:43:7:-;;;:::o;947:44::-;;;:::o;625:128:2:-;686:7;712:14;:28;727:12;712:28;;;;;;;;;;;;;;;:34;;;705:41;;625:128;;;:::o;694:69:7:-;752:7;694:69;;;:::o;489:126:2:-;549:7;575:14;:28;590:12;575:28;;;;;;;;;;;;;;;:33;;;568:40;;489:126;;;:::o;832:109:7:-;893:7;917:9;927:6;917:17;;;;;;;;;;;;;;;;;;;;;;;;;;;910:24;;832:109;;;:::o;996:45::-;;;:::o;921:127:2:-;983:4;1006:14;:28;1021:12;1006:28;;;;;;;;;;;;;;;:35;;;;;;;;;;;;999:42;;921:127;;;:::o;1046:55:7:-;;;:::o;759:156:2:-;838:7;864:14;:28;879:12;864:28;;;;;;;;;;;;;;;:44;;;857:51;;759:156;;;:::o",
+  "sourceMap": "204:987:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;204:987:3;;;;;;;",
+  "deployedSourceMap": "204:987:3:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1054:132;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1054:132:3;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1054:132:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1106:43:8;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1106:43:8;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1106:43:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;947:44;;8:9:-1;5:2;;;30:1;27;20:12;5:2;947:44:8;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;947:44:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;625:128:3;;8:9:-1;5:2;;;30:1;27;20:12;5:2;625:128:3;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;625:128:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;694:69:8;;8:9:-1;5:2;;;30:1;27;20:12;5:2;694:69:8;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;694:69:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;489:126:3;;8:9:-1;5:2;;;30:1;27;20:12;5:2;489:126:3;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;489:126:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;832:109:8;;8:9:-1;5:2;;;30:1;27;20:12;5:2;832:109:8;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;832:109:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;996:45;;8:9:-1;5:2;;;30:1;27;20:12;5:2;996:45:8;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;996:45:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;921:127:3;;8:9:-1;5:2;;;30:1;27;20:12;5:2;921:127:3;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;921:127:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1046:55:8;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1046:55:8;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1046:55:8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;759:156:3;;8:9:-1;5:2;;;30:1;27;20:12;5:2;759:156:3;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;759:156:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1054:132;1117:7;1143:14;:28;1158:12;1143:28;;;;;;;;;;;;;;;:36;;;1136:43;;1054:132;;;:::o;1106:43:8:-;;;:::o;947:44::-;;;:::o;625:128:3:-;686:7;712:14;:28;727:12;712:28;;;;;;;;;;;;;;;:34;;;705:41;;625:128;;;:::o;694:69:8:-;752:7;694:69;;;:::o;489:126:3:-;549:7;575:14;:28;590:12;575:28;;;;;;;;;;;;;;;:33;;;568:40;;489:126;;;:::o;832:109:8:-;893:7;917:9;927:6;917:17;;;;;;;;;;;;;;;;;;;;;;;;;;;910:24;;832:109;;;:::o;996:45::-;;;:::o;921:127:3:-;983:4;1006:14;:28;1021:12;1006:28;;;;;;;;;;;;;;;:35;;;;;;;;;;;;999:42;;921:127;;;:::o;1046:55:8:-;;;:::o;759:156:3:-;838:7;864:14;:28;879:12;864:28;;;;;;;;;;;;;;;:44;;;857:51;;759:156;;;:::o",
   "source": "pragma solidity ^0.5.0;\n\nimport \"./UserStorage.sol\";\n\n/**\n  * Created: 2019-03-13\n  * @author Mattia\n  * @title Citizen contract\n  * @dev This contract define the storage for the citizen-type user\n  */\n  contract CitizenStorage is UserStorage {\n    struct Citizen {\n        bytes32 email;\n        bytes32 deliveryAddress;\n        bytes32 name;\n        bytes32 surname;\n        bool active;\n        uint index;\n    }\n\n    mapping(address => Citizen) addressCitizen;\n\n    // Overriding \n    function getName(address _userAddress) public view returns (bytes32) {\n        return addressCitizen[_userAddress].name;\n    }\n    \n    function getEmail(address _userAddress) public view returns (bytes32) {\n        return addressCitizen[_userAddress].email;\n    }\n\n    function getDeliveryAddressaddress (address _userAddress) public view returns (bytes32) {\n        return addressCitizen[_userAddress].deliveryAddress;\n    }\n\n    function getActive(address _userAddress) public view returns (bool) {\n        return addressCitizen[_userAddress].active;\n    }\n\n    function getSurname(address _userAddress) public view returns (bytes32) {\n        return addressCitizen[_userAddress].surname;\n    }\n\n  }",
   "sourcePath": "/home/bolzo/swe/Soldino-PoC/contracts/CitizenStorage.sol",
   "ast": {
     "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/CitizenStorage.sol",
     "exportedSymbols": {
       "CitizenStorage": [
-        410
+        416
       ]
     },
-    "id": 411,
+    "id": 417,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 324,
+        "id": 330,
         "literals": [
           "solidity",
           "^",
@@ -232,16 +232,16 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:2"
+        "src": "0:23:3"
       },
       {
         "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/UserStorage.sol",
         "file": "./UserStorage.sol",
-        "id": 325,
+        "id": 331,
         "nodeType": "ImportDirective",
-        "scope": 411,
-        "sourceUnit": 1270,
-        "src": "25:27:2",
+        "scope": 417,
+        "sourceUnit": 1298,
+        "src": "25:27:3",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -251,124 +251,46 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 326,
+              "id": 332,
               "name": "UserStorage",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1269,
-              "src": "231:11:2",
+              "referencedDeclaration": 1297,
+              "src": "231:11:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_UserStorage_$1269",
+                "typeIdentifier": "t_contract$_UserStorage_$1297",
                 "typeString": "contract UserStorage"
               }
             },
-            "id": 327,
+            "id": 333,
             "nodeType": "InheritanceSpecifier",
-            "src": "231:11:2"
+            "src": "231:11:3"
           }
         ],
         "contractDependencies": [
-          1269
+          1297
         ],
         "contractKind": "contract",
         "documentation": "Created: 2019-03-13\n@author Mattia\n@title Citizen contract\n@dev This contract define the storage for the citizen-type user",
         "fullyImplemented": true,
-        "id": 410,
+        "id": 416,
         "linearizedBaseContracts": [
-          410,
-          1269
+          416,
+          1297
         ],
         "name": "CitizenStorage",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "CitizenStorage.Citizen",
-            "id": 340,
+            "id": 346,
             "members": [
               {
                 "constant": false,
-                "id": 329,
+                "id": 335,
                 "name": "email",
                 "nodeType": "VariableDeclaration",
-                "scope": 340,
-                "src": "274:13:2",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_bytes32",
-                  "typeString": "bytes32"
-                },
-                "typeName": {
-                  "id": 328,
-                  "name": "bytes32",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "274:7:2",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_bytes32",
-                    "typeString": "bytes32"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 331,
-                "name": "deliveryAddress",
-                "nodeType": "VariableDeclaration",
-                "scope": 340,
-                "src": "297:23:2",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_bytes32",
-                  "typeString": "bytes32"
-                },
-                "typeName": {
-                  "id": 330,
-                  "name": "bytes32",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "297:7:2",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_bytes32",
-                    "typeString": "bytes32"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 333,
-                "name": "name",
-                "nodeType": "VariableDeclaration",
-                "scope": 340,
-                "src": "330:12:2",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_bytes32",
-                  "typeString": "bytes32"
-                },
-                "typeName": {
-                  "id": 332,
-                  "name": "bytes32",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "330:7:2",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_bytes32",
-                    "typeString": "bytes32"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 335,
-                "name": "surname",
-                "nodeType": "VariableDeclaration",
-                "scope": 340,
-                "src": "352:15:2",
+                "scope": 346,
+                "src": "274:13:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -379,7 +301,7 @@
                   "id": 334,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "352:7:2",
+                  "src": "274:7:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -391,10 +313,88 @@
               {
                 "constant": false,
                 "id": 337,
+                "name": "deliveryAddress",
+                "nodeType": "VariableDeclaration",
+                "scope": 346,
+                "src": "297:23:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bytes32",
+                  "typeString": "bytes32"
+                },
+                "typeName": {
+                  "id": 336,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "297:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 339,
+                "name": "name",
+                "nodeType": "VariableDeclaration",
+                "scope": 346,
+                "src": "330:12:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bytes32",
+                  "typeString": "bytes32"
+                },
+                "typeName": {
+                  "id": 338,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "330:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 341,
+                "name": "surname",
+                "nodeType": "VariableDeclaration",
+                "scope": 346,
+                "src": "352:15:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bytes32",
+                  "typeString": "bytes32"
+                },
+                "typeName": {
+                  "id": 340,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "352:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 343,
                 "name": "active",
                 "nodeType": "VariableDeclaration",
-                "scope": 340,
-                "src": "377:11:2",
+                "scope": 346,
+                "src": "377:11:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -402,10 +402,10 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 336,
+                  "id": 342,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "377:4:2",
+                  "src": "377:4:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -416,11 +416,11 @@
               },
               {
                 "constant": false,
-                "id": 339,
+                "id": 345,
                 "name": "index",
                 "nodeType": "VariableDeclaration",
-                "scope": 340,
-                "src": "398:10:2",
+                "scope": 346,
+                "src": "398:10:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -428,10 +428,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 338,
+                  "id": 344,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "398:4:2",
+                  "src": "398:4:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -443,50 +443,50 @@
             ],
             "name": "Citizen",
             "nodeType": "StructDefinition",
-            "scope": 410,
-            "src": "249:166:2",
+            "scope": 416,
+            "src": "249:166:3",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 344,
+            "id": 350,
             "name": "addressCitizen",
             "nodeType": "VariableDeclaration",
-            "scope": 410,
-            "src": "421:42:2",
+            "scope": 416,
+            "src": "421:42:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$340_storage_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$346_storage_$",
               "typeString": "mapping(address => struct CitizenStorage.Citizen)"
             },
             "typeName": {
-              "id": 343,
+              "id": 349,
               "keyType": {
-                "id": 341,
+                "id": 347,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "429:7:2",
+                "src": "429:7:3",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "421:27:2",
+              "src": "421:27:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$340_storage_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$346_storage_$",
                 "typeString": "mapping(address => struct CitizenStorage.Citizen)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 342,
+                "id": 348,
                 "name": "Citizen",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 340,
-                "src": "440:7:2",
+                "referencedDeclaration": 346,
+                "src": "440:7:3",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Citizen_$340_storage_ptr",
+                  "typeIdentifier": "t_struct$_Citizen_$346_storage_ptr",
                   "typeString": "struct CitizenStorage.Citizen"
                 }
               }
@@ -496,9 +496,9 @@
           },
           {
             "body": {
-              "id": 356,
+              "id": 362,
               "nodeType": "Block",
-              "src": "558:57:2",
+              "src": "558:57:3",
               "statements": [
                 {
                   "expression": {
@@ -507,26 +507,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 351,
+                        "id": 357,
                         "name": "addressCitizen",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 344,
-                        "src": "575:14:2",
+                        "referencedDeclaration": 350,
+                        "src": "575:14:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$340_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$346_storage_$",
                           "typeString": "mapping(address => struct CitizenStorage.Citizen storage ref)"
                         }
                       },
-                      "id": 353,
+                      "id": 359,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 352,
+                        "id": 358,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 346,
-                        "src": "590:12:2",
+                        "referencedDeclaration": 352,
+                        "src": "590:12:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -537,51 +537,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "575:28:2",
+                      "src": "575:28:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Citizen_$340_storage",
+                        "typeIdentifier": "t_struct$_Citizen_$346_storage",
                         "typeString": "struct CitizenStorage.Citizen storage ref"
                       }
                     },
-                    "id": 354,
+                    "id": 360,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "name",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 333,
-                    "src": "575:33:2",
+                    "referencedDeclaration": 339,
+                    "src": "575:33:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 350,
-                  "id": 355,
+                  "functionReturnParameters": 356,
+                  "id": 361,
                   "nodeType": "Return",
-                  "src": "568:40:2"
+                  "src": "568:40:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 357,
+            "id": 363,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getName",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 347,
+              "id": 353,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 346,
+                  "id": 352,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 357,
-                  "src": "506:20:2",
+                  "scope": 363,
+                  "src": "506:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -589,10 +589,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 345,
+                    "id": 351,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "506:7:2",
+                    "src": "506:7:3",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -603,19 +603,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "505:22:2"
+              "src": "505:22:3"
             },
             "returnParameters": {
-              "id": 350,
+              "id": 356,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 349,
+                  "id": 355,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 357,
-                  "src": "549:7:2",
+                  "scope": 363,
+                  "src": "549:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -623,10 +623,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 348,
+                    "id": 354,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "549:7:2",
+                    "src": "549:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -636,19 +636,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "548:9:2"
+              "src": "548:9:3"
             },
-            "scope": 410,
-            "src": "489:126:2",
+            "scope": 416,
+            "src": "489:126:3",
             "stateMutability": "view",
-            "superFunction": 1200,
+            "superFunction": 1228,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 369,
+              "id": 375,
               "nodeType": "Block",
-              "src": "695:58:2",
+              "src": "695:58:3",
               "statements": [
                 {
                   "expression": {
@@ -657,26 +657,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 364,
+                        "id": 370,
                         "name": "addressCitizen",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 344,
-                        "src": "712:14:2",
+                        "referencedDeclaration": 350,
+                        "src": "712:14:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$340_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$346_storage_$",
                           "typeString": "mapping(address => struct CitizenStorage.Citizen storage ref)"
                         }
                       },
-                      "id": 366,
+                      "id": 372,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 365,
+                        "id": 371,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 359,
-                        "src": "727:12:2",
+                        "referencedDeclaration": 365,
+                        "src": "727:12:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -687,51 +687,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "712:28:2",
+                      "src": "712:28:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Citizen_$340_storage",
+                        "typeIdentifier": "t_struct$_Citizen_$346_storage",
                         "typeString": "struct CitizenStorage.Citizen storage ref"
                       }
                     },
-                    "id": 367,
+                    "id": 373,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "email",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 329,
-                    "src": "712:34:2",
+                    "referencedDeclaration": 335,
+                    "src": "712:34:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 363,
-                  "id": 368,
+                  "functionReturnParameters": 369,
+                  "id": 374,
                   "nodeType": "Return",
-                  "src": "705:41:2"
+                  "src": "705:41:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 370,
+            "id": 376,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getEmail",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 360,
+              "id": 366,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 359,
+                  "id": 365,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 370,
-                  "src": "643:20:2",
+                  "scope": 376,
+                  "src": "643:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -739,10 +739,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 358,
+                    "id": 364,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "643:7:2",
+                    "src": "643:7:3",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -753,19 +753,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "642:22:2"
+              "src": "642:22:3"
             },
             "returnParameters": {
-              "id": 363,
+              "id": 369,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 362,
+                  "id": 368,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 370,
-                  "src": "686:7:2",
+                  "scope": 376,
+                  "src": "686:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -773,10 +773,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 361,
+                    "id": 367,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "686:7:2",
+                    "src": "686:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -786,19 +786,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "685:9:2"
+              "src": "685:9:3"
             },
-            "scope": 410,
-            "src": "625:128:2",
+            "scope": 416,
+            "src": "625:128:3",
             "stateMutability": "view",
-            "superFunction": 1208,
+            "superFunction": 1236,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 382,
+              "id": 388,
               "nodeType": "Block",
-              "src": "847:68:2",
+              "src": "847:68:3",
               "statements": [
                 {
                   "expression": {
@@ -807,26 +807,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 377,
+                        "id": 383,
                         "name": "addressCitizen",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 344,
-                        "src": "864:14:2",
+                        "referencedDeclaration": 350,
+                        "src": "864:14:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$340_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$346_storage_$",
                           "typeString": "mapping(address => struct CitizenStorage.Citizen storage ref)"
                         }
                       },
-                      "id": 379,
+                      "id": 385,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 378,
+                        "id": 384,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 372,
-                        "src": "879:12:2",
+                        "referencedDeclaration": 378,
+                        "src": "879:12:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -837,51 +837,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "864:28:2",
+                      "src": "864:28:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Citizen_$340_storage",
+                        "typeIdentifier": "t_struct$_Citizen_$346_storage",
                         "typeString": "struct CitizenStorage.Citizen storage ref"
                       }
                     },
-                    "id": 380,
+                    "id": 386,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "deliveryAddress",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 331,
-                    "src": "864:44:2",
+                    "referencedDeclaration": 337,
+                    "src": "864:44:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 376,
-                  "id": 381,
+                  "functionReturnParameters": 382,
+                  "id": 387,
                   "nodeType": "Return",
-                  "src": "857:51:2"
+                  "src": "857:51:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 383,
+            "id": 389,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getDeliveryAddressaddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 373,
+              "id": 379,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 372,
+                  "id": 378,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 383,
-                  "src": "795:20:2",
+                  "scope": 389,
+                  "src": "795:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -889,10 +889,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 371,
+                    "id": 377,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "795:7:2",
+                    "src": "795:7:3",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -903,19 +903,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "794:22:2"
+              "src": "794:22:3"
             },
             "returnParameters": {
-              "id": 376,
+              "id": 382,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 375,
+                  "id": 381,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 383,
-                  "src": "838:7:2",
+                  "scope": 389,
+                  "src": "838:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -923,10 +923,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 374,
+                    "id": 380,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "838:7:2",
+                    "src": "838:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -936,19 +936,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "837:9:2"
+              "src": "837:9:3"
             },
-            "scope": 410,
-            "src": "759:156:2",
+            "scope": 416,
+            "src": "759:156:3",
             "stateMutability": "view",
             "superFunction": 218,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 395,
+              "id": 401,
               "nodeType": "Block",
-              "src": "989:59:2",
+              "src": "989:59:3",
               "statements": [
                 {
                   "expression": {
@@ -957,26 +957,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 390,
+                        "id": 396,
                         "name": "addressCitizen",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 344,
-                        "src": "1006:14:2",
+                        "referencedDeclaration": 350,
+                        "src": "1006:14:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$340_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$346_storage_$",
                           "typeString": "mapping(address => struct CitizenStorage.Citizen storage ref)"
                         }
                       },
-                      "id": 392,
+                      "id": 398,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 391,
+                        "id": 397,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 385,
-                        "src": "1021:12:2",
+                        "referencedDeclaration": 391,
+                        "src": "1021:12:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -987,51 +987,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1006:28:2",
+                      "src": "1006:28:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Citizen_$340_storage",
+                        "typeIdentifier": "t_struct$_Citizen_$346_storage",
                         "typeString": "struct CitizenStorage.Citizen storage ref"
                       }
                     },
-                    "id": 393,
+                    "id": 399,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "active",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 337,
-                    "src": "1006:35:2",
+                    "referencedDeclaration": 343,
+                    "src": "1006:35:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 389,
-                  "id": 394,
+                  "functionReturnParameters": 395,
+                  "id": 400,
                   "nodeType": "Return",
-                  "src": "999:42:2"
+                  "src": "999:42:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 396,
+            "id": 402,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getActive",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 386,
+              "id": 392,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 385,
+                  "id": 391,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 396,
-                  "src": "940:20:2",
+                  "scope": 402,
+                  "src": "940:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1039,10 +1039,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 384,
+                    "id": 390,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "940:7:2",
+                    "src": "940:7:3",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1053,19 +1053,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "939:22:2"
+              "src": "939:22:3"
             },
             "returnParameters": {
-              "id": 389,
+              "id": 395,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 388,
+                  "id": 394,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 396,
-                  "src": "983:4:2",
+                  "scope": 402,
+                  "src": "983:4:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1073,10 +1073,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 387,
+                    "id": 393,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "983:4:2",
+                    "src": "983:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1086,19 +1086,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "982:6:2"
+              "src": "982:6:3"
             },
-            "scope": 410,
-            "src": "921:127:2",
+            "scope": 416,
+            "src": "921:127:3",
             "stateMutability": "view",
-            "superFunction": 1224,
+            "superFunction": 1252,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 408,
+              "id": 414,
               "nodeType": "Block",
-              "src": "1126:60:2",
+              "src": "1126:60:3",
               "statements": [
                 {
                   "expression": {
@@ -1107,26 +1107,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 403,
+                        "id": 409,
                         "name": "addressCitizen",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 344,
-                        "src": "1143:14:2",
+                        "referencedDeclaration": 350,
+                        "src": "1143:14:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$340_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$346_storage_$",
                           "typeString": "mapping(address => struct CitizenStorage.Citizen storage ref)"
                         }
                       },
-                      "id": 405,
+                      "id": 411,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 404,
+                        "id": 410,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 398,
-                        "src": "1158:12:2",
+                        "referencedDeclaration": 404,
+                        "src": "1158:12:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1137,51 +1137,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1143:28:2",
+                      "src": "1143:28:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Citizen_$340_storage",
+                        "typeIdentifier": "t_struct$_Citizen_$346_storage",
                         "typeString": "struct CitizenStorage.Citizen storage ref"
                       }
                     },
-                    "id": 406,
+                    "id": 412,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "surname",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 335,
-                    "src": "1143:36:2",
+                    "referencedDeclaration": 341,
+                    "src": "1143:36:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 402,
-                  "id": 407,
+                  "functionReturnParameters": 408,
+                  "id": 413,
                   "nodeType": "Return",
-                  "src": "1136:43:2"
+                  "src": "1136:43:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 409,
+            "id": 415,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getSurname",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 399,
+              "id": 405,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 398,
+                  "id": 404,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 409,
-                  "src": "1074:20:2",
+                  "scope": 415,
+                  "src": "1074:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1189,10 +1189,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 397,
+                    "id": 403,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1074:7:2",
+                    "src": "1074:7:3",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1203,19 +1203,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1073:22:2"
+              "src": "1073:22:3"
             },
             "returnParameters": {
-              "id": 402,
+              "id": 408,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 401,
+                  "id": 407,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 409,
-                  "src": "1117:7:2",
+                  "scope": 415,
+                  "src": "1117:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1223,10 +1223,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 400,
+                    "id": 406,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1117:7:2",
+                    "src": "1117:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1236,33 +1236,33 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1116:9:2"
+              "src": "1116:9:3"
             },
-            "scope": 410,
-            "src": "1054:132:2",
+            "scope": 416,
+            "src": "1054:132:3",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 411,
-        "src": "204:987:2"
+        "scope": 417,
+        "src": "204:987:3"
       }
     ],
-    "src": "0:1191:2"
+    "src": "0:1191:3"
   },
   "legacyAST": {
     "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/CitizenStorage.sol",
     "exportedSymbols": {
       "CitizenStorage": [
-        410
+        416
       ]
     },
-    "id": 411,
+    "id": 417,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 324,
+        "id": 330,
         "literals": [
           "solidity",
           "^",
@@ -1270,16 +1270,16 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:2"
+        "src": "0:23:3"
       },
       {
         "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/UserStorage.sol",
         "file": "./UserStorage.sol",
-        "id": 325,
+        "id": 331,
         "nodeType": "ImportDirective",
-        "scope": 411,
-        "sourceUnit": 1270,
-        "src": "25:27:2",
+        "scope": 417,
+        "sourceUnit": 1298,
+        "src": "25:27:3",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -1289,124 +1289,46 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 326,
+              "id": 332,
               "name": "UserStorage",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1269,
-              "src": "231:11:2",
+              "referencedDeclaration": 1297,
+              "src": "231:11:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_UserStorage_$1269",
+                "typeIdentifier": "t_contract$_UserStorage_$1297",
                 "typeString": "contract UserStorage"
               }
             },
-            "id": 327,
+            "id": 333,
             "nodeType": "InheritanceSpecifier",
-            "src": "231:11:2"
+            "src": "231:11:3"
           }
         ],
         "contractDependencies": [
-          1269
+          1297
         ],
         "contractKind": "contract",
         "documentation": "Created: 2019-03-13\n@author Mattia\n@title Citizen contract\n@dev This contract define the storage for the citizen-type user",
         "fullyImplemented": true,
-        "id": 410,
+        "id": 416,
         "linearizedBaseContracts": [
-          410,
-          1269
+          416,
+          1297
         ],
         "name": "CitizenStorage",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "CitizenStorage.Citizen",
-            "id": 340,
+            "id": 346,
             "members": [
               {
                 "constant": false,
-                "id": 329,
+                "id": 335,
                 "name": "email",
                 "nodeType": "VariableDeclaration",
-                "scope": 340,
-                "src": "274:13:2",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_bytes32",
-                  "typeString": "bytes32"
-                },
-                "typeName": {
-                  "id": 328,
-                  "name": "bytes32",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "274:7:2",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_bytes32",
-                    "typeString": "bytes32"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 331,
-                "name": "deliveryAddress",
-                "nodeType": "VariableDeclaration",
-                "scope": 340,
-                "src": "297:23:2",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_bytes32",
-                  "typeString": "bytes32"
-                },
-                "typeName": {
-                  "id": 330,
-                  "name": "bytes32",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "297:7:2",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_bytes32",
-                    "typeString": "bytes32"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 333,
-                "name": "name",
-                "nodeType": "VariableDeclaration",
-                "scope": 340,
-                "src": "330:12:2",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_bytes32",
-                  "typeString": "bytes32"
-                },
-                "typeName": {
-                  "id": 332,
-                  "name": "bytes32",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "330:7:2",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_bytes32",
-                    "typeString": "bytes32"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 335,
-                "name": "surname",
-                "nodeType": "VariableDeclaration",
-                "scope": 340,
-                "src": "352:15:2",
+                "scope": 346,
+                "src": "274:13:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1417,7 +1339,7 @@
                   "id": 334,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "352:7:2",
+                  "src": "274:7:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -1429,10 +1351,88 @@
               {
                 "constant": false,
                 "id": 337,
+                "name": "deliveryAddress",
+                "nodeType": "VariableDeclaration",
+                "scope": 346,
+                "src": "297:23:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bytes32",
+                  "typeString": "bytes32"
+                },
+                "typeName": {
+                  "id": 336,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "297:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 339,
+                "name": "name",
+                "nodeType": "VariableDeclaration",
+                "scope": 346,
+                "src": "330:12:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bytes32",
+                  "typeString": "bytes32"
+                },
+                "typeName": {
+                  "id": 338,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "330:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 341,
+                "name": "surname",
+                "nodeType": "VariableDeclaration",
+                "scope": 346,
+                "src": "352:15:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bytes32",
+                  "typeString": "bytes32"
+                },
+                "typeName": {
+                  "id": 340,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "352:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 343,
                 "name": "active",
                 "nodeType": "VariableDeclaration",
-                "scope": 340,
-                "src": "377:11:2",
+                "scope": 346,
+                "src": "377:11:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1440,10 +1440,10 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 336,
+                  "id": 342,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "377:4:2",
+                  "src": "377:4:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -1454,11 +1454,11 @@
               },
               {
                 "constant": false,
-                "id": 339,
+                "id": 345,
                 "name": "index",
                 "nodeType": "VariableDeclaration",
-                "scope": 340,
-                "src": "398:10:2",
+                "scope": 346,
+                "src": "398:10:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1466,10 +1466,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 338,
+                  "id": 344,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "398:4:2",
+                  "src": "398:4:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -1481,50 +1481,50 @@
             ],
             "name": "Citizen",
             "nodeType": "StructDefinition",
-            "scope": 410,
-            "src": "249:166:2",
+            "scope": 416,
+            "src": "249:166:3",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 344,
+            "id": 350,
             "name": "addressCitizen",
             "nodeType": "VariableDeclaration",
-            "scope": 410,
-            "src": "421:42:2",
+            "scope": 416,
+            "src": "421:42:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$340_storage_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$346_storage_$",
               "typeString": "mapping(address => struct CitizenStorage.Citizen)"
             },
             "typeName": {
-              "id": 343,
+              "id": 349,
               "keyType": {
-                "id": 341,
+                "id": 347,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "429:7:2",
+                "src": "429:7:3",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "421:27:2",
+              "src": "421:27:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$340_storage_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$346_storage_$",
                 "typeString": "mapping(address => struct CitizenStorage.Citizen)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 342,
+                "id": 348,
                 "name": "Citizen",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 340,
-                "src": "440:7:2",
+                "referencedDeclaration": 346,
+                "src": "440:7:3",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Citizen_$340_storage_ptr",
+                  "typeIdentifier": "t_struct$_Citizen_$346_storage_ptr",
                   "typeString": "struct CitizenStorage.Citizen"
                 }
               }
@@ -1534,9 +1534,9 @@
           },
           {
             "body": {
-              "id": 356,
+              "id": 362,
               "nodeType": "Block",
-              "src": "558:57:2",
+              "src": "558:57:3",
               "statements": [
                 {
                   "expression": {
@@ -1545,26 +1545,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 351,
+                        "id": 357,
                         "name": "addressCitizen",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 344,
-                        "src": "575:14:2",
+                        "referencedDeclaration": 350,
+                        "src": "575:14:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$340_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$346_storage_$",
                           "typeString": "mapping(address => struct CitizenStorage.Citizen storage ref)"
                         }
                       },
-                      "id": 353,
+                      "id": 359,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 352,
+                        "id": 358,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 346,
-                        "src": "590:12:2",
+                        "referencedDeclaration": 352,
+                        "src": "590:12:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1575,51 +1575,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "575:28:2",
+                      "src": "575:28:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Citizen_$340_storage",
+                        "typeIdentifier": "t_struct$_Citizen_$346_storage",
                         "typeString": "struct CitizenStorage.Citizen storage ref"
                       }
                     },
-                    "id": 354,
+                    "id": 360,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "name",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 333,
-                    "src": "575:33:2",
+                    "referencedDeclaration": 339,
+                    "src": "575:33:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 350,
-                  "id": 355,
+                  "functionReturnParameters": 356,
+                  "id": 361,
                   "nodeType": "Return",
-                  "src": "568:40:2"
+                  "src": "568:40:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 357,
+            "id": 363,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getName",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 347,
+              "id": 353,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 346,
+                  "id": 352,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 357,
-                  "src": "506:20:2",
+                  "scope": 363,
+                  "src": "506:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1627,10 +1627,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 345,
+                    "id": 351,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "506:7:2",
+                    "src": "506:7:3",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1641,19 +1641,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "505:22:2"
+              "src": "505:22:3"
             },
             "returnParameters": {
-              "id": 350,
+              "id": 356,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 349,
+                  "id": 355,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 357,
-                  "src": "549:7:2",
+                  "scope": 363,
+                  "src": "549:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1661,10 +1661,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 348,
+                    "id": 354,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "549:7:2",
+                    "src": "549:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1674,19 +1674,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "548:9:2"
+              "src": "548:9:3"
             },
-            "scope": 410,
-            "src": "489:126:2",
+            "scope": 416,
+            "src": "489:126:3",
             "stateMutability": "view",
-            "superFunction": 1200,
+            "superFunction": 1228,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 369,
+              "id": 375,
               "nodeType": "Block",
-              "src": "695:58:2",
+              "src": "695:58:3",
               "statements": [
                 {
                   "expression": {
@@ -1695,26 +1695,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 364,
+                        "id": 370,
                         "name": "addressCitizen",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 344,
-                        "src": "712:14:2",
+                        "referencedDeclaration": 350,
+                        "src": "712:14:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$340_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$346_storage_$",
                           "typeString": "mapping(address => struct CitizenStorage.Citizen storage ref)"
                         }
                       },
-                      "id": 366,
+                      "id": 372,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 365,
+                        "id": 371,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 359,
-                        "src": "727:12:2",
+                        "referencedDeclaration": 365,
+                        "src": "727:12:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1725,51 +1725,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "712:28:2",
+                      "src": "712:28:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Citizen_$340_storage",
+                        "typeIdentifier": "t_struct$_Citizen_$346_storage",
                         "typeString": "struct CitizenStorage.Citizen storage ref"
                       }
                     },
-                    "id": 367,
+                    "id": 373,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "email",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 329,
-                    "src": "712:34:2",
+                    "referencedDeclaration": 335,
+                    "src": "712:34:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 363,
-                  "id": 368,
+                  "functionReturnParameters": 369,
+                  "id": 374,
                   "nodeType": "Return",
-                  "src": "705:41:2"
+                  "src": "705:41:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 370,
+            "id": 376,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getEmail",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 360,
+              "id": 366,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 359,
+                  "id": 365,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 370,
-                  "src": "643:20:2",
+                  "scope": 376,
+                  "src": "643:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1777,10 +1777,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 358,
+                    "id": 364,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "643:7:2",
+                    "src": "643:7:3",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1791,19 +1791,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "642:22:2"
+              "src": "642:22:3"
             },
             "returnParameters": {
-              "id": 363,
+              "id": 369,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 362,
+                  "id": 368,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 370,
-                  "src": "686:7:2",
+                  "scope": 376,
+                  "src": "686:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1811,10 +1811,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 361,
+                    "id": 367,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "686:7:2",
+                    "src": "686:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1824,19 +1824,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "685:9:2"
+              "src": "685:9:3"
             },
-            "scope": 410,
-            "src": "625:128:2",
+            "scope": 416,
+            "src": "625:128:3",
             "stateMutability": "view",
-            "superFunction": 1208,
+            "superFunction": 1236,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 382,
+              "id": 388,
               "nodeType": "Block",
-              "src": "847:68:2",
+              "src": "847:68:3",
               "statements": [
                 {
                   "expression": {
@@ -1845,26 +1845,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 377,
+                        "id": 383,
                         "name": "addressCitizen",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 344,
-                        "src": "864:14:2",
+                        "referencedDeclaration": 350,
+                        "src": "864:14:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$340_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$346_storage_$",
                           "typeString": "mapping(address => struct CitizenStorage.Citizen storage ref)"
                         }
                       },
-                      "id": 379,
+                      "id": 385,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 378,
+                        "id": 384,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 372,
-                        "src": "879:12:2",
+                        "referencedDeclaration": 378,
+                        "src": "879:12:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1875,51 +1875,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "864:28:2",
+                      "src": "864:28:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Citizen_$340_storage",
+                        "typeIdentifier": "t_struct$_Citizen_$346_storage",
                         "typeString": "struct CitizenStorage.Citizen storage ref"
                       }
                     },
-                    "id": 380,
+                    "id": 386,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "deliveryAddress",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 331,
-                    "src": "864:44:2",
+                    "referencedDeclaration": 337,
+                    "src": "864:44:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 376,
-                  "id": 381,
+                  "functionReturnParameters": 382,
+                  "id": 387,
                   "nodeType": "Return",
-                  "src": "857:51:2"
+                  "src": "857:51:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 383,
+            "id": 389,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getDeliveryAddressaddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 373,
+              "id": 379,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 372,
+                  "id": 378,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 383,
-                  "src": "795:20:2",
+                  "scope": 389,
+                  "src": "795:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1927,10 +1927,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 371,
+                    "id": 377,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "795:7:2",
+                    "src": "795:7:3",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1941,19 +1941,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "794:22:2"
+              "src": "794:22:3"
             },
             "returnParameters": {
-              "id": 376,
+              "id": 382,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 375,
+                  "id": 381,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 383,
-                  "src": "838:7:2",
+                  "scope": 389,
+                  "src": "838:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1961,10 +1961,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 374,
+                    "id": 380,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "838:7:2",
+                    "src": "838:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1974,19 +1974,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "837:9:2"
+              "src": "837:9:3"
             },
-            "scope": 410,
-            "src": "759:156:2",
+            "scope": 416,
+            "src": "759:156:3",
             "stateMutability": "view",
             "superFunction": 218,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 395,
+              "id": 401,
               "nodeType": "Block",
-              "src": "989:59:2",
+              "src": "989:59:3",
               "statements": [
                 {
                   "expression": {
@@ -1995,26 +1995,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 390,
+                        "id": 396,
                         "name": "addressCitizen",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 344,
-                        "src": "1006:14:2",
+                        "referencedDeclaration": 350,
+                        "src": "1006:14:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$340_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$346_storage_$",
                           "typeString": "mapping(address => struct CitizenStorage.Citizen storage ref)"
                         }
                       },
-                      "id": 392,
+                      "id": 398,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 391,
+                        "id": 397,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 385,
-                        "src": "1021:12:2",
+                        "referencedDeclaration": 391,
+                        "src": "1021:12:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2025,51 +2025,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1006:28:2",
+                      "src": "1006:28:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Citizen_$340_storage",
+                        "typeIdentifier": "t_struct$_Citizen_$346_storage",
                         "typeString": "struct CitizenStorage.Citizen storage ref"
                       }
                     },
-                    "id": 393,
+                    "id": 399,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "active",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 337,
-                    "src": "1006:35:2",
+                    "referencedDeclaration": 343,
+                    "src": "1006:35:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 389,
-                  "id": 394,
+                  "functionReturnParameters": 395,
+                  "id": 400,
                   "nodeType": "Return",
-                  "src": "999:42:2"
+                  "src": "999:42:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 396,
+            "id": 402,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getActive",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 386,
+              "id": 392,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 385,
+                  "id": 391,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 396,
-                  "src": "940:20:2",
+                  "scope": 402,
+                  "src": "940:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2077,10 +2077,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 384,
+                    "id": 390,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "940:7:2",
+                    "src": "940:7:3",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2091,19 +2091,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "939:22:2"
+              "src": "939:22:3"
             },
             "returnParameters": {
-              "id": 389,
+              "id": 395,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 388,
+                  "id": 394,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 396,
-                  "src": "983:4:2",
+                  "scope": 402,
+                  "src": "983:4:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2111,10 +2111,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 387,
+                    "id": 393,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "983:4:2",
+                    "src": "983:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2124,19 +2124,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "982:6:2"
+              "src": "982:6:3"
             },
-            "scope": 410,
-            "src": "921:127:2",
+            "scope": 416,
+            "src": "921:127:3",
             "stateMutability": "view",
-            "superFunction": 1224,
+            "superFunction": 1252,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 408,
+              "id": 414,
               "nodeType": "Block",
-              "src": "1126:60:2",
+              "src": "1126:60:3",
               "statements": [
                 {
                   "expression": {
@@ -2145,26 +2145,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 403,
+                        "id": 409,
                         "name": "addressCitizen",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 344,
-                        "src": "1143:14:2",
+                        "referencedDeclaration": 350,
+                        "src": "1143:14:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$340_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Citizen_$346_storage_$",
                           "typeString": "mapping(address => struct CitizenStorage.Citizen storage ref)"
                         }
                       },
-                      "id": 405,
+                      "id": 411,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 404,
+                        "id": 410,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 398,
-                        "src": "1158:12:2",
+                        "referencedDeclaration": 404,
+                        "src": "1158:12:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2175,51 +2175,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1143:28:2",
+                      "src": "1143:28:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Citizen_$340_storage",
+                        "typeIdentifier": "t_struct$_Citizen_$346_storage",
                         "typeString": "struct CitizenStorage.Citizen storage ref"
                       }
                     },
-                    "id": 406,
+                    "id": 412,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "surname",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 335,
-                    "src": "1143:36:2",
+                    "referencedDeclaration": 341,
+                    "src": "1143:36:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 402,
-                  "id": 407,
+                  "functionReturnParameters": 408,
+                  "id": 413,
                   "nodeType": "Return",
-                  "src": "1136:43:2"
+                  "src": "1136:43:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 409,
+            "id": 415,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getSurname",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 399,
+              "id": 405,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 398,
+                  "id": 404,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 409,
-                  "src": "1074:20:2",
+                  "scope": 415,
+                  "src": "1074:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2227,10 +2227,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 397,
+                    "id": 403,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1074:7:2",
+                    "src": "1074:7:3",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2241,19 +2241,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1073:22:2"
+              "src": "1073:22:3"
             },
             "returnParameters": {
-              "id": 402,
+              "id": 408,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 401,
+                  "id": 407,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 409,
-                  "src": "1117:7:2",
+                  "scope": 415,
+                  "src": "1117:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2261,10 +2261,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 400,
+                    "id": 406,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1117:7:2",
+                    "src": "1117:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2274,20 +2274,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1116:9:2"
+              "src": "1116:9:3"
             },
-            "scope": 410,
-            "src": "1054:132:2",
+            "scope": 416,
+            "src": "1054:132:3",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 411,
-        "src": "204:987:2"
+        "scope": 417,
+        "src": "204:987:3"
       }
     ],
-    "src": "0:1191:2"
+    "src": "0:1191:3"
   },
   "compiler": {
     "name": "solc",
@@ -2295,7 +2295,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.2",
-  "updatedAt": "2019-03-13T15:10:33.345Z",
+  "updatedAt": "2019-03-13T21:30:24.807Z",
   "devdoc": {
     "author": "Mattia",
     "details": "This contract define the storage for the citizen-type user",
