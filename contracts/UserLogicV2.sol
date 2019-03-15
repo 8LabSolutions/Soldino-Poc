@@ -9,7 +9,7 @@ import "./CitizenStorage.sol";
   * @title User logic contract
   * @dev This contract manage the logic of the user storage
   */
-contract UserLogic is BusinessStorage, CitizenStorage {
+contract UserLogicV2 is BusinessStorage, CitizenStorage {
 
     function userIsRegistered(address _userAddress) public view returns (bool) {
         if(addresses.length == 0) { return false; }
@@ -24,12 +24,12 @@ contract UserLogic is BusinessStorage, CitizenStorage {
         bytes32 _surname,
         bytes32 _devAddress
     ) public {
-        require(userIsRegistered(_citAddress) == false, "User not registered");
+        require(userIsRegistered(_citAddress), "User not registered");
         addressCitizen[_citAddress].email = _email;
         addressCitizen[_citAddress].name = _name;
         addressCitizen[_citAddress].surname = _surname;
         addressCitizen[_citAddress].deliveryAddress = _devAddress;
-        addressCitizen[_citAddress].active = true;
+        addressCitizen[_citAddress].active = false;
         addressCitizen[_citAddress].index = addresses.push(_citAddress) - 1;
     }
 
@@ -40,7 +40,7 @@ contract UserLogic is BusinessStorage, CitizenStorage {
         bytes32 _vatNumber,
         bytes32 _devAddress
     ) public {
-        require(userIsRegistered(_busAddress) == false, "User not registered");
+        require(userIsRegistered(_busAddress), "User not registered");
         BusinessStorage.setEmail(_busAddress, _email);
         BusinessStorage.setName(_busAddress, _name);
         BusinessStorage.setVATNumber(_busAddress, _vatNumber);

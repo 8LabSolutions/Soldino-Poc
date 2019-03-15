@@ -1,14 +1,14 @@
 {
   "contractName": "Caller",
   "abi": [],
-  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058205da355e1aeb443d86367a42092fbda6590939d94242322e04cdc015a9df0a5160029",
-  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058205da355e1aeb443d86367a42092fbda6590939d94242322e04cdc015a9df0a5160029",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058206c64b744492e6642cef059ef0710892d86a4448d88de332954782f9c9fadd4a40029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058206c64b744492e6642cef059ef0710892d86a4448d88de332954782f9c9fadd4a40029",
   "sourceMap": "48:234:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;48:234:2;;;;;;;",
   "deployedSourceMap": "48:234:2:-;;;;;",
   "source": "pragma solidity ^0.5.0;\n\nimport \"./Proxy.sol\";\n\ncontract Caller {\n    Proxy proxy;\n\n    /*function Caller(address _proxyAddress) public {\n        proxy = Proxy(_proxyAddress);\n    }\n    function go(address _usAddress) public {\n        //proxy.userIsRegistered(_usAddress);\n    }\n*/}",
-  "sourcePath": "/home/bolzo/swe/Soldino-PoC/contracts/Caller.sol",
+  "sourcePath": "/home/bolzo/SWE/Soldino-PoC/contracts/Caller.sol",
   "ast": {
-    "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/Caller.sol",
+    "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/Caller.sol",
     "exportedSymbols": {
       "Caller": [
         328
@@ -29,7 +29,7 @@
         "src": "0:23:2"
       },
       {
-        "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/Proxy.sol",
+        "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/Proxy.sol",
         "file": "./Proxy.sol",
         "id": 325,
         "nodeType": "ImportDirective",
@@ -88,7 +88,7 @@
     "src": "0:282:2"
   },
   "legacyAST": {
-    "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/Caller.sol",
+    "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/Caller.sol",
     "exportedSymbols": {
       "Caller": [
         328
@@ -109,7 +109,7 @@
         "src": "0:23:2"
       },
       {
-        "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/Proxy.sol",
+        "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/Proxy.sol",
         "file": "./Proxy.sol",
         "id": 325,
         "nodeType": "ImportDirective",
@@ -172,8 +172,8 @@
     "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.2",
-  "updatedAt": "2019-03-13T21:30:27.516Z",
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2019-03-15T16:08:10.653Z",
   "devdoc": {
     "methods": {}
   },

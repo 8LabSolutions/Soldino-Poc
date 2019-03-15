@@ -11,6 +11,6 @@ module.exports = function(deployer) {
   deployer.deploy(Logic).then(() => {
     return deployer.deploy(ProxyCon, Logic.address);
   }).then(() => {
-    
+
   })
 };
