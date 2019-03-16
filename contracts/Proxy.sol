@@ -9,10 +9,6 @@ contract Proxy is BusinessStorage, CitizenStorage {
     address public _implementation;
     event Upgraded(address indexed implementation);
 
-    function implementation() public view returns (address) {
-        return _implementation;
-    }
-
     function upgradeTo(address impl) public returns(bool) {
         require(_implementation != impl, "Already upgraded");
         _implementation = impl;
@@ -25,7 +21,7 @@ contract Proxy is BusinessStorage, CitizenStorage {
     }
 
     function () external payable {
-        address _impl = implementation();
+        address _impl = _implementation;
         require(_impl != address(0), "Invalid address");
         bytes memory data = msg.data;
 

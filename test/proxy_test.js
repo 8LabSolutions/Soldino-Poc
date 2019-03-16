@@ -26,8 +26,7 @@ contract("Proxy", (accounts) => {
 
         assert.equal(imp, logicInstance.options.address)
 
-
-        let reg = await logicInstance.methods.userIsRegistered(accounts[2]).call()
+        let reg = await logicInstance.at(proxyInstance.options.address).userIsRegistered(accounts[5])
         assert.equal(reg.toString(), 'false')
 
         await logicInstance.methods.registerBusiness(
@@ -36,16 +35,10 @@ contract("Proxy", (accounts) => {
           '0x0000000000000000000000000000000000000000',
           '0x0000000000000000000000000000000000000000',
           '0x0000000000000000000000000000000000000000')
-        .send({from: proxyInstance.options.address})
+        .send()
 
         console.log("secondo userIsRegistered")
         reg = await logicInstance.methods.userIsRegistered(accounts[2]).call()
         assert.equal(reg.toString(), 'true')
-
-
-
-
     })
-
-
 })
