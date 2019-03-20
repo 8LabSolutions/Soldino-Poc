@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
 contract ProductStorage {
-    //available tells if the product is indeed an existing product
+    //valid tells if the product is indeed an existing product
     // in this way the array is unncessary
     struct ProductInfo {
         address seller;
