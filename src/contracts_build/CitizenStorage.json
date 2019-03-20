@@ -4305,7 +4305,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.1",
-  "updatedAt": "2019-03-20T17:05:02.742Z",
+  "updatedAt": "2019-03-20T17:22:23.349Z",
   "devdoc": {
     "author": "Mattia",
     "details": "This contract define the storage for the citizen-type user",
