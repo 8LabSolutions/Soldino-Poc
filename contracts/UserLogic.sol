@@ -1,7 +1,8 @@
 pragma solidity ^0.5.0;
 
-import "./BusinessStorage.sol";
-import "./CitizenStorage.sol";
+import "./storage/BusinessStorage.sol";
+import "./storage/CitizenStorage.sol";
+import "./Owned.sol";
 
 /**
   * Created: 2019-03-13
@@ -9,43 +10,66 @@ import "./CitizenStorage.sol";
   * @title User logic contract
   * @dev This contract manage the logic of the user storage
   */
-contract UserLogic is BusinessStorage, CitizenStorage {
+contract UserLogic is BusinessStorage, CitizenStorage, Owned {
 
-    function userIsRegistered(address _userAddress) public view returns (bool) {
-        if(addresses.length == 0) { return false; }
-        return (addresses[addressBusiness[_userAddress].index] == _userAddress)
-        || (addresses[addressCitizen[_userAddress].index] == _userAddress);
+    function userIsRegistered(address _userAddress) public view returns (uint) {
+        if(_userAddress == owner) {
+            return 3;
+        }
+        if(businessList.length != 0) {
+            if (businessList[addressToBusiness[_userAddress].index] == _userAddress) {
+                return 1;
+            }
+            if(citizenList.length != 0) {
+                if(citizenList[addressToCitizen[_userAddress].index] == _userAddress) {
+                    return 2;
+                }
+            }
+            return 0;
+        }
+        if(citizenList.length != 0) {
+            if(citizenList[addressToCitizen[_userAddress].index] == _userAddress) {
+                return 2;
+            }
+            if(businessList.length != 0) {
+                if (businessList[addressToBusiness[_userAddress].index] == _userAddress) {
+                    return 1;
+                }
+            }
+            return 0;
+        }
+
+        return 0;
     }
 
     function registerCitizen(
-        address _citAddress,
         bytes32 _email,
         bytes32 _name,
         bytes32 _surname,
         bytes32 _devAddress
     ) public {
-        require(userIsRegistered(_citAddress) == false, "User not registered");
-        addressCitizen[_citAddress].email = _email;
-        addressCitizen[_citAddress].name = _name;
-        addressCitizen[_citAddress].surname = _surname;
-        addressCitizen[_citAddress].deliveryAddress = _devAddress;
-        addressCitizen[_citAddress].active = true;
-        addressCitizen[_citAddress].index = addresses.push(_citAddress) - 1;
+        require(userIsRegistered(msg.sender) != 0, "User already registered");
+        CitizenStorage.setEmail(msg.sender, _email);
+        CitizenStorage.setName(msg.sender, _name);
+        CitizenStorage.setSurname(msg.sender, _surname);
+        CitizenStorage.setDeliveryAddress(msg.sender, _devAddress);
+        CitizenStorage.setActive(msg.sender, true);
+        CitizenStorage.setIndex(msg.sender, citizenList.push(msg.sender) - 1);
     }
 
     function registerBusiness(
-        address _busAddress,
         bytes32 _email,
         bytes32 _name,
         bytes32 _vatNumber,
         bytes32 _devAddress
     ) public {
-        require(userIsRegistered(_busAddress) == false, "User not registered");
-        BusinessStorage.setEmail(_busAddress, _email);
-        BusinessStorage.setName(_busAddress, _name);
-        BusinessStorage.setVATNumber(_busAddress, _vatNumber);
-        BusinessStorage.setDeliveryAddress(_busAddress, _devAddress);
-        BusinessStorage.setActive(_busAddress, true);
-        BusinessStorage.setIndex(_busAddress, addresses.push(_busAddress) - 1);
+        require(userIsRegistered(msg.sender) != 0, "User already registered");
+        BusinessStorage.setEmail(msg.sender, _email);
+        BusinessStorage.setName(msg.sender, _name);
+        BusinessStorage.setVATNumber(msg.sender, _vatNumber);
+        BusinessStorage.setDeliveryAddress(msg.sender, _devAddress);
+        BusinessStorage.setActive(msg.sender, true);
+        BusinessStorage.setIndex(msg.sender, businessList.push(msg.sender) - 1);
     }
+
 }

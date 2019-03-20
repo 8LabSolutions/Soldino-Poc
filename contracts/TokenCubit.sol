@@ -1,36 +1,17 @@
-pragma solidity >=0.4.22 <0.6.0;
+pragma solidity ^0.5.0;
 
+
+import "./Owned.sol";
 
 //Le interfacce sono simili a contratti astratti ma non posso implementare funzioni
 interface tokenRecipient {
     function receiveApproval(address _from, uint256 _value, address _token, bytes calldata _extraData) external;
 }
 
-// Questo contratto serve a creare un amministratore centralizzato del token
-contract owned {
-    address public owner;
-
-    constructor() public{
-        owner = msg.sender;
-    }
-
-    // i modificatori modificano la sintassi delle funzioni in cui sono inseriti
-    // posso accettare parametri
-    // se il require risulta true allora "_;" indica di proseguire con la funzione,
-    //cioè esegue la funzione
-    modifier onlyOwner {
-        require(msg.sender == owner);
-        _;
-    }
-
-    //nella firma della funzione viene usato il modifier
-    function transferOwnership(address newOwner) onlyOwner public {
-        owner = newOwner;
-    }
-}
 
 
-contract TokenERC20 is owned {
+
+contract TokenERC20 is Owned {
     // Public variables of the token
     string public name;
     string public symbol;
