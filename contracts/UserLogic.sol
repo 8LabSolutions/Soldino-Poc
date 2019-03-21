@@ -11,6 +11,17 @@ import "./Owned.sol";
   * @dev This contract manage the logic of the user storage
   */
 contract UserLogic is BusinessStorage, CitizenStorage, Owned {
+    bool first = true;
+
+    modifier firstReg(address _address) {
+        if(first == false) {
+            require(userIsRegistered(_address) != 0, "User already registered");
+        }
+        else {
+            first = false;
+        }
+        _;
+    }
 
     function userIsRegistered(address _userAddress) public view returns (uint) {
         if(_userAddress == owner) {
@@ -47,8 +58,7 @@ contract UserLogic is BusinessStorage, CitizenStorage, Owned {
         bytes32 _name,
         bytes32 _surname,
         bytes32 _devAddress
-    ) public {
-        require(userIsRegistered(msg.sender) != 0, "User already registered");
+    ) public firstReg(msg.sender) {
         CitizenStorage.setEmail(msg.sender, _email);
         CitizenStorage.setName(msg.sender, _name);
         CitizenStorage.setSurname(msg.sender, _surname);
@@ -62,8 +72,7 @@ contract UserLogic is BusinessStorage, CitizenStorage, Owned {
         bytes32 _name,
         bytes32 _vatNumber,
         bytes32 _devAddress
-    ) public {
-        require(userIsRegistered(msg.sender) != 0, "User already registered");
+    ) public firstReg(msg.sender) {
         BusinessStorage.setEmail(msg.sender, _email);
         BusinessStorage.setName(msg.sender, _name);
         BusinessStorage.setVATNumber(msg.sender, _vatNumber);
