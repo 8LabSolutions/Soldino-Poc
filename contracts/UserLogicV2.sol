@@ -90,4 +90,8 @@ contract UserLogicV2 is Owned{
     function getActiveCit(address _citAdd) public view returns (bool) {
         return citSto.getActive(_citAdd);
     }
+
+    function setNameCit(address _citAdd, bytes32 _name) public {
+        citSto.setName(_citAdd, _name);
+    }
 }
