@@ -51,27 +51,39 @@ contract CitizenStorage {
         return addressToCitizen[_userAddress].surname;
     }
 
-    function setName(address _userAddress, bytes32 _name) internal {
+    function setName(address _userAddress, bytes32 _name) public {
         addressToCitizen[_userAddress].name = _name;
     }
 
-    function setEmail(address _userAddress, bytes32 _email) internal {
+    function setEmail(address _userAddress, bytes32 _email) public {
         addressToCitizen[_userAddress].email = _email;
     }
 
-    function setSurname(address _userAddress, bytes32 _surname) internal {
+    function setSurname(address _userAddress, bytes32 _surname) public {
         addressToCitizen[_userAddress].surname = _surname;
     }
 
-    function setDeliveryAddress(address _userAddress, bytes32 _devAddress) internal {
+    function setDeliveryAddress(address _userAddress, bytes32 _devAddress) public {
         addressToCitizen[_userAddress].deliveryAddress = _devAddress;
     }
 
-    function setIndex(address _userAddress, uint _index) internal {
+    function setIndex(address _userAddress, uint _index) public {
         addressToCitizen[_userAddress].index = _index;
     }
 
-    function setActive(address _userAddress, bool _active) internal {
+    function setActive(address _userAddress, bool _active) public {
         addressToCitizen[_userAddress].active = _active;
+    }
+
+    function getCitizenListLength() public view returns (uint){
+        return citizenList.length;
+    }
+
+    function getAddressAt(address _userAddress) public view returns (address) {
+        return citizenList[addressToCitizen[_userAddress].index];
+    }
+
+    function pushToCitizenList(address _userAddress) public returns (uint){
+        return citizenList.push(_userAddress) - 1 ;
     }
 }

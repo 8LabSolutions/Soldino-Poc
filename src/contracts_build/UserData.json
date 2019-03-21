@@ -13,14 +13,14 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x6080604052348015600f57600080fd5b5060405160208060c183398101806040526020811015602d57600080fd5b8101908080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050603580608c6000396000f3fe6080604052600080fdfea165627a7a72305820f69cf341579e235333aef1f63be51f660d7f829727c6affd965d05e0095f04580029",
-  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820f69cf341579e235333aef1f63be51f660d7f829727c6affd965d05e0095f04580029",
+  "bytecode": "0x6080604052348015600f57600080fd5b5060405160208060c183398101806040526020811015602d57600080fd5b8101908080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050603580608c6000396000f3fe6080604052600080fdfea165627a7a7230582074f073ddf78af2e8f806267d9768a409f8da9c538f0ee624b29db3c6cd93ec7d0029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a7230582074f073ddf78af2e8f806267d9768a409f8da9c538f0ee624b29db3c6cd93ec7d0029",
   "sourceMap": "57:594:5:-;;;529:118;8:9:-1;5:2;;;30:1;27;20:12;5:2;529:118:5;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;529:118:5;;;;;;;;;;;;;;;;617:23;592:22;;:48;;;;;;;;;;;;;;;;;;529:118;57:594;;;;;;",
   "deployedSourceMap": "57:594:5:-;;;;;",
   "source": "pragma solidity ^0.5.0;\nimport \"./ContractManager.sol\";\n\ncontract UserData {\n    //the manager from which the contract will get the contracts addresses\n    address contractManagerAddress;\n\n    struct User {\n        uint8 userType; //1: citizen, 2: business, 3: government\n        bool isUser; //check if it is already registered\n        bytes32 emailAddress;\n        bytes32 shippingAddress;\n    }\n    //mapping containing all the registered users\n    mapping(address => User) users;\n    //setting the contractManagerAddress\n    constructor (address _contractManagerAddress) public {\n        contractManagerAddress = _contractManagerAddress;\n    }\n\n\n}\n",
-  "sourcePath": "/home/samuele/Desktop/Soldino-PoC/contracts/UserData.sol",
+  "sourcePath": "/home/bolzo/SWE/Soldino-PoC/contracts/UserData.sol",
   "ast": {
-    "absolutePath": "/home/samuele/Desktop/Soldino-PoC/contracts/UserData.sol",
+    "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/UserData.sol",
     "exportedSymbols": {
       "UserData": [
         834
@@ -41,7 +41,7 @@
         "src": "0:23:5"
       },
       {
-        "absolutePath": "/home/samuele/Desktop/Soldino-PoC/contracts/ContractManager.sol",
+        "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/ContractManager.sol",
         "file": "./ContractManager.sol",
         "id": 808,
         "nodeType": "ImportDirective",
@@ -368,7 +368,7 @@
     "src": "0:652:5"
   },
   "legacyAST": {
-    "absolutePath": "/home/samuele/Desktop/Soldino-PoC/contracts/UserData.sol",
+    "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/UserData.sol",
     "exportedSymbols": {
       "UserData": [
         834
@@ -389,7 +389,7 @@
         "src": "0:23:5"
       },
       {
-        "absolutePath": "/home/samuele/Desktop/Soldino-PoC/contracts/ContractManager.sol",
+        "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/ContractManager.sol",
         "file": "./ContractManager.sol",
         "id": 808,
         "nodeType": "ImportDirective",
@@ -717,11 +717,11 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.5.4+commit.9549d8ff.Emscripten.clang"
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.0-beta.2",
-  "updatedAt": "2019-03-21T10:47:50.923Z",
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2019-03-21T11:30:41.144Z",
   "devdoc": {
     "methods": {}
   },

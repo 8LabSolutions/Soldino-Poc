@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
-import "./storage/BusinessStorage.sol";
-import "./storage/CitizenStorage.sol";
+import "./BusinessStorage.sol";
+import "./CitizenStorage.sol";
 import "./Owned.sol";
 
 /**
@@ -79,6 +79,14 @@ contract UserLogic is BusinessStorage, CitizenStorage, Owned {
         BusinessStorage.setDeliveryAddress(msg.sender, _devAddress);
         BusinessStorage.setActive(msg.sender, true);
         BusinessStorage.setIndex(msg.sender, businessList.push(msg.sender) - 1);
+    }
+
+    function setActiveCit(address _citAdd, bool _active) public {
+        CitizenStorage.setActive(_citAdd, _active);
+    }
+
+    function getActiveCit(address _citAdd) public view returns (bool) {
+        return CitizenStorage.getActive(_citAdd);
     }
 
 }

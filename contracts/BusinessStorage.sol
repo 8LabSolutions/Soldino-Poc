@@ -47,27 +47,39 @@ contract BusinessStorage {
     }
 
     //******* SETTERS ********
-    function setName(address _userAddress, bytes32 _name) internal {
+    function setName(address _userAddress, bytes32 _name) public {
         addressToBusiness[_userAddress].name = _name;
     }
 
-    function setEmail(address _userAddress, bytes32 _email) internal {
+    function setEmail(address _userAddress, bytes32 _email) public {
         addressToBusiness[_userAddress].email = _email;
     }
 
-    function setDeliveryAddress(address _userAddress, bytes32  _devAddress) internal {
+    function setDeliveryAddress(address _userAddress, bytes32  _devAddress) public {
         addressToBusiness[_userAddress].deliveryAddress = _devAddress;
     }
 
-    function setVATNumber(address _userAddress, bytes32 _vatNumber) internal {
+    function setVATNumber(address _userAddress, bytes32 _vatNumber) public {
         addressToBusiness[_userAddress].vatNumber = _vatNumber;
     }
 
-    function setIndex(address _userAddress, uint _index) internal {
+    function setIndex(address _userAddress, uint _index) public {
         addressToBusiness[_userAddress].index = _index;
     }
 
-    function setActive(address _userAddress, bool _active) internal {
+    function setActive(address _userAddress, bool _active) public {
         addressToBusiness[_userAddress].active = _active;
+    }
+
+    function getBusinessListLength() public view returns (uint){
+        return businessList.length;
+    }
+
+    function getAddressAt(address _userAddress) public view returns (address) {
+        return businessList[addressToBusiness[_userAddress].index];
+    }
+
+     function pushToBusinessList(address _userAddress) public returns (uint){
+        return businessList.push(_userAddress) - 1 ;
     }
 }
