@@ -78,24 +78,24 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b50610368806100206000396000f3fe608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680634fa7353c146100675780635fd4b08a146100cc578063daea3e3a14610131578063e5252e751461019a575b600080fd5b34801561007357600080fd5b506100b66004803603602081101561008a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101ff565b6040518082815260200191505060405180910390f35b3480156100d857600080fd5b5061011b600480360360208110156100ef57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061024b565b6040518082815260200191505060405180910390f35b34801561013d57600080fd5b506101806004803603602081101561015457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610297565b604051808215151515815260200191505060405180910390f35b3480156101a657600080fd5b506101e9600480360360208110156101bd57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102f0565b6040518082815260200191505060405180910390f35b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001549050919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600201549050919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060040160009054906101000a900460ff169050919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010154905091905056fea165627a7a723058205bd98602f96fd0f7c620f613c1af532a1970f989d5be5e389051532cf1da63d10029",
-  "deployedBytecode": "0x608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680634fa7353c146100675780635fd4b08a146100cc578063daea3e3a14610131578063e5252e751461019a575b600080fd5b34801561007357600080fd5b506100b66004803603602081101561008a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101ff565b6040518082815260200191505060405180910390f35b3480156100d857600080fd5b5061011b600480360360208110156100ef57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061024b565b6040518082815260200191505060405180910390f35b34801561013d57600080fd5b506101806004803603602081101561015457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610297565b604051808215151515815260200191505060405180910390f35b3480156101a657600080fd5b506101e9600480360360208110156101bd57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102f0565b6040518082815260200191505060405180910390f35b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001549050919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600201549050919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060040160009054906101000a900460ff169050919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010154905091905056fea165627a7a723058205bd98602f96fd0f7c620f613c1af532a1970f989d5be5e389051532cf1da63d10029",
-  "sourceMap": "189:2089:5:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;189:2089:5;;;;;;;",
-  "deployedSourceMap": "189:2089:5:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;968:131;;8:9:-1;5:2;;;30:1;27;20:12;5:2;968:131:5;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;968:131:5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;833:129;;8:9:-1;5:2;;;30:1;27;20:12;5:2;833:129:5;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;833:129:5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1270:130;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1270:130:5;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1270:130:5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1105:159;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1105:159:5;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1105:159:5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;968:131;1029:7;1055:17;:31;1073:12;1055:31;;;;;;;;;;;;;;;:37;;;1048:44;;968:131;;;:::o;833:129::-;893:7;919:17;:31;937:12;919:31;;;;;;;;;;;;;;;:36;;;912:43;;833:129;;;:::o;1270:130::-;1332:4;1355:17;:31;1373:12;1355:31;;;;;;;;;;;;;;;:38;;;;;;;;;;;;1348:45;;1270:130;;;:::o;1105:159::-;1184:7;1210:17;:31;1228:12;1210:31;;;;;;;;;;;;;;;:47;;;1203:54;;1105:159;;;:::o",
+  "bytecode": "0x608060405234801561001057600080fd5b5061033b806100206000396000f3fe608060405234801561001057600080fd5b5060043610610069576000357c0100000000000000000000000000000000000000000000000000000000900480634fa7353c1461006e5780635fd4b08a146100c6578063daea3e3a1461011e578063e5252e751461017a575b600080fd5b6100b06004803603602081101561008457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101d2565b6040518082815260200191505060405180910390f35b610108600480360360208110156100dc57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061021e565b6040518082815260200191505060405180910390f35b6101606004803603602081101561013457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061026a565b604051808215151515815260200191505060405180910390f35b6101bc6004803603602081101561019057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102c3565b6040518082815260200191505060405180910390f35b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001549050919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600201549050919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060040160009054906101000a900460ff169050919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010154905091905056fea165627a7a72305820146dd893e0abc38a2a22ba843ae93c13754db9613391f1e667fadfaf88c47c240029",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b5060043610610069576000357c0100000000000000000000000000000000000000000000000000000000900480634fa7353c1461006e5780635fd4b08a146100c6578063daea3e3a1461011e578063e5252e751461017a575b600080fd5b6100b06004803603602081101561008457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101d2565b6040518082815260200191505060405180910390f35b610108600480360360208110156100dc57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061021e565b6040518082815260200191505060405180910390f35b6101606004803603602081101561013457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061026a565b604051808215151515815260200191505060405180910390f35b6101bc6004803603602081101561019057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102c3565b6040518082815260200191505060405180910390f35b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001549050919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600201549050919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060040160009054906101000a900460ff169050919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010154905091905056fea165627a7a72305820146dd893e0abc38a2a22ba843ae93c13754db9613391f1e667fadfaf88c47c240029",
+  "sourceMap": "189:2089:7:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;189:2089:7;;;;;;;",
+  "deployedSourceMap": "189:2089:7:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;189:2089:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;968:131;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;968:131:7;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;833:129;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;833:129:7;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1270:130;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1270:130:7;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;1105:159;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1105:159:7;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;968:131;1029:7;1055:17;:31;1073:12;1055:31;;;;;;;;;;;;;;;:37;;;1048:44;;968:131;;;:::o;833:129::-;893:7;919:17;:31;937:12;919:31;;;;;;;;;;;;;;;:36;;;912:43;;833:129;;;:::o;1270:130::-;1332:4;1355:17;:31;1373:12;1355:31;;;;;;;;;;;;;;;:38;;;;;;;;;;;;1348:45;;1270:130;;;:::o;1105:159::-;1184:7;1210:17;:31;1228:12;1210:31;;;;;;;;;;;;;;;:47;;;1203:54;;1105:159;;;:::o",
   "source": "pragma solidity ^0.5.0;\n\n\n/**\n* Created: 2019-03-13\n* Modified: 2019-03-20\n* @author Mattia\n* @title Business contract\n* @dev This contract define the storage for the business-type user\n*/\ncontract BusinessStorage {\n    // The struct defines the characteristics of a business user\n    struct Business {\n        bytes32 email;\n        bytes32 deliveryAddress;\n        bytes32 name;\n        bytes32 vatNumber;\n        bool active;\n        uint index;\n    }\n\n    /*\n    * This array is needed in order to verify if a user is registered\n    */\n    address[] internal businessList;\n    /*\n    * The map addressToBusiness maps an addresso to a struct.\n    * The key of the map is the user address (account address in Metamask)\n    * The value of the map is a Business struct\n    */\n    mapping(address => Business) addressToBusiness;\n\n    function getName(address _userAddress) public view returns (bytes32) {\n        return addressToBusiness[_userAddress].name;\n    }\n\n    function getEmail(address _userAddress) public view returns (bytes32) {\n        return addressToBusiness[_userAddress].email;\n    }\n\n    function getDeliveryAddressaddress (address _userAddress) public view returns (bytes32) {\n        return addressToBusiness[_userAddress].deliveryAddress;\n    }\n\n    function getActive(address _userAddress) public view returns (bool) {\n        return addressToBusiness[_userAddress].active;\n    }\n\n    //******* SETTERS ********\n    function setName(address _userAddress, bytes32 _name) internal {\n        addressToBusiness[_userAddress].name = _name;\n    }\n\n    function setEmail(address _userAddress, bytes32 _email) internal {\n        addressToBusiness[_userAddress].email = _email;\n    }\n\n    function setDeliveryAddress(address _userAddress, bytes32  _devAddress) internal {\n        addressToBusiness[_userAddress].deliveryAddress = _devAddress;\n    }\n\n    function setVATNumber(address _userAddress, bytes32 _vatNumber) internal {\n        addressToBusiness[_userAddress].vatNumber = _vatNumber;\n    }\n\n    function setIndex(address _userAddress, uint _index) internal {\n        addressToBusiness[_userAddress].index = _index;\n    }\n\n    function setActive(address _userAddress, bool _active) internal {\n        addressToBusiness[_userAddress].active = _active;\n    }\n}\n",
-  "sourcePath": "/home/bolzo/SWE/Soldino-PoC/contracts/storage/BusinessStorage.sol",
+  "sourcePath": "/home/samuele/Desktop/Soldino-PoC/contracts/storage/BusinessStorage.sol",
   "ast": {
-    "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/storage/BusinessStorage.sol",
+    "absolutePath": "/home/samuele/Desktop/Soldino-PoC/contracts/storage/BusinessStorage.sol",
     "exportedSymbols": {
       "BusinessStorage": [
-        1113
+        1256
       ]
     },
-    "id": 1114,
+    "id": 1257,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 950,
+        "id": 1093,
         "literals": [
           "solidity",
           "^",
@@ -103,7 +103,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:5"
+        "src": "0:23:7"
       },
       {
         "baseContracts": [],
@@ -111,24 +111,24 @@
         "contractKind": "contract",
         "documentation": "Created: 2019-03-13\nModified: 2019-03-20\n@author Mattia\n@title Business contract\n@dev This contract define the storage for the business-type user",
         "fullyImplemented": true,
-        "id": 1113,
+        "id": 1256,
         "linearizedBaseContracts": [
-          1113
+          1256
         ],
         "name": "BusinessStorage",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "BusinessStorage.Business",
-            "id": 963,
+            "id": 1106,
             "members": [
               {
                 "constant": false,
-                "id": 952,
+                "id": 1095,
                 "name": "email",
                 "nodeType": "VariableDeclaration",
-                "scope": 963,
-                "src": "311:13:5",
+                "scope": 1106,
+                "src": "311:13:7",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -136,10 +136,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 951,
+                  "id": 1094,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "311:7:5",
+                  "src": "311:7:7",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -150,11 +150,11 @@
               },
               {
                 "constant": false,
-                "id": 954,
+                "id": 1097,
                 "name": "deliveryAddress",
                 "nodeType": "VariableDeclaration",
-                "scope": 963,
-                "src": "334:23:5",
+                "scope": 1106,
+                "src": "334:23:7",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -162,10 +162,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 953,
+                  "id": 1096,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "334:7:5",
+                  "src": "334:7:7",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -176,11 +176,11 @@
               },
               {
                 "constant": false,
-                "id": 956,
+                "id": 1099,
                 "name": "name",
                 "nodeType": "VariableDeclaration",
-                "scope": 963,
-                "src": "367:12:5",
+                "scope": 1106,
+                "src": "367:12:7",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -188,10 +188,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 955,
+                  "id": 1098,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "367:7:5",
+                  "src": "367:7:7",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -202,11 +202,11 @@
               },
               {
                 "constant": false,
-                "id": 958,
+                "id": 1101,
                 "name": "vatNumber",
                 "nodeType": "VariableDeclaration",
-                "scope": 963,
-                "src": "389:17:5",
+                "scope": 1106,
+                "src": "389:17:7",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -214,10 +214,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 957,
+                  "id": 1100,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "389:7:5",
+                  "src": "389:7:7",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -228,11 +228,11 @@
               },
               {
                 "constant": false,
-                "id": 960,
+                "id": 1103,
                 "name": "active",
                 "nodeType": "VariableDeclaration",
-                "scope": 963,
-                "src": "416:11:5",
+                "scope": 1106,
+                "src": "416:11:7",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -240,10 +240,10 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 959,
+                  "id": 1102,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "416:4:5",
+                  "src": "416:4:7",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -254,11 +254,11 @@
               },
               {
                 "constant": false,
-                "id": 962,
+                "id": 1105,
                 "name": "index",
                 "nodeType": "VariableDeclaration",
-                "scope": 963,
-                "src": "437:10:5",
+                "scope": 1106,
+                "src": "437:10:7",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -266,10 +266,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 961,
+                  "id": 1104,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "437:4:5",
+                  "src": "437:4:7",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -281,17 +281,17 @@
             ],
             "name": "Business",
             "nodeType": "StructDefinition",
-            "scope": 1113,
-            "src": "285:169:5",
+            "scope": 1256,
+            "src": "285:169:7",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 966,
+            "id": 1109,
             "name": "businessList",
             "nodeType": "VariableDeclaration",
-            "scope": 1113,
-            "src": "544:31:5",
+            "scope": 1256,
+            "src": "544:31:7",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -300,20 +300,20 @@
             },
             "typeName": {
               "baseType": {
-                "id": 964,
+                "id": 1107,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "544:7:5",
+                "src": "544:7:7",
                 "stateMutability": "nonpayable",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
-              "id": 965,
+              "id": 1108,
               "length": null,
               "nodeType": "ArrayTypeName",
-              "src": "544:9:5",
+              "src": "544:9:7",
               "typeDescriptions": {
                 "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
                 "typeString": "address[]"
@@ -324,44 +324,44 @@
           },
           {
             "constant": false,
-            "id": 970,
+            "id": 1113,
             "name": "addressToBusiness",
             "nodeType": "VariableDeclaration",
-            "scope": 1113,
-            "src": "780:46:5",
+            "scope": 1256,
+            "src": "780:46:7",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
               "typeString": "mapping(address => struct BusinessStorage.Business)"
             },
             "typeName": {
-              "id": 969,
+              "id": 1112,
               "keyType": {
-                "id": 967,
+                "id": 1110,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "788:7:5",
+                "src": "788:7:7",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "780:28:5",
+              "src": "780:28:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                 "typeString": "mapping(address => struct BusinessStorage.Business)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 968,
+                "id": 1111,
                 "name": "Business",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 963,
-                "src": "799:8:5",
+                "referencedDeclaration": 1106,
+                "src": "799:8:7",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Business_$963_storage_ptr",
+                  "typeIdentifier": "t_struct$_Business_$1106_storage_ptr",
                   "typeString": "struct BusinessStorage.Business"
                 }
               }
@@ -371,9 +371,9 @@
           },
           {
             "body": {
-              "id": 982,
+              "id": 1125,
               "nodeType": "Block",
-              "src": "902:60:5",
+              "src": "902:60:7",
               "statements": [
                 {
                   "expression": {
@@ -382,26 +382,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 977,
+                        "id": 1120,
                         "name": "addressToBusiness",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 970,
-                        "src": "919:17:5",
+                        "referencedDeclaration": 1113,
+                        "src": "919:17:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                           "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                         }
                       },
-                      "id": 979,
+                      "id": 1122,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 978,
+                        "id": 1121,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 972,
-                        "src": "937:12:5",
+                        "referencedDeclaration": 1115,
+                        "src": "937:12:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -412,51 +412,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "919:31:5",
+                      "src": "919:31:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Business_$963_storage",
+                        "typeIdentifier": "t_struct$_Business_$1106_storage",
                         "typeString": "struct BusinessStorage.Business storage ref"
                       }
                     },
-                    "id": 980,
+                    "id": 1123,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "name",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 956,
-                    "src": "919:36:5",
+                    "referencedDeclaration": 1099,
+                    "src": "919:36:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 976,
-                  "id": 981,
+                  "functionReturnParameters": 1119,
+                  "id": 1124,
                   "nodeType": "Return",
-                  "src": "912:43:5"
+                  "src": "912:43:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 983,
+            "id": 1126,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getName",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 973,
+              "id": 1116,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 972,
+                  "id": 1115,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 983,
-                  "src": "850:20:5",
+                  "scope": 1126,
+                  "src": "850:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -464,10 +464,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 971,
+                    "id": 1114,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "850:7:5",
+                    "src": "850:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -478,19 +478,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "849:22:5"
+              "src": "849:22:7"
             },
             "returnParameters": {
-              "id": 976,
+              "id": 1119,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 975,
+                  "id": 1118,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 983,
-                  "src": "893:7:5",
+                  "scope": 1126,
+                  "src": "893:7:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -498,10 +498,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 974,
+                    "id": 1117,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "893:7:5",
+                    "src": "893:7:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -511,19 +511,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "892:9:5"
+              "src": "892:9:7"
             },
-            "scope": 1113,
-            "src": "833:129:5",
+            "scope": 1256,
+            "src": "833:129:7",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 995,
+              "id": 1138,
               "nodeType": "Block",
-              "src": "1038:61:5",
+              "src": "1038:61:7",
               "statements": [
                 {
                   "expression": {
@@ -532,26 +532,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 990,
+                        "id": 1133,
                         "name": "addressToBusiness",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 970,
-                        "src": "1055:17:5",
+                        "referencedDeclaration": 1113,
+                        "src": "1055:17:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                           "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                         }
                       },
-                      "id": 992,
+                      "id": 1135,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 991,
+                        "id": 1134,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 985,
-                        "src": "1073:12:5",
+                        "referencedDeclaration": 1128,
+                        "src": "1073:12:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -562,51 +562,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1055:31:5",
+                      "src": "1055:31:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Business_$963_storage",
+                        "typeIdentifier": "t_struct$_Business_$1106_storage",
                         "typeString": "struct BusinessStorage.Business storage ref"
                       }
                     },
-                    "id": 993,
+                    "id": 1136,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "email",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 952,
-                    "src": "1055:37:5",
+                    "referencedDeclaration": 1095,
+                    "src": "1055:37:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 989,
-                  "id": 994,
+                  "functionReturnParameters": 1132,
+                  "id": 1137,
                   "nodeType": "Return",
-                  "src": "1048:44:5"
+                  "src": "1048:44:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 996,
+            "id": 1139,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getEmail",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 986,
+              "id": 1129,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 985,
+                  "id": 1128,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 996,
-                  "src": "986:20:5",
+                  "scope": 1139,
+                  "src": "986:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -614,10 +614,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 984,
+                    "id": 1127,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "986:7:5",
+                    "src": "986:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -628,19 +628,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "985:22:5"
+              "src": "985:22:7"
             },
             "returnParameters": {
-              "id": 989,
+              "id": 1132,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 988,
+                  "id": 1131,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 996,
-                  "src": "1029:7:5",
+                  "scope": 1139,
+                  "src": "1029:7:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -648,10 +648,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 987,
+                    "id": 1130,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1029:7:5",
+                    "src": "1029:7:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -661,19 +661,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1028:9:5"
+              "src": "1028:9:7"
             },
-            "scope": 1113,
-            "src": "968:131:5",
+            "scope": 1256,
+            "src": "968:131:7",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1008,
+              "id": 1151,
               "nodeType": "Block",
-              "src": "1193:71:5",
+              "src": "1193:71:7",
               "statements": [
                 {
                   "expression": {
@@ -682,26 +682,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1003,
+                        "id": 1146,
                         "name": "addressToBusiness",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 970,
-                        "src": "1210:17:5",
+                        "referencedDeclaration": 1113,
+                        "src": "1210:17:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                           "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                         }
                       },
-                      "id": 1005,
+                      "id": 1148,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1004,
+                        "id": 1147,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 998,
-                        "src": "1228:12:5",
+                        "referencedDeclaration": 1141,
+                        "src": "1228:12:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -712,51 +712,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1210:31:5",
+                      "src": "1210:31:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Business_$963_storage",
+                        "typeIdentifier": "t_struct$_Business_$1106_storage",
                         "typeString": "struct BusinessStorage.Business storage ref"
                       }
                     },
-                    "id": 1006,
+                    "id": 1149,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "deliveryAddress",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 954,
-                    "src": "1210:47:5",
+                    "referencedDeclaration": 1097,
+                    "src": "1210:47:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 1002,
-                  "id": 1007,
+                  "functionReturnParameters": 1145,
+                  "id": 1150,
                   "nodeType": "Return",
-                  "src": "1203:54:5"
+                  "src": "1203:54:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1009,
+            "id": 1152,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getDeliveryAddressaddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 999,
+              "id": 1142,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 998,
+                  "id": 1141,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1009,
-                  "src": "1141:20:5",
+                  "scope": 1152,
+                  "src": "1141:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -764,10 +764,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 997,
+                    "id": 1140,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1141:7:5",
+                    "src": "1141:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -778,19 +778,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1140:22:5"
+              "src": "1140:22:7"
             },
             "returnParameters": {
-              "id": 1002,
+              "id": 1145,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1001,
+                  "id": 1144,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1009,
-                  "src": "1184:7:5",
+                  "scope": 1152,
+                  "src": "1184:7:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -798,10 +798,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 1000,
+                    "id": 1143,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1184:7:5",
+                    "src": "1184:7:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -811,19 +811,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1183:9:5"
+              "src": "1183:9:7"
             },
-            "scope": 1113,
-            "src": "1105:159:5",
+            "scope": 1256,
+            "src": "1105:159:7",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1021,
+              "id": 1164,
               "nodeType": "Block",
-              "src": "1338:62:5",
+              "src": "1338:62:7",
               "statements": [
                 {
                   "expression": {
@@ -832,26 +832,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1016,
+                        "id": 1159,
                         "name": "addressToBusiness",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 970,
-                        "src": "1355:17:5",
+                        "referencedDeclaration": 1113,
+                        "src": "1355:17:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                           "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                         }
                       },
-                      "id": 1018,
+                      "id": 1161,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1017,
+                        "id": 1160,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1011,
-                        "src": "1373:12:5",
+                        "referencedDeclaration": 1154,
+                        "src": "1373:12:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -862,51 +862,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1355:31:5",
+                      "src": "1355:31:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Business_$963_storage",
+                        "typeIdentifier": "t_struct$_Business_$1106_storage",
                         "typeString": "struct BusinessStorage.Business storage ref"
                       }
                     },
-                    "id": 1019,
+                    "id": 1162,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "active",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 960,
-                    "src": "1355:38:5",
+                    "referencedDeclaration": 1103,
+                    "src": "1355:38:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 1015,
-                  "id": 1020,
+                  "functionReturnParameters": 1158,
+                  "id": 1163,
                   "nodeType": "Return",
-                  "src": "1348:45:5"
+                  "src": "1348:45:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1022,
+            "id": 1165,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getActive",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1012,
+              "id": 1155,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1011,
+                  "id": 1154,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1022,
-                  "src": "1289:20:5",
+                  "scope": 1165,
+                  "src": "1289:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -914,10 +914,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1010,
+                    "id": 1153,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1289:7:5",
+                    "src": "1289:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -928,19 +928,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1288:22:5"
+              "src": "1288:22:7"
             },
             "returnParameters": {
-              "id": 1015,
+              "id": 1158,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1014,
+                  "id": 1157,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1022,
-                  "src": "1332:4:5",
+                  "scope": 1165,
+                  "src": "1332:4:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -948,10 +948,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1013,
+                    "id": 1156,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1332:4:5",
+                    "src": "1332:4:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -961,24 +961,24 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1331:6:5"
+              "src": "1331:6:7"
             },
-            "scope": 1113,
-            "src": "1270:130:5",
+            "scope": 1256,
+            "src": "1270:130:7",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1036,
+              "id": 1179,
               "nodeType": "Block",
-              "src": "1500:61:5",
+              "src": "1500:61:7",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1034,
+                    "id": 1177,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -989,26 +989,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 1029,
+                          "id": 1172,
                           "name": "addressToBusiness",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 970,
-                          "src": "1510:17:5",
+                          "referencedDeclaration": 1113,
+                          "src": "1510:17:7",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                             "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                           }
                         },
-                        "id": 1031,
+                        "id": 1174,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 1030,
+                          "id": 1173,
                           "name": "_userAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1024,
-                          "src": "1528:12:5",
+                          "referencedDeclaration": 1167,
+                          "src": "1528:12:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -1019,21 +1019,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1510:31:5",
+                        "src": "1510:31:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Business_$963_storage",
+                          "typeIdentifier": "t_struct$_Business_$1106_storage",
                           "typeString": "struct BusinessStorage.Business storage ref"
                         }
                       },
-                      "id": 1032,
+                      "id": 1175,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "name",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 956,
-                      "src": "1510:36:5",
+                      "referencedDeclaration": 1099,
+                      "src": "1510:36:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
@@ -1043,47 +1043,47 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1033,
+                      "id": 1176,
                       "name": "_name",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1026,
-                      "src": "1549:5:5",
+                      "referencedDeclaration": 1169,
+                      "src": "1549:5:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
                       }
                     },
-                    "src": "1510:44:5",
+                    "src": "1510:44:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "id": 1035,
+                  "id": 1178,
                   "nodeType": "ExpressionStatement",
-                  "src": "1510:44:5"
+                  "src": "1510:44:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1037,
+            "id": 1180,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "setName",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1027,
+              "id": 1170,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1024,
+                  "id": 1167,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1037,
-                  "src": "1454:20:5",
+                  "scope": 1180,
+                  "src": "1454:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1091,10 +1091,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1023,
+                    "id": 1166,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1454:7:5",
+                    "src": "1454:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1106,11 +1106,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1026,
+                  "id": 1169,
                   "name": "_name",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1037,
-                  "src": "1476:13:5",
+                  "scope": 1180,
+                  "src": "1476:13:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1118,10 +1118,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 1025,
+                    "id": 1168,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1476:7:5",
+                    "src": "1476:7:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1131,30 +1131,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1453:37:5"
+              "src": "1453:37:7"
             },
             "returnParameters": {
-              "id": 1028,
+              "id": 1171,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1500:0:5"
+              "src": "1500:0:7"
             },
-            "scope": 1113,
-            "src": "1437:124:5",
+            "scope": 1256,
+            "src": "1437:124:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1051,
+              "id": 1194,
               "nodeType": "Block",
-              "src": "1632:63:5",
+              "src": "1632:63:7",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1049,
+                    "id": 1192,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1165,26 +1165,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 1044,
+                          "id": 1187,
                           "name": "addressToBusiness",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 970,
-                          "src": "1642:17:5",
+                          "referencedDeclaration": 1113,
+                          "src": "1642:17:7",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                             "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                           }
                         },
-                        "id": 1046,
+                        "id": 1189,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 1045,
+                          "id": 1188,
                           "name": "_userAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1039,
-                          "src": "1660:12:5",
+                          "referencedDeclaration": 1182,
+                          "src": "1660:12:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -1195,21 +1195,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1642:31:5",
+                        "src": "1642:31:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Business_$963_storage",
+                          "typeIdentifier": "t_struct$_Business_$1106_storage",
                           "typeString": "struct BusinessStorage.Business storage ref"
                         }
                       },
-                      "id": 1047,
+                      "id": 1190,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "email",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 952,
-                      "src": "1642:37:5",
+                      "referencedDeclaration": 1095,
+                      "src": "1642:37:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
@@ -1219,47 +1219,47 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1048,
+                      "id": 1191,
                       "name": "_email",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1041,
-                      "src": "1682:6:5",
+                      "referencedDeclaration": 1184,
+                      "src": "1682:6:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
                       }
                     },
-                    "src": "1642:46:5",
+                    "src": "1642:46:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "id": 1050,
+                  "id": 1193,
                   "nodeType": "ExpressionStatement",
-                  "src": "1642:46:5"
+                  "src": "1642:46:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1052,
+            "id": 1195,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "setEmail",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1042,
+              "id": 1185,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1039,
+                  "id": 1182,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1052,
-                  "src": "1585:20:5",
+                  "scope": 1195,
+                  "src": "1585:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1267,10 +1267,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1038,
+                    "id": 1181,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1585:7:5",
+                    "src": "1585:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1282,11 +1282,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1041,
+                  "id": 1184,
                   "name": "_email",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1052,
-                  "src": "1607:14:5",
+                  "scope": 1195,
+                  "src": "1607:14:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1294,10 +1294,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 1040,
+                    "id": 1183,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1607:7:5",
+                    "src": "1607:7:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1307,30 +1307,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1584:38:5"
+              "src": "1584:38:7"
             },
             "returnParameters": {
-              "id": 1043,
+              "id": 1186,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1632:0:5"
+              "src": "1632:0:7"
             },
-            "scope": 1113,
-            "src": "1567:128:5",
+            "scope": 1256,
+            "src": "1567:128:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1066,
+              "id": 1209,
               "nodeType": "Block",
-              "src": "1782:78:5",
+              "src": "1782:78:7",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1064,
+                    "id": 1207,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1341,26 +1341,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 1059,
+                          "id": 1202,
                           "name": "addressToBusiness",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 970,
-                          "src": "1792:17:5",
+                          "referencedDeclaration": 1113,
+                          "src": "1792:17:7",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                             "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                           }
                         },
-                        "id": 1061,
+                        "id": 1204,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 1060,
+                          "id": 1203,
                           "name": "_userAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1054,
-                          "src": "1810:12:5",
+                          "referencedDeclaration": 1197,
+                          "src": "1810:12:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -1371,21 +1371,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1792:31:5",
+                        "src": "1792:31:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Business_$963_storage",
+                          "typeIdentifier": "t_struct$_Business_$1106_storage",
                           "typeString": "struct BusinessStorage.Business storage ref"
                         }
                       },
-                      "id": 1062,
+                      "id": 1205,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "deliveryAddress",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 954,
-                      "src": "1792:47:5",
+                      "referencedDeclaration": 1097,
+                      "src": "1792:47:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
@@ -1395,47 +1395,47 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1063,
+                      "id": 1206,
                       "name": "_devAddress",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1056,
-                      "src": "1842:11:5",
+                      "referencedDeclaration": 1199,
+                      "src": "1842:11:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
                       }
                     },
-                    "src": "1792:61:5",
+                    "src": "1792:61:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "id": 1065,
+                  "id": 1208,
                   "nodeType": "ExpressionStatement",
-                  "src": "1792:61:5"
+                  "src": "1792:61:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1067,
+            "id": 1210,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "setDeliveryAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1057,
+              "id": 1200,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1054,
+                  "id": 1197,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1067,
-                  "src": "1729:20:5",
+                  "scope": 1210,
+                  "src": "1729:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1443,10 +1443,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1053,
+                    "id": 1196,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1729:7:5",
+                    "src": "1729:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1458,11 +1458,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1056,
+                  "id": 1199,
                   "name": "_devAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1067,
-                  "src": "1751:20:5",
+                  "scope": 1210,
+                  "src": "1751:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1470,10 +1470,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 1055,
+                    "id": 1198,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1751:7:5",
+                    "src": "1751:7:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1483,30 +1483,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1728:44:5"
+              "src": "1728:44:7"
             },
             "returnParameters": {
-              "id": 1058,
+              "id": 1201,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1782:0:5"
+              "src": "1782:0:7"
             },
-            "scope": 1113,
-            "src": "1701:159:5",
+            "scope": 1256,
+            "src": "1701:159:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1081,
+              "id": 1224,
               "nodeType": "Block",
-              "src": "1939:71:5",
+              "src": "1939:71:7",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1079,
+                    "id": 1222,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1517,26 +1517,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 1074,
+                          "id": 1217,
                           "name": "addressToBusiness",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 970,
-                          "src": "1949:17:5",
+                          "referencedDeclaration": 1113,
+                          "src": "1949:17:7",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                             "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                           }
                         },
-                        "id": 1076,
+                        "id": 1219,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 1075,
+                          "id": 1218,
                           "name": "_userAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1069,
-                          "src": "1967:12:5",
+                          "referencedDeclaration": 1212,
+                          "src": "1967:12:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -1547,21 +1547,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1949:31:5",
+                        "src": "1949:31:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Business_$963_storage",
+                          "typeIdentifier": "t_struct$_Business_$1106_storage",
                           "typeString": "struct BusinessStorage.Business storage ref"
                         }
                       },
-                      "id": 1077,
+                      "id": 1220,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "vatNumber",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 958,
-                      "src": "1949:41:5",
+                      "referencedDeclaration": 1101,
+                      "src": "1949:41:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
@@ -1571,47 +1571,47 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1078,
+                      "id": 1221,
                       "name": "_vatNumber",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1071,
-                      "src": "1993:10:5",
+                      "referencedDeclaration": 1214,
+                      "src": "1993:10:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
                       }
                     },
-                    "src": "1949:54:5",
+                    "src": "1949:54:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "id": 1080,
+                  "id": 1223,
                   "nodeType": "ExpressionStatement",
-                  "src": "1949:54:5"
+                  "src": "1949:54:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1082,
+            "id": 1225,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "setVATNumber",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1072,
+              "id": 1215,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1069,
+                  "id": 1212,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1082,
-                  "src": "1888:20:5",
+                  "scope": 1225,
+                  "src": "1888:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1619,10 +1619,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1068,
+                    "id": 1211,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1888:7:5",
+                    "src": "1888:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1634,11 +1634,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1071,
+                  "id": 1214,
                   "name": "_vatNumber",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1082,
-                  "src": "1910:18:5",
+                  "scope": 1225,
+                  "src": "1910:18:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1646,10 +1646,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 1070,
+                    "id": 1213,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1910:7:5",
+                    "src": "1910:7:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1659,30 +1659,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1887:42:5"
+              "src": "1887:42:7"
             },
             "returnParameters": {
-              "id": 1073,
+              "id": 1216,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1939:0:5"
+              "src": "1939:0:7"
             },
-            "scope": 1113,
-            "src": "1866:144:5",
+            "scope": 1256,
+            "src": "1866:144:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1096,
+              "id": 1239,
               "nodeType": "Block",
-              "src": "2078:63:5",
+              "src": "2078:63:7",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1094,
+                    "id": 1237,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1693,26 +1693,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 1089,
+                          "id": 1232,
                           "name": "addressToBusiness",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 970,
-                          "src": "2088:17:5",
+                          "referencedDeclaration": 1113,
+                          "src": "2088:17:7",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                             "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                           }
                         },
-                        "id": 1091,
+                        "id": 1234,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 1090,
+                          "id": 1233,
                           "name": "_userAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1084,
-                          "src": "2106:12:5",
+                          "referencedDeclaration": 1227,
+                          "src": "2106:12:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -1723,21 +1723,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "2088:31:5",
+                        "src": "2088:31:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Business_$963_storage",
+                          "typeIdentifier": "t_struct$_Business_$1106_storage",
                           "typeString": "struct BusinessStorage.Business storage ref"
                         }
                       },
-                      "id": 1092,
+                      "id": 1235,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "index",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 962,
-                      "src": "2088:37:5",
+                      "referencedDeclaration": 1105,
+                      "src": "2088:37:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1747,47 +1747,47 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1093,
+                      "id": 1236,
                       "name": "_index",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1086,
-                      "src": "2128:6:5",
+                      "referencedDeclaration": 1229,
+                      "src": "2128:6:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "2088:46:5",
+                    "src": "2088:46:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 1095,
+                  "id": 1238,
                   "nodeType": "ExpressionStatement",
-                  "src": "2088:46:5"
+                  "src": "2088:46:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1097,
+            "id": 1240,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "setIndex",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1087,
+              "id": 1230,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1084,
+                  "id": 1227,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1097,
-                  "src": "2034:20:5",
+                  "scope": 1240,
+                  "src": "2034:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1795,10 +1795,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1083,
+                    "id": 1226,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2034:7:5",
+                    "src": "2034:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1810,11 +1810,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1086,
+                  "id": 1229,
                   "name": "_index",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1097,
-                  "src": "2056:11:5",
+                  "scope": 1240,
+                  "src": "2056:11:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1822,10 +1822,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1085,
+                    "id": 1228,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2056:4:5",
+                    "src": "2056:4:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1835,30 +1835,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2033:35:5"
+              "src": "2033:35:7"
             },
             "returnParameters": {
-              "id": 1088,
+              "id": 1231,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2078:0:5"
+              "src": "2078:0:7"
             },
-            "scope": 1113,
-            "src": "2016:125:5",
+            "scope": 1256,
+            "src": "2016:125:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1111,
+              "id": 1254,
               "nodeType": "Block",
-              "src": "2211:65:5",
+              "src": "2211:65:7",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1109,
+                    "id": 1252,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1869,26 +1869,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 1104,
+                          "id": 1247,
                           "name": "addressToBusiness",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 970,
-                          "src": "2221:17:5",
+                          "referencedDeclaration": 1113,
+                          "src": "2221:17:7",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                             "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                           }
                         },
-                        "id": 1106,
+                        "id": 1249,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 1105,
+                          "id": 1248,
                           "name": "_userAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1099,
-                          "src": "2239:12:5",
+                          "referencedDeclaration": 1242,
+                          "src": "2239:12:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -1899,21 +1899,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "2221:31:5",
+                        "src": "2221:31:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Business_$963_storage",
+                          "typeIdentifier": "t_struct$_Business_$1106_storage",
                           "typeString": "struct BusinessStorage.Business storage ref"
                         }
                       },
-                      "id": 1107,
+                      "id": 1250,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "active",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 960,
-                      "src": "2221:38:5",
+                      "referencedDeclaration": 1103,
+                      "src": "2221:38:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -1923,47 +1923,47 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1108,
+                      "id": 1251,
                       "name": "_active",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1101,
-                      "src": "2262:7:5",
+                      "referencedDeclaration": 1244,
+                      "src": "2262:7:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       }
                     },
-                    "src": "2221:48:5",
+                    "src": "2221:48:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 1110,
+                  "id": 1253,
                   "nodeType": "ExpressionStatement",
-                  "src": "2221:48:5"
+                  "src": "2221:48:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1112,
+            "id": 1255,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "setActive",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1102,
+              "id": 1245,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1099,
+                  "id": 1242,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1112,
-                  "src": "2166:20:5",
+                  "scope": 1255,
+                  "src": "2166:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1971,10 +1971,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1098,
+                    "id": 1241,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2166:7:5",
+                    "src": "2166:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1986,11 +1986,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1101,
+                  "id": 1244,
                   "name": "_active",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1112,
-                  "src": "2188:12:5",
+                  "scope": 1255,
+                  "src": "2188:12:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1998,10 +1998,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1100,
+                    "id": 1243,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2188:4:5",
+                    "src": "2188:4:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2011,39 +2011,39 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2165:36:5"
+              "src": "2165:36:7"
             },
             "returnParameters": {
-              "id": 1103,
+              "id": 1246,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2211:0:5"
+              "src": "2211:0:7"
             },
-            "scope": 1113,
-            "src": "2147:129:5",
+            "scope": 1256,
+            "src": "2147:129:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 1114,
-        "src": "189:2089:5"
+        "scope": 1257,
+        "src": "189:2089:7"
       }
     ],
-    "src": "0:2279:5"
+    "src": "0:2279:7"
   },
   "legacyAST": {
-    "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/storage/BusinessStorage.sol",
+    "absolutePath": "/home/samuele/Desktop/Soldino-PoC/contracts/storage/BusinessStorage.sol",
     "exportedSymbols": {
       "BusinessStorage": [
-        1113
+        1256
       ]
     },
-    "id": 1114,
+    "id": 1257,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 950,
+        "id": 1093,
         "literals": [
           "solidity",
           "^",
@@ -2051,7 +2051,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:5"
+        "src": "0:23:7"
       },
       {
         "baseContracts": [],
@@ -2059,24 +2059,24 @@
         "contractKind": "contract",
         "documentation": "Created: 2019-03-13\nModified: 2019-03-20\n@author Mattia\n@title Business contract\n@dev This contract define the storage for the business-type user",
         "fullyImplemented": true,
-        "id": 1113,
+        "id": 1256,
         "linearizedBaseContracts": [
-          1113
+          1256
         ],
         "name": "BusinessStorage",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "BusinessStorage.Business",
-            "id": 963,
+            "id": 1106,
             "members": [
               {
                 "constant": false,
-                "id": 952,
+                "id": 1095,
                 "name": "email",
                 "nodeType": "VariableDeclaration",
-                "scope": 963,
-                "src": "311:13:5",
+                "scope": 1106,
+                "src": "311:13:7",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2084,10 +2084,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 951,
+                  "id": 1094,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "311:7:5",
+                  "src": "311:7:7",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -2098,11 +2098,11 @@
               },
               {
                 "constant": false,
-                "id": 954,
+                "id": 1097,
                 "name": "deliveryAddress",
                 "nodeType": "VariableDeclaration",
-                "scope": 963,
-                "src": "334:23:5",
+                "scope": 1106,
+                "src": "334:23:7",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2110,10 +2110,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 953,
+                  "id": 1096,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "334:7:5",
+                  "src": "334:7:7",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -2124,11 +2124,11 @@
               },
               {
                 "constant": false,
-                "id": 956,
+                "id": 1099,
                 "name": "name",
                 "nodeType": "VariableDeclaration",
-                "scope": 963,
-                "src": "367:12:5",
+                "scope": 1106,
+                "src": "367:12:7",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2136,10 +2136,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 955,
+                  "id": 1098,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "367:7:5",
+                  "src": "367:7:7",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -2150,11 +2150,11 @@
               },
               {
                 "constant": false,
-                "id": 958,
+                "id": 1101,
                 "name": "vatNumber",
                 "nodeType": "VariableDeclaration",
-                "scope": 963,
-                "src": "389:17:5",
+                "scope": 1106,
+                "src": "389:17:7",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2162,10 +2162,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 957,
+                  "id": 1100,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "389:7:5",
+                  "src": "389:7:7",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -2176,11 +2176,11 @@
               },
               {
                 "constant": false,
-                "id": 960,
+                "id": 1103,
                 "name": "active",
                 "nodeType": "VariableDeclaration",
-                "scope": 963,
-                "src": "416:11:5",
+                "scope": 1106,
+                "src": "416:11:7",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2188,10 +2188,10 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 959,
+                  "id": 1102,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "416:4:5",
+                  "src": "416:4:7",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -2202,11 +2202,11 @@
               },
               {
                 "constant": false,
-                "id": 962,
+                "id": 1105,
                 "name": "index",
                 "nodeType": "VariableDeclaration",
-                "scope": 963,
-                "src": "437:10:5",
+                "scope": 1106,
+                "src": "437:10:7",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2214,10 +2214,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 961,
+                  "id": 1104,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "437:4:5",
+                  "src": "437:4:7",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -2229,17 +2229,17 @@
             ],
             "name": "Business",
             "nodeType": "StructDefinition",
-            "scope": 1113,
-            "src": "285:169:5",
+            "scope": 1256,
+            "src": "285:169:7",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 966,
+            "id": 1109,
             "name": "businessList",
             "nodeType": "VariableDeclaration",
-            "scope": 1113,
-            "src": "544:31:5",
+            "scope": 1256,
+            "src": "544:31:7",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2248,20 +2248,20 @@
             },
             "typeName": {
               "baseType": {
-                "id": 964,
+                "id": 1107,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "544:7:5",
+                "src": "544:7:7",
                 "stateMutability": "nonpayable",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
-              "id": 965,
+              "id": 1108,
               "length": null,
               "nodeType": "ArrayTypeName",
-              "src": "544:9:5",
+              "src": "544:9:7",
               "typeDescriptions": {
                 "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
                 "typeString": "address[]"
@@ -2272,44 +2272,44 @@
           },
           {
             "constant": false,
-            "id": 970,
+            "id": 1113,
             "name": "addressToBusiness",
             "nodeType": "VariableDeclaration",
-            "scope": 1113,
-            "src": "780:46:5",
+            "scope": 1256,
+            "src": "780:46:7",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
               "typeString": "mapping(address => struct BusinessStorage.Business)"
             },
             "typeName": {
-              "id": 969,
+              "id": 1112,
               "keyType": {
-                "id": 967,
+                "id": 1110,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "788:7:5",
+                "src": "788:7:7",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "780:28:5",
+              "src": "780:28:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                 "typeString": "mapping(address => struct BusinessStorage.Business)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 968,
+                "id": 1111,
                 "name": "Business",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 963,
-                "src": "799:8:5",
+                "referencedDeclaration": 1106,
+                "src": "799:8:7",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Business_$963_storage_ptr",
+                  "typeIdentifier": "t_struct$_Business_$1106_storage_ptr",
                   "typeString": "struct BusinessStorage.Business"
                 }
               }
@@ -2319,9 +2319,9 @@
           },
           {
             "body": {
-              "id": 982,
+              "id": 1125,
               "nodeType": "Block",
-              "src": "902:60:5",
+              "src": "902:60:7",
               "statements": [
                 {
                   "expression": {
@@ -2330,26 +2330,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 977,
+                        "id": 1120,
                         "name": "addressToBusiness",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 970,
-                        "src": "919:17:5",
+                        "referencedDeclaration": 1113,
+                        "src": "919:17:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                           "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                         }
                       },
-                      "id": 979,
+                      "id": 1122,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 978,
+                        "id": 1121,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 972,
-                        "src": "937:12:5",
+                        "referencedDeclaration": 1115,
+                        "src": "937:12:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2360,51 +2360,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "919:31:5",
+                      "src": "919:31:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Business_$963_storage",
+                        "typeIdentifier": "t_struct$_Business_$1106_storage",
                         "typeString": "struct BusinessStorage.Business storage ref"
                       }
                     },
-                    "id": 980,
+                    "id": 1123,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "name",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 956,
-                    "src": "919:36:5",
+                    "referencedDeclaration": 1099,
+                    "src": "919:36:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 976,
-                  "id": 981,
+                  "functionReturnParameters": 1119,
+                  "id": 1124,
                   "nodeType": "Return",
-                  "src": "912:43:5"
+                  "src": "912:43:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 983,
+            "id": 1126,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getName",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 973,
+              "id": 1116,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 972,
+                  "id": 1115,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 983,
-                  "src": "850:20:5",
+                  "scope": 1126,
+                  "src": "850:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2412,10 +2412,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 971,
+                    "id": 1114,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "850:7:5",
+                    "src": "850:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2426,19 +2426,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "849:22:5"
+              "src": "849:22:7"
             },
             "returnParameters": {
-              "id": 976,
+              "id": 1119,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 975,
+                  "id": 1118,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 983,
-                  "src": "893:7:5",
+                  "scope": 1126,
+                  "src": "893:7:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2446,10 +2446,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 974,
+                    "id": 1117,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "893:7:5",
+                    "src": "893:7:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2459,19 +2459,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "892:9:5"
+              "src": "892:9:7"
             },
-            "scope": 1113,
-            "src": "833:129:5",
+            "scope": 1256,
+            "src": "833:129:7",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 995,
+              "id": 1138,
               "nodeType": "Block",
-              "src": "1038:61:5",
+              "src": "1038:61:7",
               "statements": [
                 {
                   "expression": {
@@ -2480,26 +2480,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 990,
+                        "id": 1133,
                         "name": "addressToBusiness",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 970,
-                        "src": "1055:17:5",
+                        "referencedDeclaration": 1113,
+                        "src": "1055:17:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                           "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                         }
                       },
-                      "id": 992,
+                      "id": 1135,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 991,
+                        "id": 1134,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 985,
-                        "src": "1073:12:5",
+                        "referencedDeclaration": 1128,
+                        "src": "1073:12:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2510,51 +2510,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1055:31:5",
+                      "src": "1055:31:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Business_$963_storage",
+                        "typeIdentifier": "t_struct$_Business_$1106_storage",
                         "typeString": "struct BusinessStorage.Business storage ref"
                       }
                     },
-                    "id": 993,
+                    "id": 1136,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "email",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 952,
-                    "src": "1055:37:5",
+                    "referencedDeclaration": 1095,
+                    "src": "1055:37:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 989,
-                  "id": 994,
+                  "functionReturnParameters": 1132,
+                  "id": 1137,
                   "nodeType": "Return",
-                  "src": "1048:44:5"
+                  "src": "1048:44:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 996,
+            "id": 1139,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getEmail",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 986,
+              "id": 1129,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 985,
+                  "id": 1128,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 996,
-                  "src": "986:20:5",
+                  "scope": 1139,
+                  "src": "986:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2562,10 +2562,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 984,
+                    "id": 1127,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "986:7:5",
+                    "src": "986:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2576,19 +2576,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "985:22:5"
+              "src": "985:22:7"
             },
             "returnParameters": {
-              "id": 989,
+              "id": 1132,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 988,
+                  "id": 1131,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 996,
-                  "src": "1029:7:5",
+                  "scope": 1139,
+                  "src": "1029:7:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2596,10 +2596,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 987,
+                    "id": 1130,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1029:7:5",
+                    "src": "1029:7:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2609,19 +2609,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1028:9:5"
+              "src": "1028:9:7"
             },
-            "scope": 1113,
-            "src": "968:131:5",
+            "scope": 1256,
+            "src": "968:131:7",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1008,
+              "id": 1151,
               "nodeType": "Block",
-              "src": "1193:71:5",
+              "src": "1193:71:7",
               "statements": [
                 {
                   "expression": {
@@ -2630,26 +2630,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1003,
+                        "id": 1146,
                         "name": "addressToBusiness",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 970,
-                        "src": "1210:17:5",
+                        "referencedDeclaration": 1113,
+                        "src": "1210:17:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                           "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                         }
                       },
-                      "id": 1005,
+                      "id": 1148,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1004,
+                        "id": 1147,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 998,
-                        "src": "1228:12:5",
+                        "referencedDeclaration": 1141,
+                        "src": "1228:12:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2660,51 +2660,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1210:31:5",
+                      "src": "1210:31:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Business_$963_storage",
+                        "typeIdentifier": "t_struct$_Business_$1106_storage",
                         "typeString": "struct BusinessStorage.Business storage ref"
                       }
                     },
-                    "id": 1006,
+                    "id": 1149,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "deliveryAddress",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 954,
-                    "src": "1210:47:5",
+                    "referencedDeclaration": 1097,
+                    "src": "1210:47:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 1002,
-                  "id": 1007,
+                  "functionReturnParameters": 1145,
+                  "id": 1150,
                   "nodeType": "Return",
-                  "src": "1203:54:5"
+                  "src": "1203:54:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1009,
+            "id": 1152,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getDeliveryAddressaddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 999,
+              "id": 1142,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 998,
+                  "id": 1141,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1009,
-                  "src": "1141:20:5",
+                  "scope": 1152,
+                  "src": "1141:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2712,10 +2712,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 997,
+                    "id": 1140,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1141:7:5",
+                    "src": "1141:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2726,19 +2726,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1140:22:5"
+              "src": "1140:22:7"
             },
             "returnParameters": {
-              "id": 1002,
+              "id": 1145,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1001,
+                  "id": 1144,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1009,
-                  "src": "1184:7:5",
+                  "scope": 1152,
+                  "src": "1184:7:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2746,10 +2746,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 1000,
+                    "id": 1143,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1184:7:5",
+                    "src": "1184:7:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2759,19 +2759,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1183:9:5"
+              "src": "1183:9:7"
             },
-            "scope": 1113,
-            "src": "1105:159:5",
+            "scope": 1256,
+            "src": "1105:159:7",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1021,
+              "id": 1164,
               "nodeType": "Block",
-              "src": "1338:62:5",
+              "src": "1338:62:7",
               "statements": [
                 {
                   "expression": {
@@ -2780,26 +2780,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1016,
+                        "id": 1159,
                         "name": "addressToBusiness",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 970,
-                        "src": "1355:17:5",
+                        "referencedDeclaration": 1113,
+                        "src": "1355:17:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                           "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                         }
                       },
-                      "id": 1018,
+                      "id": 1161,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1017,
+                        "id": 1160,
                         "name": "_userAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1011,
-                        "src": "1373:12:5",
+                        "referencedDeclaration": 1154,
+                        "src": "1373:12:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2810,51 +2810,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1355:31:5",
+                      "src": "1355:31:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Business_$963_storage",
+                        "typeIdentifier": "t_struct$_Business_$1106_storage",
                         "typeString": "struct BusinessStorage.Business storage ref"
                       }
                     },
-                    "id": 1019,
+                    "id": 1162,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "active",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 960,
-                    "src": "1355:38:5",
+                    "referencedDeclaration": 1103,
+                    "src": "1355:38:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 1015,
-                  "id": 1020,
+                  "functionReturnParameters": 1158,
+                  "id": 1163,
                   "nodeType": "Return",
-                  "src": "1348:45:5"
+                  "src": "1348:45:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1022,
+            "id": 1165,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getActive",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1012,
+              "id": 1155,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1011,
+                  "id": 1154,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1022,
-                  "src": "1289:20:5",
+                  "scope": 1165,
+                  "src": "1289:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2862,10 +2862,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1010,
+                    "id": 1153,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1289:7:5",
+                    "src": "1289:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2876,19 +2876,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1288:22:5"
+              "src": "1288:22:7"
             },
             "returnParameters": {
-              "id": 1015,
+              "id": 1158,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1014,
+                  "id": 1157,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1022,
-                  "src": "1332:4:5",
+                  "scope": 1165,
+                  "src": "1332:4:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2896,10 +2896,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1013,
+                    "id": 1156,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1332:4:5",
+                    "src": "1332:4:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2909,24 +2909,24 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1331:6:5"
+              "src": "1331:6:7"
             },
-            "scope": 1113,
-            "src": "1270:130:5",
+            "scope": 1256,
+            "src": "1270:130:7",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1036,
+              "id": 1179,
               "nodeType": "Block",
-              "src": "1500:61:5",
+              "src": "1500:61:7",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1034,
+                    "id": 1177,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2937,26 +2937,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 1029,
+                          "id": 1172,
                           "name": "addressToBusiness",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 970,
-                          "src": "1510:17:5",
+                          "referencedDeclaration": 1113,
+                          "src": "1510:17:7",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                             "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                           }
                         },
-                        "id": 1031,
+                        "id": 1174,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 1030,
+                          "id": 1173,
                           "name": "_userAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1024,
-                          "src": "1528:12:5",
+                          "referencedDeclaration": 1167,
+                          "src": "1528:12:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -2967,21 +2967,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1510:31:5",
+                        "src": "1510:31:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Business_$963_storage",
+                          "typeIdentifier": "t_struct$_Business_$1106_storage",
                           "typeString": "struct BusinessStorage.Business storage ref"
                         }
                       },
-                      "id": 1032,
+                      "id": 1175,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "name",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 956,
-                      "src": "1510:36:5",
+                      "referencedDeclaration": 1099,
+                      "src": "1510:36:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
@@ -2991,47 +2991,47 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1033,
+                      "id": 1176,
                       "name": "_name",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1026,
-                      "src": "1549:5:5",
+                      "referencedDeclaration": 1169,
+                      "src": "1549:5:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
                       }
                     },
-                    "src": "1510:44:5",
+                    "src": "1510:44:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "id": 1035,
+                  "id": 1178,
                   "nodeType": "ExpressionStatement",
-                  "src": "1510:44:5"
+                  "src": "1510:44:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1037,
+            "id": 1180,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "setName",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1027,
+              "id": 1170,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1024,
+                  "id": 1167,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1037,
-                  "src": "1454:20:5",
+                  "scope": 1180,
+                  "src": "1454:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3039,10 +3039,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1023,
+                    "id": 1166,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1454:7:5",
+                    "src": "1454:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -3054,11 +3054,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1026,
+                  "id": 1169,
                   "name": "_name",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1037,
-                  "src": "1476:13:5",
+                  "scope": 1180,
+                  "src": "1476:13:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3066,10 +3066,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 1025,
+                    "id": 1168,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1476:7:5",
+                    "src": "1476:7:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3079,30 +3079,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1453:37:5"
+              "src": "1453:37:7"
             },
             "returnParameters": {
-              "id": 1028,
+              "id": 1171,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1500:0:5"
+              "src": "1500:0:7"
             },
-            "scope": 1113,
-            "src": "1437:124:5",
+            "scope": 1256,
+            "src": "1437:124:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1051,
+              "id": 1194,
               "nodeType": "Block",
-              "src": "1632:63:5",
+              "src": "1632:63:7",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1049,
+                    "id": 1192,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3113,26 +3113,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 1044,
+                          "id": 1187,
                           "name": "addressToBusiness",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 970,
-                          "src": "1642:17:5",
+                          "referencedDeclaration": 1113,
+                          "src": "1642:17:7",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                             "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                           }
                         },
-                        "id": 1046,
+                        "id": 1189,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 1045,
+                          "id": 1188,
                           "name": "_userAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1039,
-                          "src": "1660:12:5",
+                          "referencedDeclaration": 1182,
+                          "src": "1660:12:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -3143,21 +3143,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1642:31:5",
+                        "src": "1642:31:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Business_$963_storage",
+                          "typeIdentifier": "t_struct$_Business_$1106_storage",
                           "typeString": "struct BusinessStorage.Business storage ref"
                         }
                       },
-                      "id": 1047,
+                      "id": 1190,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "email",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 952,
-                      "src": "1642:37:5",
+                      "referencedDeclaration": 1095,
+                      "src": "1642:37:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
@@ -3167,47 +3167,47 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1048,
+                      "id": 1191,
                       "name": "_email",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1041,
-                      "src": "1682:6:5",
+                      "referencedDeclaration": 1184,
+                      "src": "1682:6:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
                       }
                     },
-                    "src": "1642:46:5",
+                    "src": "1642:46:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "id": 1050,
+                  "id": 1193,
                   "nodeType": "ExpressionStatement",
-                  "src": "1642:46:5"
+                  "src": "1642:46:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1052,
+            "id": 1195,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "setEmail",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1042,
+              "id": 1185,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1039,
+                  "id": 1182,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1052,
-                  "src": "1585:20:5",
+                  "scope": 1195,
+                  "src": "1585:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3215,10 +3215,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1038,
+                    "id": 1181,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1585:7:5",
+                    "src": "1585:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -3230,11 +3230,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1041,
+                  "id": 1184,
                   "name": "_email",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1052,
-                  "src": "1607:14:5",
+                  "scope": 1195,
+                  "src": "1607:14:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3242,10 +3242,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 1040,
+                    "id": 1183,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1607:7:5",
+                    "src": "1607:7:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3255,30 +3255,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1584:38:5"
+              "src": "1584:38:7"
             },
             "returnParameters": {
-              "id": 1043,
+              "id": 1186,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1632:0:5"
+              "src": "1632:0:7"
             },
-            "scope": 1113,
-            "src": "1567:128:5",
+            "scope": 1256,
+            "src": "1567:128:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1066,
+              "id": 1209,
               "nodeType": "Block",
-              "src": "1782:78:5",
+              "src": "1782:78:7",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1064,
+                    "id": 1207,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3289,26 +3289,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 1059,
+                          "id": 1202,
                           "name": "addressToBusiness",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 970,
-                          "src": "1792:17:5",
+                          "referencedDeclaration": 1113,
+                          "src": "1792:17:7",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                             "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                           }
                         },
-                        "id": 1061,
+                        "id": 1204,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 1060,
+                          "id": 1203,
                           "name": "_userAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1054,
-                          "src": "1810:12:5",
+                          "referencedDeclaration": 1197,
+                          "src": "1810:12:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -3319,21 +3319,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1792:31:5",
+                        "src": "1792:31:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Business_$963_storage",
+                          "typeIdentifier": "t_struct$_Business_$1106_storage",
                           "typeString": "struct BusinessStorage.Business storage ref"
                         }
                       },
-                      "id": 1062,
+                      "id": 1205,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "deliveryAddress",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 954,
-                      "src": "1792:47:5",
+                      "referencedDeclaration": 1097,
+                      "src": "1792:47:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
@@ -3343,47 +3343,47 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1063,
+                      "id": 1206,
                       "name": "_devAddress",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1056,
-                      "src": "1842:11:5",
+                      "referencedDeclaration": 1199,
+                      "src": "1842:11:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
                       }
                     },
-                    "src": "1792:61:5",
+                    "src": "1792:61:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "id": 1065,
+                  "id": 1208,
                   "nodeType": "ExpressionStatement",
-                  "src": "1792:61:5"
+                  "src": "1792:61:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1067,
+            "id": 1210,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "setDeliveryAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1057,
+              "id": 1200,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1054,
+                  "id": 1197,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1067,
-                  "src": "1729:20:5",
+                  "scope": 1210,
+                  "src": "1729:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3391,10 +3391,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1053,
+                    "id": 1196,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1729:7:5",
+                    "src": "1729:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -3406,11 +3406,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1056,
+                  "id": 1199,
                   "name": "_devAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1067,
-                  "src": "1751:20:5",
+                  "scope": 1210,
+                  "src": "1751:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3418,10 +3418,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 1055,
+                    "id": 1198,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1751:7:5",
+                    "src": "1751:7:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3431,30 +3431,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1728:44:5"
+              "src": "1728:44:7"
             },
             "returnParameters": {
-              "id": 1058,
+              "id": 1201,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1782:0:5"
+              "src": "1782:0:7"
             },
-            "scope": 1113,
-            "src": "1701:159:5",
+            "scope": 1256,
+            "src": "1701:159:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1081,
+              "id": 1224,
               "nodeType": "Block",
-              "src": "1939:71:5",
+              "src": "1939:71:7",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1079,
+                    "id": 1222,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3465,26 +3465,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 1074,
+                          "id": 1217,
                           "name": "addressToBusiness",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 970,
-                          "src": "1949:17:5",
+                          "referencedDeclaration": 1113,
+                          "src": "1949:17:7",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                             "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                           }
                         },
-                        "id": 1076,
+                        "id": 1219,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 1075,
+                          "id": 1218,
                           "name": "_userAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1069,
-                          "src": "1967:12:5",
+                          "referencedDeclaration": 1212,
+                          "src": "1967:12:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -3495,21 +3495,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1949:31:5",
+                        "src": "1949:31:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Business_$963_storage",
+                          "typeIdentifier": "t_struct$_Business_$1106_storage",
                           "typeString": "struct BusinessStorage.Business storage ref"
                         }
                       },
-                      "id": 1077,
+                      "id": 1220,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "vatNumber",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 958,
-                      "src": "1949:41:5",
+                      "referencedDeclaration": 1101,
+                      "src": "1949:41:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
@@ -3519,47 +3519,47 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1078,
+                      "id": 1221,
                       "name": "_vatNumber",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1071,
-                      "src": "1993:10:5",
+                      "referencedDeclaration": 1214,
+                      "src": "1993:10:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
                       }
                     },
-                    "src": "1949:54:5",
+                    "src": "1949:54:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "id": 1080,
+                  "id": 1223,
                   "nodeType": "ExpressionStatement",
-                  "src": "1949:54:5"
+                  "src": "1949:54:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1082,
+            "id": 1225,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "setVATNumber",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1072,
+              "id": 1215,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1069,
+                  "id": 1212,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1082,
-                  "src": "1888:20:5",
+                  "scope": 1225,
+                  "src": "1888:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3567,10 +3567,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1068,
+                    "id": 1211,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1888:7:5",
+                    "src": "1888:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -3582,11 +3582,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1071,
+                  "id": 1214,
                   "name": "_vatNumber",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1082,
-                  "src": "1910:18:5",
+                  "scope": 1225,
+                  "src": "1910:18:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3594,10 +3594,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 1070,
+                    "id": 1213,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1910:7:5",
+                    "src": "1910:7:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3607,30 +3607,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1887:42:5"
+              "src": "1887:42:7"
             },
             "returnParameters": {
-              "id": 1073,
+              "id": 1216,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1939:0:5"
+              "src": "1939:0:7"
             },
-            "scope": 1113,
-            "src": "1866:144:5",
+            "scope": 1256,
+            "src": "1866:144:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1096,
+              "id": 1239,
               "nodeType": "Block",
-              "src": "2078:63:5",
+              "src": "2078:63:7",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1094,
+                    "id": 1237,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3641,26 +3641,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 1089,
+                          "id": 1232,
                           "name": "addressToBusiness",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 970,
-                          "src": "2088:17:5",
+                          "referencedDeclaration": 1113,
+                          "src": "2088:17:7",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                             "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                           }
                         },
-                        "id": 1091,
+                        "id": 1234,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 1090,
+                          "id": 1233,
                           "name": "_userAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1084,
-                          "src": "2106:12:5",
+                          "referencedDeclaration": 1227,
+                          "src": "2106:12:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -3671,21 +3671,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "2088:31:5",
+                        "src": "2088:31:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Business_$963_storage",
+                          "typeIdentifier": "t_struct$_Business_$1106_storage",
                           "typeString": "struct BusinessStorage.Business storage ref"
                         }
                       },
-                      "id": 1092,
+                      "id": 1235,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "index",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 962,
-                      "src": "2088:37:5",
+                      "referencedDeclaration": 1105,
+                      "src": "2088:37:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -3695,47 +3695,47 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1093,
+                      "id": 1236,
                       "name": "_index",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1086,
-                      "src": "2128:6:5",
+                      "referencedDeclaration": 1229,
+                      "src": "2128:6:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "2088:46:5",
+                    "src": "2088:46:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 1095,
+                  "id": 1238,
                   "nodeType": "ExpressionStatement",
-                  "src": "2088:46:5"
+                  "src": "2088:46:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1097,
+            "id": 1240,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "setIndex",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1087,
+              "id": 1230,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1084,
+                  "id": 1227,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1097,
-                  "src": "2034:20:5",
+                  "scope": 1240,
+                  "src": "2034:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3743,10 +3743,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1083,
+                    "id": 1226,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2034:7:5",
+                    "src": "2034:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -3758,11 +3758,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1086,
+                  "id": 1229,
                   "name": "_index",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1097,
-                  "src": "2056:11:5",
+                  "scope": 1240,
+                  "src": "2056:11:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3770,10 +3770,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1085,
+                    "id": 1228,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2056:4:5",
+                    "src": "2056:4:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3783,30 +3783,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2033:35:5"
+              "src": "2033:35:7"
             },
             "returnParameters": {
-              "id": 1088,
+              "id": 1231,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2078:0:5"
+              "src": "2078:0:7"
             },
-            "scope": 1113,
-            "src": "2016:125:5",
+            "scope": 1256,
+            "src": "2016:125:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1111,
+              "id": 1254,
               "nodeType": "Block",
-              "src": "2211:65:5",
+              "src": "2211:65:7",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1109,
+                    "id": 1252,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3817,26 +3817,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 1104,
+                          "id": 1247,
                           "name": "addressToBusiness",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 970,
-                          "src": "2221:17:5",
+                          "referencedDeclaration": 1113,
+                          "src": "2221:17:7",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$963_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Business_$1106_storage_$",
                             "typeString": "mapping(address => struct BusinessStorage.Business storage ref)"
                           }
                         },
-                        "id": 1106,
+                        "id": 1249,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 1105,
+                          "id": 1248,
                           "name": "_userAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1099,
-                          "src": "2239:12:5",
+                          "referencedDeclaration": 1242,
+                          "src": "2239:12:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -3847,21 +3847,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "2221:31:5",
+                        "src": "2221:31:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Business_$963_storage",
+                          "typeIdentifier": "t_struct$_Business_$1106_storage",
                           "typeString": "struct BusinessStorage.Business storage ref"
                         }
                       },
-                      "id": 1107,
+                      "id": 1250,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "active",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 960,
-                      "src": "2221:38:5",
+                      "referencedDeclaration": 1103,
+                      "src": "2221:38:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -3871,47 +3871,47 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1108,
+                      "id": 1251,
                       "name": "_active",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1101,
-                      "src": "2262:7:5",
+                      "referencedDeclaration": 1244,
+                      "src": "2262:7:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       }
                     },
-                    "src": "2221:48:5",
+                    "src": "2221:48:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 1110,
+                  "id": 1253,
                   "nodeType": "ExpressionStatement",
-                  "src": "2221:48:5"
+                  "src": "2221:48:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 1112,
+            "id": 1255,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "setActive",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1102,
+              "id": 1245,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1099,
+                  "id": 1242,
                   "name": "_userAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1112,
-                  "src": "2166:20:5",
+                  "scope": 1255,
+                  "src": "2166:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3919,10 +3919,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1098,
+                    "id": 1241,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2166:7:5",
+                    "src": "2166:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -3934,11 +3934,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1101,
+                  "id": 1244,
                   "name": "_active",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1112,
-                  "src": "2188:12:5",
+                  "scope": 1255,
+                  "src": "2188:12:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3946,10 +3946,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1100,
+                    "id": 1243,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2188:4:5",
+                    "src": "2188:4:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -3959,34 +3959,34 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2165:36:5"
+              "src": "2165:36:7"
             },
             "returnParameters": {
-              "id": 1103,
+              "id": 1246,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2211:0:5"
+              "src": "2211:0:7"
             },
-            "scope": 1113,
-            "src": "2147:129:5",
+            "scope": 1256,
+            "src": "2147:129:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 1114,
-        "src": "189:2089:5"
+        "scope": 1257,
+        "src": "189:2089:7"
       }
     ],
-    "src": "0:2279:5"
+    "src": "0:2279:7"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+    "version": "0.5.4+commit.9549d8ff.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.1",
-  "updatedAt": "2019-03-20T17:05:02.744Z",
+  "schemaVersion": "3.0.0-beta.2",
+  "updatedAt": "2019-03-21T10:47:50.929Z",
   "devdoc": {
     "author": "Mattia",
     "details": "This contract define the storage for the business-type user",

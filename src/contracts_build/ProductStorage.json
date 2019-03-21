@@ -135,24 +135,24 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b50610702806100206000396000f3fe608060405260043610610083576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806307842eb9146100885780630d69c011146100f15780632e3122541461015c5780633d357b02146101c15780635fd4b08a1461022a578063a323d29e1461028f578063b4b1d9c714610320575b600080fd5b34801561009457600080fd5b506100d7600480360360208110156100ab57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103ea565b604051808215151515815260200191505060405180910390f35b3480156100fd57600080fd5b506101406004803603602081101561011457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610442565b604051808260ff1660ff16815260200191505060405180910390f35b34801561016857600080fd5b506101ab6004803603602081101561017f57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061049a565b6040518082815260200191505060405180910390f35b3480156101cd57600080fd5b50610210600480360360208110156101e457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104e5565b604051808215151515815260200191505060405180910390f35b34801561023657600080fd5b506102796004803603602081101561024d57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061053d565b6040518082815260200191505060405180910390f35b34801561029b57600080fd5b506102de600480360360208110156102b257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610588565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561032c57600080fd5b5061036f6004803603602081101561034357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506105f3565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156103af578082015181840152602081019050610394565b50505050905090810190601f1680156103dc5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060050160019054906101000a900460ff169050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060030160009054906101000a900460ff169050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600201549050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060050160009054906101000a900460ff169050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101549050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b60606000808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206004018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156106ca5780601f1061069f576101008083540402835291602001916106ca565b820191906000526020600020905b8154815290600101906020018083116106ad57829003601f168201915b5050505050905091905056fea165627a7a72305820b4f213acf1ef60aa43b375c321854171769ada80c1da701772e768b12af2bb8c0029",
-  "deployedBytecode": "0x608060405260043610610083576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806307842eb9146100885780630d69c011146100f15780632e3122541461015c5780633d357b02146101c15780635fd4b08a1461022a578063a323d29e1461028f578063b4b1d9c714610320575b600080fd5b34801561009457600080fd5b506100d7600480360360208110156100ab57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103ea565b604051808215151515815260200191505060405180910390f35b3480156100fd57600080fd5b506101406004803603602081101561011457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610442565b604051808260ff1660ff16815260200191505060405180910390f35b34801561016857600080fd5b506101ab6004803603602081101561017f57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061049a565b6040518082815260200191505060405180910390f35b3480156101cd57600080fd5b50610210600480360360208110156101e457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104e5565b604051808215151515815260200191505060405180910390f35b34801561023657600080fd5b506102796004803603602081101561024d57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061053d565b6040518082815260200191505060405180910390f35b34801561029b57600080fd5b506102de600480360360208110156102b257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610588565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561032c57600080fd5b5061036f6004803603602081101561034357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506105f3565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156103af578082015181840152602081019050610394565b50505050905090810190601f1680156103dc5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060050160019054906101000a900460ff169050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060030160009054906101000a900460ff169050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600201549050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060050160009054906101000a900460ff169050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101549050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b60606000808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206004018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156106ca5780601f1061069f576101008083540402835291602001916106ca565b820191906000526020600020905b8154815290600101906020018083116106ad57829003601f168201915b5050505050905091905056fea165627a7a72305820b4f213acf1ef60aa43b375c321854171769ada80c1da701772e768b12af2bb8c0029",
-  "sourceMap": "25:1289:7:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:1289:7;;;;;;;",
-  "deployedSourceMap": "25:1289:7:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1174:137;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1174:137:7;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1174:137:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;740:127;;8:9:-1;5:2;;;30:1;27;20:12;5:2;740:127:7;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;740:127:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;587:147;;8:9:-1;5:2;;;30:1;27;20:12;5:2;587:147:7;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;587:147:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1030:138;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1030:138:7;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1030:138:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;450:131;;8:9:-1;5:2;;;30:1;27;20:12;5:2;450:131:7;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;450:131:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;309:135;;8:9:-1;5:2;;;30:1;27;20:12;5:2;309:135:7;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;309:135:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;873:151;;8:9:-1;5:2;;;30:1;27;20:12;5:2;873:151:7;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;873:151:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;873:151:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1174:137;1244:4;1266:16;:32;1283:14;1266:32;;;;;;;;;;;;;;;:38;;;;;;;;;;;;1259:45;;1174:137;;;:::o;740:127::-;801:5;824:16;:32;841:14;824:32;;;;;;;;;;;;;;;:36;;;;;;;;;;;;817:43;;740:127;;;:::o;587:147::-;657:7;682:16;:32;699:14;682:32;;;;;;;;;;;;;;;:45;;;675:52;;587:147;;;:::o;1030:138::-;1097:4;1119:16;:32;1136:14;1119:32;;;;;;;;;;;;;;;:42;;;;;;;;;;;;1112:49;;1030:138;;;:::o;450:131::-;512:7;537:16;:32;554:14;537:32;;;;;;;;;;;;;;;:37;;;530:44;;450:131;;;:::o;309:135::-;373:7;398:16;:32;415:14;398:32;;;;;;;;;;;;;;;:39;;;;;;;;;;;;391:46;;309:135;;;:::o;873:151::-;942:13;973:16;:32;990:14;973:32;;;;;;;;;;;;;;;:44;;966:51;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;873:151;;;:::o",
-  "source": "pragma solidity ^0.5.0;\n\ncontract ProductStorage {\n    struct ProductInfo {\n        address seller;\n        bytes32 name;\n        uint256 netSellPrice;\n        uint8 VAT;\n        string description;\n        bool available;\n        bool valid;\n    }\n\n    mapping(address => ProductInfo) addressToProduct;\n\n    function getSeller(address _sellerAddress) public view returns (address){\n        return addressToProduct[_sellerAddress].seller;\n    }\n\n    function getName(address _sellerAddress) public view returns (bytes32){\n        return addressToProduct[_sellerAddress].name;\n    }\n\n    function getNetSellPrice(address _sellerAddress) public view returns (uint256){\n        return addressToProduct[_sellerAddress].netSellPrice;\n    }\n\n    function getVAT(address _sellerAddress) public view returns (uint8){\n        return addressToProduct[_sellerAddress].VAT;\n    }\n\n    function getDescription(address _sellerAddress) public view returns (string memory){\n        return addressToProduct[_sellerAddress].description;\n    }\n\n    function getAvailable(address _sellerAddress) public view returns (bool){\n        return addressToProduct[_sellerAddress].available;\n    }\n\n    function getValidProduct(address _sellerAddress) public view returns (bool){\n        return addressToProduct[_sellerAddress].valid;\n    }\n\n}\n",
-  "sourcePath": "/home/bolzo/SWE/Soldino-PoC/contracts/storage/ProductStorage.sol",
+  "bytecode": "0x608060405234801561001057600080fd5b506106be806100206000396000f3fe608060405234801561001057600080fd5b506004361061009a576000357c0100000000000000000000000000000000000000000000000000000000900480633d357b02116100785780633d357b02146101b15780635fd4b08a1461020d578063a323d29e14610265578063b4b1d9c7146102e95761009a565b806307842eb91461009f5780630d69c011146100fb5780632e31225414610159575b600080fd5b6100e1600480360360208110156100b557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103a6565b604051808215151515815260200191505060405180910390f35b61013d6004803603602081101561011157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103fe565b604051808260ff1660ff16815260200191505060405180910390f35b61019b6004803603602081101561016f57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610456565b6040518082815260200191505060405180910390f35b6101f3600480360360208110156101c757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104a1565b604051808215151515815260200191505060405180910390f35b61024f6004803603602081101561022357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104f9565b6040518082815260200191505060405180910390f35b6102a76004803603602081101561027b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610544565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61032b600480360360208110156102ff57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506105af565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561036b578082015181840152602081019050610350565b50505050905090810190601f1680156103985780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060050160019054906101000a900460ff169050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060030160009054906101000a900460ff169050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600201549050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060050160009054906101000a900460ff169050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101549050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b60606000808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206004018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156106865780601f1061065b57610100808354040283529160200191610686565b820191906000526020600020905b81548152906001019060200180831161066957829003601f168201915b5050505050905091905056fea165627a7a72305820ed5cbbd9eedea173acd3de1db346595611decf369a592c71f5d53e5583e1d4e50029",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061009a576000357c0100000000000000000000000000000000000000000000000000000000900480633d357b02116100785780633d357b02146101b15780635fd4b08a1461020d578063a323d29e14610265578063b4b1d9c7146102e95761009a565b806307842eb91461009f5780630d69c011146100fb5780632e31225414610159575b600080fd5b6100e1600480360360208110156100b557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103a6565b604051808215151515815260200191505060405180910390f35b61013d6004803603602081101561011157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103fe565b604051808260ff1660ff16815260200191505060405180910390f35b61019b6004803603602081101561016f57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610456565b6040518082815260200191505060405180910390f35b6101f3600480360360208110156101c757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104a1565b604051808215151515815260200191505060405180910390f35b61024f6004803603602081101561022357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104f9565b6040518082815260200191505060405180910390f35b6102a76004803603602081101561027b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610544565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61032b600480360360208110156102ff57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506105af565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561036b578082015181840152602081019050610350565b50505050905090810190601f1680156103985780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060050160019054906101000a900460ff169050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060030160009054906101000a900460ff169050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600201549050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060050160009054906101000a900460ff169050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101549050919050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b60606000808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206004018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156106865780601f1061065b57610100808354040283529160200191610686565b820191906000526020600020905b81548152906001019060200180831161066957829003601f168201915b5050505050905091905056fea165627a7a72305820ed5cbbd9eedea173acd3de1db346595611decf369a592c71f5d53e5583e1d4e50029",
+  "sourceMap": "25:1395:9:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:1395:9;;;;;;;",
+  "deployedSourceMap": "25:1395:9:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:1395:9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1280:137;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1280:137:9;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;846:127;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;846:127:9;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;693:147;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;693:147:9;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1136:138;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1136:138:9;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;556:131;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;556:131:9;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;415:135;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;415:135:9;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;979:151;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;979:151:9;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;979:151:9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1280:137;1350:4;1372:16;:32;1389:14;1372:32;;;;;;;;;;;;;;;:38;;;;;;;;;;;;1365:45;;1280:137;;;:::o;846:127::-;907:5;930:16;:32;947:14;930:32;;;;;;;;;;;;;;;:36;;;;;;;;;;;;923:43;;846:127;;;:::o;693:147::-;763:7;788:16;:32;805:14;788:32;;;;;;;;;;;;;;;:45;;;781:52;;693:147;;;:::o;1136:138::-;1203:4;1225:16;:32;1242:14;1225:32;;;;;;;;;;;;;;;:42;;;;;;;;;;;;1218:49;;1136:138;;;:::o;556:131::-;618:7;643:16;:32;660:14;643:32;;;;;;;;;;;;;;;:37;;;636:44;;556:131;;;:::o;415:135::-;479:7;504:16;:32;521:14;504:32;;;;;;;;;;;;;;;:39;;;;;;;;;;;;497:46;;415:135;;;:::o;979:151::-;1048:13;1079:16;:32;1096:14;1079:32;;;;;;;;;;;;;;;:44;;1072:51;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;979:151;;;:::o",
+  "source": "pragma solidity ^0.5.0;\n\ncontract ProductStorage {\n    //valid tells if the product is indeed an existing product\n    // in this way the array is unncessary\n    struct ProductInfo {\n        address seller;\n        bytes32 name;\n        uint256 netSellPrice;\n        uint8 VAT;\n        string description;\n        bool available;\n        bool valid;\n    }\n\n    mapping(address => ProductInfo) addressToProduct;\n\n    function getSeller(address _sellerAddress) public view returns (address){\n        return addressToProduct[_sellerAddress].seller;\n    }\n\n    function getName(address _sellerAddress) public view returns (bytes32){\n        return addressToProduct[_sellerAddress].name;\n    }\n\n    function getNetSellPrice(address _sellerAddress) public view returns (uint256){\n        return addressToProduct[_sellerAddress].netSellPrice;\n    }\n\n    function getVAT(address _sellerAddress) public view returns (uint8){\n        return addressToProduct[_sellerAddress].VAT;\n    }\n\n    function getDescription(address _sellerAddress) public view returns (string memory){\n        return addressToProduct[_sellerAddress].description;\n    }\n\n    function getAvailable(address _sellerAddress) public view returns (bool){\n        return addressToProduct[_sellerAddress].available;\n    }\n\n    function getValidProduct(address _sellerAddress) public view returns (bool){\n        return addressToProduct[_sellerAddress].valid;\n    }\n\n}\n",
+  "sourcePath": "/home/samuele/Desktop/Soldino-PoC/contracts/storage/ProductStorage.sol",
   "ast": {
-    "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/storage/ProductStorage.sol",
+    "absolutePath": "/home/samuele/Desktop/Soldino-PoC/contracts/storage/ProductStorage.sol",
     "exportedSymbols": {
       "ProductStorage": [
-        1404
+        1547
       ]
     },
-    "id": 1405,
+    "id": 1548,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1293,
+        "id": 1436,
         "literals": [
           "solidity",
           "^",
@@ -160,7 +160,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:7"
+        "src": "0:23:9"
       },
       {
         "baseContracts": [],
@@ -168,24 +168,24 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 1404,
+        "id": 1547,
         "linearizedBaseContracts": [
-          1404
+          1547
         ],
         "name": "ProductStorage",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "ProductStorage.ProductInfo",
-            "id": 1308,
+            "id": 1451,
             "members": [
               {
                 "constant": false,
-                "id": 1295,
+                "id": 1438,
                 "name": "seller",
                 "nodeType": "VariableDeclaration",
-                "scope": 1308,
-                "src": "84:14:7",
+                "scope": 1451,
+                "src": "190:14:9",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -193,10 +193,10 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 1294,
+                  "id": 1437,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
-                  "src": "84:7:7",
+                  "src": "190:7:9",
                   "stateMutability": "nonpayable",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
@@ -208,11 +208,11 @@
               },
               {
                 "constant": false,
-                "id": 1297,
+                "id": 1440,
                 "name": "name",
                 "nodeType": "VariableDeclaration",
-                "scope": 1308,
-                "src": "108:12:7",
+                "scope": 1451,
+                "src": "214:12:9",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -220,10 +220,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 1296,
+                  "id": 1439,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "108:7:7",
+                  "src": "214:7:9",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -234,11 +234,11 @@
               },
               {
                 "constant": false,
-                "id": 1299,
+                "id": 1442,
                 "name": "netSellPrice",
                 "nodeType": "VariableDeclaration",
-                "scope": 1308,
-                "src": "130:20:7",
+                "scope": 1451,
+                "src": "236:20:9",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -246,10 +246,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 1298,
+                  "id": 1441,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "130:7:7",
+                  "src": "236:7:9",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -260,11 +260,11 @@
               },
               {
                 "constant": false,
-                "id": 1301,
+                "id": 1444,
                 "name": "VAT",
                 "nodeType": "VariableDeclaration",
-                "scope": 1308,
-                "src": "160:9:7",
+                "scope": 1451,
+                "src": "266:9:9",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -272,10 +272,10 @@
                   "typeString": "uint8"
                 },
                 "typeName": {
-                  "id": 1300,
+                  "id": 1443,
                   "name": "uint8",
                   "nodeType": "ElementaryTypeName",
-                  "src": "160:5:7",
+                  "src": "266:5:9",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint8",
                     "typeString": "uint8"
@@ -286,11 +286,11 @@
               },
               {
                 "constant": false,
-                "id": 1303,
+                "id": 1446,
                 "name": "description",
                 "nodeType": "VariableDeclaration",
-                "scope": 1308,
-                "src": "179:18:7",
+                "scope": 1451,
+                "src": "285:18:9",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -298,10 +298,10 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 1302,
+                  "id": 1445,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "179:6:7",
+                  "src": "285:6:9",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string"
@@ -312,11 +312,11 @@
               },
               {
                 "constant": false,
-                "id": 1305,
+                "id": 1448,
                 "name": "available",
                 "nodeType": "VariableDeclaration",
-                "scope": 1308,
-                "src": "207:14:7",
+                "scope": 1451,
+                "src": "313:14:9",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -324,10 +324,10 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 1304,
+                  "id": 1447,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "207:4:7",
+                  "src": "313:4:9",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -338,11 +338,11 @@
               },
               {
                 "constant": false,
-                "id": 1307,
+                "id": 1450,
                 "name": "valid",
                 "nodeType": "VariableDeclaration",
-                "scope": 1308,
-                "src": "231:10:7",
+                "scope": 1451,
+                "src": "337:10:9",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -350,10 +350,10 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 1306,
+                  "id": 1449,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "231:4:7",
+                  "src": "337:4:9",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -365,50 +365,50 @@
             ],
             "name": "ProductInfo",
             "nodeType": "StructDefinition",
-            "scope": 1404,
-            "src": "55:193:7",
+            "scope": 1547,
+            "src": "161:193:9",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 1312,
+            "id": 1455,
             "name": "addressToProduct",
             "nodeType": "VariableDeclaration",
-            "scope": 1404,
-            "src": "254:48:7",
+            "scope": 1547,
+            "src": "360:48:9",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
               "typeString": "mapping(address => struct ProductStorage.ProductInfo)"
             },
             "typeName": {
-              "id": 1311,
+              "id": 1454,
               "keyType": {
-                "id": 1309,
+                "id": 1452,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "262:7:7",
+                "src": "368:7:9",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "254:31:7",
+              "src": "360:31:9",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                 "typeString": "mapping(address => struct ProductStorage.ProductInfo)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 1310,
+                "id": 1453,
                 "name": "ProductInfo",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 1308,
-                "src": "273:11:7",
+                "referencedDeclaration": 1451,
+                "src": "379:11:9",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_ProductInfo_$1308_storage_ptr",
+                  "typeIdentifier": "t_struct$_ProductInfo_$1451_storage_ptr",
                   "typeString": "struct ProductStorage.ProductInfo"
                 }
               }
@@ -418,9 +418,9 @@
           },
           {
             "body": {
-              "id": 1324,
+              "id": 1467,
               "nodeType": "Block",
-              "src": "381:63:7",
+              "src": "487:63:9",
               "statements": [
                 {
                   "expression": {
@@ -429,26 +429,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1319,
+                        "id": 1462,
                         "name": "addressToProduct",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1312,
-                        "src": "398:16:7",
+                        "referencedDeclaration": 1455,
+                        "src": "504:16:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                           "typeString": "mapping(address => struct ProductStorage.ProductInfo storage ref)"
                         }
                       },
-                      "id": 1321,
+                      "id": 1464,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1320,
+                        "id": 1463,
                         "name": "_sellerAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1314,
-                        "src": "415:14:7",
+                        "referencedDeclaration": 1457,
+                        "src": "521:14:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -459,51 +459,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "398:32:7",
+                      "src": "504:32:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_ProductInfo_$1308_storage",
+                        "typeIdentifier": "t_struct$_ProductInfo_$1451_storage",
                         "typeString": "struct ProductStorage.ProductInfo storage ref"
                       }
                     },
-                    "id": 1322,
+                    "id": 1465,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "seller",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1295,
-                    "src": "398:39:7",
+                    "referencedDeclaration": 1438,
+                    "src": "504:39:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 1318,
-                  "id": 1323,
+                  "functionReturnParameters": 1461,
+                  "id": 1466,
                   "nodeType": "Return",
-                  "src": "391:46:7"
+                  "src": "497:46:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 1325,
+            "id": 1468,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getSeller",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1315,
+              "id": 1458,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1314,
+                  "id": 1457,
                   "name": "_sellerAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1325,
-                  "src": "328:22:7",
+                  "scope": 1468,
+                  "src": "434:22:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -511,10 +511,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1313,
+                    "id": 1456,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "328:7:7",
+                    "src": "434:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -525,19 +525,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "327:24:7"
+              "src": "433:24:9"
             },
             "returnParameters": {
-              "id": 1318,
+              "id": 1461,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1317,
+                  "id": 1460,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1325,
-                  "src": "373:7:7",
+                  "scope": 1468,
+                  "src": "479:7:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -545,10 +545,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1316,
+                    "id": 1459,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "373:7:7",
+                    "src": "479:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -559,19 +559,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "372:9:7"
+              "src": "478:9:9"
             },
-            "scope": 1404,
-            "src": "309:135:7",
+            "scope": 1547,
+            "src": "415:135:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1337,
+              "id": 1480,
               "nodeType": "Block",
-              "src": "520:61:7",
+              "src": "626:61:9",
               "statements": [
                 {
                   "expression": {
@@ -580,26 +580,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1332,
+                        "id": 1475,
                         "name": "addressToProduct",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1312,
-                        "src": "537:16:7",
+                        "referencedDeclaration": 1455,
+                        "src": "643:16:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                           "typeString": "mapping(address => struct ProductStorage.ProductInfo storage ref)"
                         }
                       },
-                      "id": 1334,
+                      "id": 1477,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1333,
+                        "id": 1476,
                         "name": "_sellerAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1327,
-                        "src": "554:14:7",
+                        "referencedDeclaration": 1470,
+                        "src": "660:14:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -610,51 +610,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "537:32:7",
+                      "src": "643:32:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_ProductInfo_$1308_storage",
+                        "typeIdentifier": "t_struct$_ProductInfo_$1451_storage",
                         "typeString": "struct ProductStorage.ProductInfo storage ref"
                       }
                     },
-                    "id": 1335,
+                    "id": 1478,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "name",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1297,
-                    "src": "537:37:7",
+                    "referencedDeclaration": 1440,
+                    "src": "643:37:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 1331,
-                  "id": 1336,
+                  "functionReturnParameters": 1474,
+                  "id": 1479,
                   "nodeType": "Return",
-                  "src": "530:44:7"
+                  "src": "636:44:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 1338,
+            "id": 1481,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getName",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1328,
+              "id": 1471,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1327,
+                  "id": 1470,
                   "name": "_sellerAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1338,
-                  "src": "467:22:7",
+                  "scope": 1481,
+                  "src": "573:22:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -662,10 +662,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1326,
+                    "id": 1469,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "467:7:7",
+                    "src": "573:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -676,19 +676,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "466:24:7"
+              "src": "572:24:9"
             },
             "returnParameters": {
-              "id": 1331,
+              "id": 1474,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1330,
+                  "id": 1473,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1338,
-                  "src": "512:7:7",
+                  "scope": 1481,
+                  "src": "618:7:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -696,10 +696,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 1329,
+                    "id": 1472,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "512:7:7",
+                    "src": "618:7:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -709,19 +709,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "511:9:7"
+              "src": "617:9:9"
             },
-            "scope": 1404,
-            "src": "450:131:7",
+            "scope": 1547,
+            "src": "556:131:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1350,
+              "id": 1493,
               "nodeType": "Block",
-              "src": "665:69:7",
+              "src": "771:69:9",
               "statements": [
                 {
                   "expression": {
@@ -730,26 +730,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1345,
+                        "id": 1488,
                         "name": "addressToProduct",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1312,
-                        "src": "682:16:7",
+                        "referencedDeclaration": 1455,
+                        "src": "788:16:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                           "typeString": "mapping(address => struct ProductStorage.ProductInfo storage ref)"
                         }
                       },
-                      "id": 1347,
+                      "id": 1490,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1346,
+                        "id": 1489,
                         "name": "_sellerAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1340,
-                        "src": "699:14:7",
+                        "referencedDeclaration": 1483,
+                        "src": "805:14:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -760,51 +760,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "682:32:7",
+                      "src": "788:32:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_ProductInfo_$1308_storage",
+                        "typeIdentifier": "t_struct$_ProductInfo_$1451_storage",
                         "typeString": "struct ProductStorage.ProductInfo storage ref"
                       }
                     },
-                    "id": 1348,
+                    "id": 1491,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "netSellPrice",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1299,
-                    "src": "682:45:7",
+                    "referencedDeclaration": 1442,
+                    "src": "788:45:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 1344,
-                  "id": 1349,
+                  "functionReturnParameters": 1487,
+                  "id": 1492,
                   "nodeType": "Return",
-                  "src": "675:52:7"
+                  "src": "781:52:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 1351,
+            "id": 1494,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getNetSellPrice",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1341,
+              "id": 1484,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1340,
+                  "id": 1483,
                   "name": "_sellerAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1351,
-                  "src": "612:22:7",
+                  "scope": 1494,
+                  "src": "718:22:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -812,10 +812,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1339,
+                    "id": 1482,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "612:7:7",
+                    "src": "718:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -826,19 +826,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "611:24:7"
+              "src": "717:24:9"
             },
             "returnParameters": {
-              "id": 1344,
+              "id": 1487,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1343,
+                  "id": 1486,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1351,
-                  "src": "657:7:7",
+                  "scope": 1494,
+                  "src": "763:7:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -846,10 +846,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1342,
+                    "id": 1485,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "657:7:7",
+                    "src": "763:7:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -859,19 +859,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "656:9:7"
+              "src": "762:9:9"
             },
-            "scope": 1404,
-            "src": "587:147:7",
+            "scope": 1547,
+            "src": "693:147:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1363,
+              "id": 1506,
               "nodeType": "Block",
-              "src": "807:60:7",
+              "src": "913:60:9",
               "statements": [
                 {
                   "expression": {
@@ -880,26 +880,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1358,
+                        "id": 1501,
                         "name": "addressToProduct",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1312,
-                        "src": "824:16:7",
+                        "referencedDeclaration": 1455,
+                        "src": "930:16:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                           "typeString": "mapping(address => struct ProductStorage.ProductInfo storage ref)"
                         }
                       },
-                      "id": 1360,
+                      "id": 1503,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1359,
+                        "id": 1502,
                         "name": "_sellerAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1353,
-                        "src": "841:14:7",
+                        "referencedDeclaration": 1496,
+                        "src": "947:14:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -910,51 +910,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "824:32:7",
+                      "src": "930:32:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_ProductInfo_$1308_storage",
+                        "typeIdentifier": "t_struct$_ProductInfo_$1451_storage",
                         "typeString": "struct ProductStorage.ProductInfo storage ref"
                       }
                     },
-                    "id": 1361,
+                    "id": 1504,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "VAT",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1301,
-                    "src": "824:36:7",
+                    "referencedDeclaration": 1444,
+                    "src": "930:36:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
                     }
                   },
-                  "functionReturnParameters": 1357,
-                  "id": 1362,
+                  "functionReturnParameters": 1500,
+                  "id": 1505,
                   "nodeType": "Return",
-                  "src": "817:43:7"
+                  "src": "923:43:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 1364,
+            "id": 1507,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getVAT",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1354,
+              "id": 1497,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1353,
+                  "id": 1496,
                   "name": "_sellerAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1364,
-                  "src": "756:22:7",
+                  "scope": 1507,
+                  "src": "862:22:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -962,10 +962,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1352,
+                    "id": 1495,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "756:7:7",
+                    "src": "862:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -976,19 +976,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "755:24:7"
+              "src": "861:24:9"
             },
             "returnParameters": {
-              "id": 1357,
+              "id": 1500,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1356,
+                  "id": 1499,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1364,
-                  "src": "801:5:7",
+                  "scope": 1507,
+                  "src": "907:5:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -996,10 +996,10 @@
                     "typeString": "uint8"
                   },
                   "typeName": {
-                    "id": 1355,
+                    "id": 1498,
                     "name": "uint8",
                     "nodeType": "ElementaryTypeName",
-                    "src": "801:5:7",
+                    "src": "907:5:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
@@ -1009,19 +1009,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "800:7:7"
+              "src": "906:7:9"
             },
-            "scope": 1404,
-            "src": "740:127:7",
+            "scope": 1547,
+            "src": "846:127:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1376,
+              "id": 1519,
               "nodeType": "Block",
-              "src": "956:68:7",
+              "src": "1062:68:9",
               "statements": [
                 {
                   "expression": {
@@ -1030,26 +1030,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1371,
+                        "id": 1514,
                         "name": "addressToProduct",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1312,
-                        "src": "973:16:7",
+                        "referencedDeclaration": 1455,
+                        "src": "1079:16:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                           "typeString": "mapping(address => struct ProductStorage.ProductInfo storage ref)"
                         }
                       },
-                      "id": 1373,
+                      "id": 1516,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1372,
+                        "id": 1515,
                         "name": "_sellerAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1366,
-                        "src": "990:14:7",
+                        "referencedDeclaration": 1509,
+                        "src": "1096:14:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1060,51 +1060,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "973:32:7",
+                      "src": "1079:32:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_ProductInfo_$1308_storage",
+                        "typeIdentifier": "t_struct$_ProductInfo_$1451_storage",
                         "typeString": "struct ProductStorage.ProductInfo storage ref"
                       }
                     },
-                    "id": 1374,
+                    "id": 1517,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "description",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1303,
-                    "src": "973:44:7",
+                    "referencedDeclaration": 1446,
+                    "src": "1079:44:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "functionReturnParameters": 1370,
-                  "id": 1375,
+                  "functionReturnParameters": 1513,
+                  "id": 1518,
                   "nodeType": "Return",
-                  "src": "966:51:7"
+                  "src": "1072:51:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 1377,
+            "id": 1520,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getDescription",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1367,
+              "id": 1510,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1366,
+                  "id": 1509,
                   "name": "_sellerAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1377,
-                  "src": "897:22:7",
+                  "scope": 1520,
+                  "src": "1003:22:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1112,10 +1112,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1365,
+                    "id": 1508,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "897:7:7",
+                    "src": "1003:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1126,19 +1126,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "896:24:7"
+              "src": "1002:24:9"
             },
             "returnParameters": {
-              "id": 1370,
+              "id": 1513,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1369,
+                  "id": 1512,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1377,
-                  "src": "942:13:7",
+                  "scope": 1520,
+                  "src": "1048:13:9",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1146,10 +1146,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 1368,
+                    "id": 1511,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "942:6:7",
+                    "src": "1048:6:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -1159,19 +1159,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "941:15:7"
+              "src": "1047:15:9"
             },
-            "scope": 1404,
-            "src": "873:151:7",
+            "scope": 1547,
+            "src": "979:151:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1389,
+              "id": 1532,
               "nodeType": "Block",
-              "src": "1102:66:7",
+              "src": "1208:66:9",
               "statements": [
                 {
                   "expression": {
@@ -1180,26 +1180,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1384,
+                        "id": 1527,
                         "name": "addressToProduct",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1312,
-                        "src": "1119:16:7",
+                        "referencedDeclaration": 1455,
+                        "src": "1225:16:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                           "typeString": "mapping(address => struct ProductStorage.ProductInfo storage ref)"
                         }
                       },
-                      "id": 1386,
+                      "id": 1529,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1385,
+                        "id": 1528,
                         "name": "_sellerAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1379,
-                        "src": "1136:14:7",
+                        "referencedDeclaration": 1522,
+                        "src": "1242:14:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1210,51 +1210,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1119:32:7",
+                      "src": "1225:32:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_ProductInfo_$1308_storage",
+                        "typeIdentifier": "t_struct$_ProductInfo_$1451_storage",
                         "typeString": "struct ProductStorage.ProductInfo storage ref"
                       }
                     },
-                    "id": 1387,
+                    "id": 1530,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "available",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1305,
-                    "src": "1119:42:7",
+                    "referencedDeclaration": 1448,
+                    "src": "1225:42:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 1383,
-                  "id": 1388,
+                  "functionReturnParameters": 1526,
+                  "id": 1531,
                   "nodeType": "Return",
-                  "src": "1112:49:7"
+                  "src": "1218:49:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 1390,
+            "id": 1533,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getAvailable",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1380,
+              "id": 1523,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1379,
+                  "id": 1522,
                   "name": "_sellerAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1390,
-                  "src": "1052:22:7",
+                  "scope": 1533,
+                  "src": "1158:22:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1262,10 +1262,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1378,
+                    "id": 1521,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1052:7:7",
+                    "src": "1158:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1276,19 +1276,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1051:24:7"
+              "src": "1157:24:9"
             },
             "returnParameters": {
-              "id": 1383,
+              "id": 1526,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1382,
+                  "id": 1525,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1390,
-                  "src": "1097:4:7",
+                  "scope": 1533,
+                  "src": "1203:4:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1296,10 +1296,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1381,
+                    "id": 1524,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1097:4:7",
+                    "src": "1203:4:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1309,19 +1309,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1096:6:7"
+              "src": "1202:6:9"
             },
-            "scope": 1404,
-            "src": "1030:138:7",
+            "scope": 1547,
+            "src": "1136:138:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1402,
+              "id": 1545,
               "nodeType": "Block",
-              "src": "1249:62:7",
+              "src": "1355:62:9",
               "statements": [
                 {
                   "expression": {
@@ -1330,26 +1330,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1397,
+                        "id": 1540,
                         "name": "addressToProduct",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1312,
-                        "src": "1266:16:7",
+                        "referencedDeclaration": 1455,
+                        "src": "1372:16:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                           "typeString": "mapping(address => struct ProductStorage.ProductInfo storage ref)"
                         }
                       },
-                      "id": 1399,
+                      "id": 1542,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1398,
+                        "id": 1541,
                         "name": "_sellerAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1392,
-                        "src": "1283:14:7",
+                        "referencedDeclaration": 1535,
+                        "src": "1389:14:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1360,51 +1360,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1266:32:7",
+                      "src": "1372:32:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_ProductInfo_$1308_storage",
+                        "typeIdentifier": "t_struct$_ProductInfo_$1451_storage",
                         "typeString": "struct ProductStorage.ProductInfo storage ref"
                       }
                     },
-                    "id": 1400,
+                    "id": 1543,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "valid",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1307,
-                    "src": "1266:38:7",
+                    "referencedDeclaration": 1450,
+                    "src": "1372:38:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 1396,
-                  "id": 1401,
+                  "functionReturnParameters": 1539,
+                  "id": 1544,
                   "nodeType": "Return",
-                  "src": "1259:45:7"
+                  "src": "1365:45:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 1403,
+            "id": 1546,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getValidProduct",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1393,
+              "id": 1536,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1392,
+                  "id": 1535,
                   "name": "_sellerAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1403,
-                  "src": "1199:22:7",
+                  "scope": 1546,
+                  "src": "1305:22:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1412,10 +1412,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1391,
+                    "id": 1534,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1199:7:7",
+                    "src": "1305:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1426,19 +1426,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1198:24:7"
+              "src": "1304:24:9"
             },
             "returnParameters": {
-              "id": 1396,
+              "id": 1539,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1395,
+                  "id": 1538,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1403,
-                  "src": "1244:4:7",
+                  "scope": 1546,
+                  "src": "1350:4:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1446,10 +1446,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1394,
+                    "id": 1537,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1244:4:7",
+                    "src": "1350:4:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1459,33 +1459,33 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1243:6:7"
+              "src": "1349:6:9"
             },
-            "scope": 1404,
-            "src": "1174:137:7",
+            "scope": 1547,
+            "src": "1280:137:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 1405,
-        "src": "25:1289:7"
+        "scope": 1548,
+        "src": "25:1395:9"
       }
     ],
-    "src": "0:1315:7"
+    "src": "0:1421:9"
   },
   "legacyAST": {
-    "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/storage/ProductStorage.sol",
+    "absolutePath": "/home/samuele/Desktop/Soldino-PoC/contracts/storage/ProductStorage.sol",
     "exportedSymbols": {
       "ProductStorage": [
-        1404
+        1547
       ]
     },
-    "id": 1405,
+    "id": 1548,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1293,
+        "id": 1436,
         "literals": [
           "solidity",
           "^",
@@ -1493,7 +1493,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:7"
+        "src": "0:23:9"
       },
       {
         "baseContracts": [],
@@ -1501,24 +1501,24 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 1404,
+        "id": 1547,
         "linearizedBaseContracts": [
-          1404
+          1547
         ],
         "name": "ProductStorage",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "ProductStorage.ProductInfo",
-            "id": 1308,
+            "id": 1451,
             "members": [
               {
                 "constant": false,
-                "id": 1295,
+                "id": 1438,
                 "name": "seller",
                 "nodeType": "VariableDeclaration",
-                "scope": 1308,
-                "src": "84:14:7",
+                "scope": 1451,
+                "src": "190:14:9",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1526,10 +1526,10 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 1294,
+                  "id": 1437,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
-                  "src": "84:7:7",
+                  "src": "190:7:9",
                   "stateMutability": "nonpayable",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
@@ -1541,11 +1541,11 @@
               },
               {
                 "constant": false,
-                "id": 1297,
+                "id": 1440,
                 "name": "name",
                 "nodeType": "VariableDeclaration",
-                "scope": 1308,
-                "src": "108:12:7",
+                "scope": 1451,
+                "src": "214:12:9",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1553,10 +1553,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 1296,
+                  "id": 1439,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "108:7:7",
+                  "src": "214:7:9",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -1567,11 +1567,11 @@
               },
               {
                 "constant": false,
-                "id": 1299,
+                "id": 1442,
                 "name": "netSellPrice",
                 "nodeType": "VariableDeclaration",
-                "scope": 1308,
-                "src": "130:20:7",
+                "scope": 1451,
+                "src": "236:20:9",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1579,10 +1579,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 1298,
+                  "id": 1441,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "130:7:7",
+                  "src": "236:7:9",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -1593,11 +1593,11 @@
               },
               {
                 "constant": false,
-                "id": 1301,
+                "id": 1444,
                 "name": "VAT",
                 "nodeType": "VariableDeclaration",
-                "scope": 1308,
-                "src": "160:9:7",
+                "scope": 1451,
+                "src": "266:9:9",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1605,10 +1605,10 @@
                   "typeString": "uint8"
                 },
                 "typeName": {
-                  "id": 1300,
+                  "id": 1443,
                   "name": "uint8",
                   "nodeType": "ElementaryTypeName",
-                  "src": "160:5:7",
+                  "src": "266:5:9",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint8",
                     "typeString": "uint8"
@@ -1619,11 +1619,11 @@
               },
               {
                 "constant": false,
-                "id": 1303,
+                "id": 1446,
                 "name": "description",
                 "nodeType": "VariableDeclaration",
-                "scope": 1308,
-                "src": "179:18:7",
+                "scope": 1451,
+                "src": "285:18:9",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1631,10 +1631,10 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 1302,
+                  "id": 1445,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "179:6:7",
+                  "src": "285:6:9",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string"
@@ -1645,11 +1645,11 @@
               },
               {
                 "constant": false,
-                "id": 1305,
+                "id": 1448,
                 "name": "available",
                 "nodeType": "VariableDeclaration",
-                "scope": 1308,
-                "src": "207:14:7",
+                "scope": 1451,
+                "src": "313:14:9",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1657,10 +1657,10 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 1304,
+                  "id": 1447,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "207:4:7",
+                  "src": "313:4:9",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -1671,11 +1671,11 @@
               },
               {
                 "constant": false,
-                "id": 1307,
+                "id": 1450,
                 "name": "valid",
                 "nodeType": "VariableDeclaration",
-                "scope": 1308,
-                "src": "231:10:7",
+                "scope": 1451,
+                "src": "337:10:9",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1683,10 +1683,10 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 1306,
+                  "id": 1449,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "231:4:7",
+                  "src": "337:4:9",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -1698,50 +1698,50 @@
             ],
             "name": "ProductInfo",
             "nodeType": "StructDefinition",
-            "scope": 1404,
-            "src": "55:193:7",
+            "scope": 1547,
+            "src": "161:193:9",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 1312,
+            "id": 1455,
             "name": "addressToProduct",
             "nodeType": "VariableDeclaration",
-            "scope": 1404,
-            "src": "254:48:7",
+            "scope": 1547,
+            "src": "360:48:9",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
               "typeString": "mapping(address => struct ProductStorage.ProductInfo)"
             },
             "typeName": {
-              "id": 1311,
+              "id": 1454,
               "keyType": {
-                "id": 1309,
+                "id": 1452,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "262:7:7",
+                "src": "368:7:9",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "254:31:7",
+              "src": "360:31:9",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                 "typeString": "mapping(address => struct ProductStorage.ProductInfo)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 1310,
+                "id": 1453,
                 "name": "ProductInfo",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 1308,
-                "src": "273:11:7",
+                "referencedDeclaration": 1451,
+                "src": "379:11:9",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_ProductInfo_$1308_storage_ptr",
+                  "typeIdentifier": "t_struct$_ProductInfo_$1451_storage_ptr",
                   "typeString": "struct ProductStorage.ProductInfo"
                 }
               }
@@ -1751,9 +1751,9 @@
           },
           {
             "body": {
-              "id": 1324,
+              "id": 1467,
               "nodeType": "Block",
-              "src": "381:63:7",
+              "src": "487:63:9",
               "statements": [
                 {
                   "expression": {
@@ -1762,26 +1762,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1319,
+                        "id": 1462,
                         "name": "addressToProduct",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1312,
-                        "src": "398:16:7",
+                        "referencedDeclaration": 1455,
+                        "src": "504:16:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                           "typeString": "mapping(address => struct ProductStorage.ProductInfo storage ref)"
                         }
                       },
-                      "id": 1321,
+                      "id": 1464,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1320,
+                        "id": 1463,
                         "name": "_sellerAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1314,
-                        "src": "415:14:7",
+                        "referencedDeclaration": 1457,
+                        "src": "521:14:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1792,51 +1792,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "398:32:7",
+                      "src": "504:32:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_ProductInfo_$1308_storage",
+                        "typeIdentifier": "t_struct$_ProductInfo_$1451_storage",
                         "typeString": "struct ProductStorage.ProductInfo storage ref"
                       }
                     },
-                    "id": 1322,
+                    "id": 1465,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "seller",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1295,
-                    "src": "398:39:7",
+                    "referencedDeclaration": 1438,
+                    "src": "504:39:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 1318,
-                  "id": 1323,
+                  "functionReturnParameters": 1461,
+                  "id": 1466,
                   "nodeType": "Return",
-                  "src": "391:46:7"
+                  "src": "497:46:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 1325,
+            "id": 1468,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getSeller",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1315,
+              "id": 1458,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1314,
+                  "id": 1457,
                   "name": "_sellerAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1325,
-                  "src": "328:22:7",
+                  "scope": 1468,
+                  "src": "434:22:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1844,10 +1844,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1313,
+                    "id": 1456,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "328:7:7",
+                    "src": "434:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1858,19 +1858,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "327:24:7"
+              "src": "433:24:9"
             },
             "returnParameters": {
-              "id": 1318,
+              "id": 1461,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1317,
+                  "id": 1460,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1325,
-                  "src": "373:7:7",
+                  "scope": 1468,
+                  "src": "479:7:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1878,10 +1878,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1316,
+                    "id": 1459,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "373:7:7",
+                    "src": "479:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1892,19 +1892,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "372:9:7"
+              "src": "478:9:9"
             },
-            "scope": 1404,
-            "src": "309:135:7",
+            "scope": 1547,
+            "src": "415:135:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1337,
+              "id": 1480,
               "nodeType": "Block",
-              "src": "520:61:7",
+              "src": "626:61:9",
               "statements": [
                 {
                   "expression": {
@@ -1913,26 +1913,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1332,
+                        "id": 1475,
                         "name": "addressToProduct",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1312,
-                        "src": "537:16:7",
+                        "referencedDeclaration": 1455,
+                        "src": "643:16:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                           "typeString": "mapping(address => struct ProductStorage.ProductInfo storage ref)"
                         }
                       },
-                      "id": 1334,
+                      "id": 1477,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1333,
+                        "id": 1476,
                         "name": "_sellerAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1327,
-                        "src": "554:14:7",
+                        "referencedDeclaration": 1470,
+                        "src": "660:14:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1943,51 +1943,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "537:32:7",
+                      "src": "643:32:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_ProductInfo_$1308_storage",
+                        "typeIdentifier": "t_struct$_ProductInfo_$1451_storage",
                         "typeString": "struct ProductStorage.ProductInfo storage ref"
                       }
                     },
-                    "id": 1335,
+                    "id": 1478,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "name",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1297,
-                    "src": "537:37:7",
+                    "referencedDeclaration": 1440,
+                    "src": "643:37:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 1331,
-                  "id": 1336,
+                  "functionReturnParameters": 1474,
+                  "id": 1479,
                   "nodeType": "Return",
-                  "src": "530:44:7"
+                  "src": "636:44:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 1338,
+            "id": 1481,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getName",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1328,
+              "id": 1471,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1327,
+                  "id": 1470,
                   "name": "_sellerAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1338,
-                  "src": "467:22:7",
+                  "scope": 1481,
+                  "src": "573:22:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1995,10 +1995,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1326,
+                    "id": 1469,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "467:7:7",
+                    "src": "573:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2009,19 +2009,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "466:24:7"
+              "src": "572:24:9"
             },
             "returnParameters": {
-              "id": 1331,
+              "id": 1474,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1330,
+                  "id": 1473,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1338,
-                  "src": "512:7:7",
+                  "scope": 1481,
+                  "src": "618:7:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2029,10 +2029,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 1329,
+                    "id": 1472,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "512:7:7",
+                    "src": "618:7:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2042,19 +2042,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "511:9:7"
+              "src": "617:9:9"
             },
-            "scope": 1404,
-            "src": "450:131:7",
+            "scope": 1547,
+            "src": "556:131:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1350,
+              "id": 1493,
               "nodeType": "Block",
-              "src": "665:69:7",
+              "src": "771:69:9",
               "statements": [
                 {
                   "expression": {
@@ -2063,26 +2063,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1345,
+                        "id": 1488,
                         "name": "addressToProduct",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1312,
-                        "src": "682:16:7",
+                        "referencedDeclaration": 1455,
+                        "src": "788:16:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                           "typeString": "mapping(address => struct ProductStorage.ProductInfo storage ref)"
                         }
                       },
-                      "id": 1347,
+                      "id": 1490,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1346,
+                        "id": 1489,
                         "name": "_sellerAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1340,
-                        "src": "699:14:7",
+                        "referencedDeclaration": 1483,
+                        "src": "805:14:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2093,51 +2093,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "682:32:7",
+                      "src": "788:32:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_ProductInfo_$1308_storage",
+                        "typeIdentifier": "t_struct$_ProductInfo_$1451_storage",
                         "typeString": "struct ProductStorage.ProductInfo storage ref"
                       }
                     },
-                    "id": 1348,
+                    "id": 1491,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "netSellPrice",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1299,
-                    "src": "682:45:7",
+                    "referencedDeclaration": 1442,
+                    "src": "788:45:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 1344,
-                  "id": 1349,
+                  "functionReturnParameters": 1487,
+                  "id": 1492,
                   "nodeType": "Return",
-                  "src": "675:52:7"
+                  "src": "781:52:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 1351,
+            "id": 1494,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getNetSellPrice",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1341,
+              "id": 1484,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1340,
+                  "id": 1483,
                   "name": "_sellerAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1351,
-                  "src": "612:22:7",
+                  "scope": 1494,
+                  "src": "718:22:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2145,10 +2145,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1339,
+                    "id": 1482,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "612:7:7",
+                    "src": "718:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2159,19 +2159,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "611:24:7"
+              "src": "717:24:9"
             },
             "returnParameters": {
-              "id": 1344,
+              "id": 1487,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1343,
+                  "id": 1486,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1351,
-                  "src": "657:7:7",
+                  "scope": 1494,
+                  "src": "763:7:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2179,10 +2179,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1342,
+                    "id": 1485,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "657:7:7",
+                    "src": "763:7:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2192,19 +2192,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "656:9:7"
+              "src": "762:9:9"
             },
-            "scope": 1404,
-            "src": "587:147:7",
+            "scope": 1547,
+            "src": "693:147:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1363,
+              "id": 1506,
               "nodeType": "Block",
-              "src": "807:60:7",
+              "src": "913:60:9",
               "statements": [
                 {
                   "expression": {
@@ -2213,26 +2213,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1358,
+                        "id": 1501,
                         "name": "addressToProduct",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1312,
-                        "src": "824:16:7",
+                        "referencedDeclaration": 1455,
+                        "src": "930:16:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                           "typeString": "mapping(address => struct ProductStorage.ProductInfo storage ref)"
                         }
                       },
-                      "id": 1360,
+                      "id": 1503,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1359,
+                        "id": 1502,
                         "name": "_sellerAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1353,
-                        "src": "841:14:7",
+                        "referencedDeclaration": 1496,
+                        "src": "947:14:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2243,51 +2243,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "824:32:7",
+                      "src": "930:32:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_ProductInfo_$1308_storage",
+                        "typeIdentifier": "t_struct$_ProductInfo_$1451_storage",
                         "typeString": "struct ProductStorage.ProductInfo storage ref"
                       }
                     },
-                    "id": 1361,
+                    "id": 1504,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "VAT",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1301,
-                    "src": "824:36:7",
+                    "referencedDeclaration": 1444,
+                    "src": "930:36:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
                     }
                   },
-                  "functionReturnParameters": 1357,
-                  "id": 1362,
+                  "functionReturnParameters": 1500,
+                  "id": 1505,
                   "nodeType": "Return",
-                  "src": "817:43:7"
+                  "src": "923:43:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 1364,
+            "id": 1507,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getVAT",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1354,
+              "id": 1497,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1353,
+                  "id": 1496,
                   "name": "_sellerAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1364,
-                  "src": "756:22:7",
+                  "scope": 1507,
+                  "src": "862:22:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2295,10 +2295,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1352,
+                    "id": 1495,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "756:7:7",
+                    "src": "862:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2309,19 +2309,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "755:24:7"
+              "src": "861:24:9"
             },
             "returnParameters": {
-              "id": 1357,
+              "id": 1500,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1356,
+                  "id": 1499,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1364,
-                  "src": "801:5:7",
+                  "scope": 1507,
+                  "src": "907:5:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2329,10 +2329,10 @@
                     "typeString": "uint8"
                   },
                   "typeName": {
-                    "id": 1355,
+                    "id": 1498,
                     "name": "uint8",
                     "nodeType": "ElementaryTypeName",
-                    "src": "801:5:7",
+                    "src": "907:5:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
@@ -2342,19 +2342,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "800:7:7"
+              "src": "906:7:9"
             },
-            "scope": 1404,
-            "src": "740:127:7",
+            "scope": 1547,
+            "src": "846:127:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1376,
+              "id": 1519,
               "nodeType": "Block",
-              "src": "956:68:7",
+              "src": "1062:68:9",
               "statements": [
                 {
                   "expression": {
@@ -2363,26 +2363,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1371,
+                        "id": 1514,
                         "name": "addressToProduct",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1312,
-                        "src": "973:16:7",
+                        "referencedDeclaration": 1455,
+                        "src": "1079:16:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                           "typeString": "mapping(address => struct ProductStorage.ProductInfo storage ref)"
                         }
                       },
-                      "id": 1373,
+                      "id": 1516,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1372,
+                        "id": 1515,
                         "name": "_sellerAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1366,
-                        "src": "990:14:7",
+                        "referencedDeclaration": 1509,
+                        "src": "1096:14:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2393,51 +2393,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "973:32:7",
+                      "src": "1079:32:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_ProductInfo_$1308_storage",
+                        "typeIdentifier": "t_struct$_ProductInfo_$1451_storage",
                         "typeString": "struct ProductStorage.ProductInfo storage ref"
                       }
                     },
-                    "id": 1374,
+                    "id": 1517,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "description",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1303,
-                    "src": "973:44:7",
+                    "referencedDeclaration": 1446,
+                    "src": "1079:44:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "functionReturnParameters": 1370,
-                  "id": 1375,
+                  "functionReturnParameters": 1513,
+                  "id": 1518,
                   "nodeType": "Return",
-                  "src": "966:51:7"
+                  "src": "1072:51:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 1377,
+            "id": 1520,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getDescription",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1367,
+              "id": 1510,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1366,
+                  "id": 1509,
                   "name": "_sellerAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1377,
-                  "src": "897:22:7",
+                  "scope": 1520,
+                  "src": "1003:22:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2445,10 +2445,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1365,
+                    "id": 1508,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "897:7:7",
+                    "src": "1003:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2459,19 +2459,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "896:24:7"
+              "src": "1002:24:9"
             },
             "returnParameters": {
-              "id": 1370,
+              "id": 1513,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1369,
+                  "id": 1512,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1377,
-                  "src": "942:13:7",
+                  "scope": 1520,
+                  "src": "1048:13:9",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -2479,10 +2479,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 1368,
+                    "id": 1511,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "942:6:7",
+                    "src": "1048:6:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -2492,19 +2492,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "941:15:7"
+              "src": "1047:15:9"
             },
-            "scope": 1404,
-            "src": "873:151:7",
+            "scope": 1547,
+            "src": "979:151:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1389,
+              "id": 1532,
               "nodeType": "Block",
-              "src": "1102:66:7",
+              "src": "1208:66:9",
               "statements": [
                 {
                   "expression": {
@@ -2513,26 +2513,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1384,
+                        "id": 1527,
                         "name": "addressToProduct",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1312,
-                        "src": "1119:16:7",
+                        "referencedDeclaration": 1455,
+                        "src": "1225:16:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                           "typeString": "mapping(address => struct ProductStorage.ProductInfo storage ref)"
                         }
                       },
-                      "id": 1386,
+                      "id": 1529,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1385,
+                        "id": 1528,
                         "name": "_sellerAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1379,
-                        "src": "1136:14:7",
+                        "referencedDeclaration": 1522,
+                        "src": "1242:14:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2543,51 +2543,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1119:32:7",
+                      "src": "1225:32:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_ProductInfo_$1308_storage",
+                        "typeIdentifier": "t_struct$_ProductInfo_$1451_storage",
                         "typeString": "struct ProductStorage.ProductInfo storage ref"
                       }
                     },
-                    "id": 1387,
+                    "id": 1530,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "available",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1305,
-                    "src": "1119:42:7",
+                    "referencedDeclaration": 1448,
+                    "src": "1225:42:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 1383,
-                  "id": 1388,
+                  "functionReturnParameters": 1526,
+                  "id": 1531,
                   "nodeType": "Return",
-                  "src": "1112:49:7"
+                  "src": "1218:49:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 1390,
+            "id": 1533,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getAvailable",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1380,
+              "id": 1523,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1379,
+                  "id": 1522,
                   "name": "_sellerAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1390,
-                  "src": "1052:22:7",
+                  "scope": 1533,
+                  "src": "1158:22:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2595,10 +2595,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1378,
+                    "id": 1521,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1052:7:7",
+                    "src": "1158:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2609,19 +2609,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1051:24:7"
+              "src": "1157:24:9"
             },
             "returnParameters": {
-              "id": 1383,
+              "id": 1526,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1382,
+                  "id": 1525,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1390,
-                  "src": "1097:4:7",
+                  "scope": 1533,
+                  "src": "1203:4:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2629,10 +2629,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1381,
+                    "id": 1524,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1097:4:7",
+                    "src": "1203:4:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2642,19 +2642,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1096:6:7"
+              "src": "1202:6:9"
             },
-            "scope": 1404,
-            "src": "1030:138:7",
+            "scope": 1547,
+            "src": "1136:138:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 1402,
+              "id": 1545,
               "nodeType": "Block",
-              "src": "1249:62:7",
+              "src": "1355:62:9",
               "statements": [
                 {
                   "expression": {
@@ -2663,26 +2663,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 1397,
+                        "id": 1540,
                         "name": "addressToProduct",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1312,
-                        "src": "1266:16:7",
+                        "referencedDeclaration": 1455,
+                        "src": "1372:16:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1308_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_ProductInfo_$1451_storage_$",
                           "typeString": "mapping(address => struct ProductStorage.ProductInfo storage ref)"
                         }
                       },
-                      "id": 1399,
+                      "id": 1542,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 1398,
+                        "id": 1541,
                         "name": "_sellerAddress",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1392,
-                        "src": "1283:14:7",
+                        "referencedDeclaration": 1535,
+                        "src": "1389:14:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2693,51 +2693,51 @@
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "IndexAccess",
-                      "src": "1266:32:7",
+                      "src": "1372:32:9",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_ProductInfo_$1308_storage",
+                        "typeIdentifier": "t_struct$_ProductInfo_$1451_storage",
                         "typeString": "struct ProductStorage.ProductInfo storage ref"
                       }
                     },
-                    "id": 1400,
+                    "id": 1543,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "valid",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 1307,
-                    "src": "1266:38:7",
+                    "referencedDeclaration": 1450,
+                    "src": "1372:38:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 1396,
-                  "id": 1401,
+                  "functionReturnParameters": 1539,
+                  "id": 1544,
                   "nodeType": "Return",
-                  "src": "1259:45:7"
+                  "src": "1365:45:9"
                 }
               ]
             },
             "documentation": null,
-            "id": 1403,
+            "id": 1546,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getValidProduct",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1393,
+              "id": 1536,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1392,
+                  "id": 1535,
                   "name": "_sellerAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1403,
-                  "src": "1199:22:7",
+                  "scope": 1546,
+                  "src": "1305:22:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2745,10 +2745,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1391,
+                    "id": 1534,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1199:7:7",
+                    "src": "1305:7:9",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2759,19 +2759,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1198:24:7"
+              "src": "1304:24:9"
             },
             "returnParameters": {
-              "id": 1396,
+              "id": 1539,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1395,
+                  "id": 1538,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1403,
-                  "src": "1244:4:7",
+                  "scope": 1546,
+                  "src": "1350:4:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2779,10 +2779,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1394,
+                    "id": 1537,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1244:4:7",
+                    "src": "1350:4:9",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2792,28 +2792,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1243:6:7"
+              "src": "1349:6:9"
             },
-            "scope": 1404,
-            "src": "1174:137:7",
+            "scope": 1547,
+            "src": "1280:137:9",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 1405,
-        "src": "25:1289:7"
+        "scope": 1548,
+        "src": "25:1395:9"
       }
     ],
-    "src": "0:1315:7"
+    "src": "0:1421:9"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+    "version": "0.5.4+commit.9549d8ff.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.1",
-  "updatedAt": "2019-03-20T17:57:10.830Z",
+  "schemaVersion": "3.0.0-beta.2",
+  "updatedAt": "2019-03-21T10:47:50.947Z",
   "devdoc": {
     "methods": {}
   },
