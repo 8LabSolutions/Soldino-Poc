@@ -39,4 +39,35 @@ contract("Proxy", (accounts) => {
         assert.equal("0x0010000000000000000000000000000000000000000000000000000000000000",value)
 
     })
+
+})
+
+contract("Escrow", (accounts) => {
+  var token = getInstance('TokenERC20', accounts[2])
+  var escrow = getInstance('Escrow', accounts[2])
+
+  it("should transfer cubit to the escrow contract", async () => {
+      const tokenIns = await token.deploy({arguments: [100000,"CC","Cubit",accounts[3]]}).send({from: accounts[3]})
+      const escrowIns = await escrow.deploy({arguments: [tokenIns.options.address]}).send()
+
+
+      let res = await tokenIns.methods.balanceOf(accounts[3]).call()
+      console.log(res)
+      let result = await tokenIns.methods.approveAndCall(escrowIns.options.address,9999,"0x4920686176652031303021000000000000000000000000000000000000000000").send({from: accounts[3]})
+
+      assert(result, true)
+      res = await tokenIns.methods.balanceOf(accounts[3]).call()
+      assert(res, 90001)
+
+      res = await tokenIns.methods.balanceOf(escrowIns.options.address).call()
+      assert(res, 9999)
+
+      await escrowIns.methods.confirmBuy(accounts[5], 9999).send({from: accounts[3]})
+
+      res = await tokenIns.methods.balanceOf(escrowIns.options.address).call()
+      assert(res, 0)
+
+      res = await tokenIns.methods.balanceOf(accounts[5]).call()
+      assert(res, 9999)
+  })
 })
