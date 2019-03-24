@@ -19,7 +19,7 @@ contract("UserStorage", (accounts) => {
   });
 
   it("should check if user 9 is registered", function(){
-    return userStorageInstance.getUserType(accounts[9]).then(function(type){
+    return userStorageInstance.getUserType.call(accounts[9]).then(function(type){
       assert.equal(
         type,
         3,
@@ -30,7 +30,7 @@ contract("UserStorage", (accounts) => {
 
   it("should insert a new citizen and get check its type is correct", () => {
     return userStorageInstance.addUser(accounts[1], 1).then(function(){
-      return userStorageInstance.getUserType(accounts[1]).then(function(type){
+      return userStorageInstance.getUserType.call(accounts[1]).then(function(type){
         assert.equal(
           type,
           1,

@@ -24,6 +24,7 @@ jobs:
         - ganache-cli -p 9545 > /dev/null &
         - sleep 5
         - truffle migrate --reset
+        - npm run coverage && cat coverage/lcov.info | coveralls
       deploy:
         provider: surge
         skip_cleanup: true

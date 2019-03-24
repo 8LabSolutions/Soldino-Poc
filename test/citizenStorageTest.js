@@ -33,15 +33,14 @@ contract("CitizenStorage", (accounts) =>  {
     }).then(function(){
       return citizenStorageInstance.setActive(CITIZEN, true, {from: GOVERNMENT});
     }).then(function(){
-      return citizenStorageInstance.getName(CITIZEN).then((_name)=>{
+      return citizenStorageInstance.getName.call(CITIZEN).then((ris) => {
         assert.equal(
-          _name,
-          name,
-         "The name has not been setted correctly"
+          ris,
+          name
        )
       })
     }).then(() => {
-        return citizenStorageInstance.getSurname(CITIZEN).then((_surname)=>{
+        return citizenStorageInstance.getSurname.call(CITIZEN).then((_surname)=>{
           assert.equal(
             _surname,
             surname,
@@ -49,7 +48,7 @@ contract("CitizenStorage", (accounts) =>  {
          )
       })
     }).then(()=>{
-      return citizenStorageInstance.getEmail(CITIZEN).then((_email)=>{
+      return citizenStorageInstance.getEmail.call(CITIZEN).then((_email)=>{
         assert.equal(
           _email,
           email,
@@ -57,7 +56,7 @@ contract("CitizenStorage", (accounts) =>  {
         )
       })
     }).then(()=>{
-      return citizenStorageInstance.getDeliveryAddress(CITIZEN).then((_deliveryAddress)=>{
+      return citizenStorageInstance.getDeliveryAddress.call(CITIZEN).then((_deliveryAddress)=>{
         assert.equal(
           _deliveryAddress,
           deliveryAddress,
@@ -68,14 +67,14 @@ contract("CitizenStorage", (accounts) =>  {
   });
 
   it("should check that the government can actually disable a citizen account", () => {
-    return citizenStorageInstance.getActive(CITIZEN).then((active) => {
+    return citizenStorageInstance.getActive.call(CITIZEN).then((active) => {
       assert.equal(
         active,
         true,
         "The citizen is disabled"
       );
       return citizenStorageInstance.setActive(CITIZEN, false, {from: GOVERNMENT}).then(()=>{
-        return citizenStorageInstance.getActive(CITIZEN).then((active)=>{
+        return citizenStorageInstance.getActive.call(CITIZEN).then((active)=>{
           assert.equal(
             active,
             false,
