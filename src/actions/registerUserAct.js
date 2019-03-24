@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import setWeb3 from './setWeb3'
+/*import setWeb3 from './setWeb3'
 import store from '../store/index'
 import  Proxy  from '../contracts_build/Proxy';
 
@@ -35,3 +35,4 @@ export default function registerUserAction(email, addressB, VATNumber, name) {
   })
 }
 
+*/

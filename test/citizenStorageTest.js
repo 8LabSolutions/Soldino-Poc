@@ -1,0 +1,98 @@
+const ContractManager = artifacts.require("ContractManager");
+const CitizenStorage = artifacts.require("CitizenStorage");
+
+contract("CitizenStorage", (accounts) =>  {
+  var contractManagerInstance;
+  var citizenStorageInstance;
+  const CITIZEN = accounts[3];
+  const GOVERNMENT = accounts[9];
+
+  before(() => {
+    return ContractManager.deployed().then(function(_contractManagerInstance){
+      contractManagerInstance = _contractManagerInstance;
+      return CitizenStorage.deployed(contractManagerInstance.getUserStorageAddress())
+      .then(function(_userStorageInstance){
+        citizenStorageInstance = _userStorageInstance;
+      })
+    })
+  });
+
+  it("should check if the data are correctly saved", async () => {
+    var name = "8Lab";
+    var surname = "Solutions";
+    var email = "8LabSolutions@gmail.com";
+    var deliveryAddress = "Via Esempio, 8, Paese, 12345";
+
+    return citizenStorageInstance.setName(CITIZEN, name)
+    .then(function(){
+      return citizenStorageInstance.setSurname(CITIZEN, surname);
+    }).then(function(){
+      return citizenStorageInstance.setEmail(CITIZEN, email);
+    }).then(function(){
+      return citizenStorageInstance.setDeliveryAddress(CITIZEN, deliveryAddress);
+    }).then(function(){
+      return citizenStorageInstance.setActive(CITIZEN, true, {from: GOVERNMENT});
+    }).then(function(){
+      return citizenStorageInstance.getName(CITIZEN).then((_name)=>{
+        assert.equal(
+          _name,
+          name,
+         "The name has not been setted correctly"
+       )
+      })
+    }).then(() => {
+        return citizenStorageInstance.getSurname(CITIZEN).then((_surname)=>{
+          assert.equal(
+            _surname,
+            surname,
+           "The surname has not been setted correctly"
+         )
+      })
+    }).then(()=>{
+      return citizenStorageInstance.getEmail(CITIZEN).then((_email)=>{
+        assert.equal(
+          _email,
+          email,
+          "The email has not been setted correctly"
+        )
+      })
+    }).then(()=>{
+      return citizenStorageInstance.getDeliveryAddress(CITIZEN).then((_deliveryAddress)=>{
+        assert.equal(
+          _deliveryAddress,
+          deliveryAddress,
+          "The email has not been setted correctly"
+        )
+      })
+    })
+  });
+
+  it("should check that the government can actually disable a citizen account", () => {
+    return citizenStorageInstance.getActive(CITIZEN).then((active) => {
+      assert.equal(
+        active,
+        true,
+        "The citizen is disabled"
+      );
+      return citizenStorageInstance.setActive(CITIZEN, false, {from: GOVERNMENT}).then(()=>{
+        return citizenStorageInstance.getActive(CITIZEN).then((active)=>{
+          assert.equal(
+            active,
+            false,
+            "Disabling went wrong"
+          );
+        });
+      });
+    });
+  });
+  /*
+  it("should revert because the caller is not the government", async () =>{
+    ContractManager.deployed().then( async (_contractManager) => {
+      contractManager = _contractManager;
+      citizenStorage = CitizenStorage(await contractManager.getCitizenStorageAddress());
+    })
+    let ris = citizenStorage.setActive(CITIZEN, false, {from: accounts[5]});
+    assert.isFalse(ris, "should have been false");
+  })
+*/
+});
