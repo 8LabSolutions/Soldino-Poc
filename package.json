@@ -23,6 +23,7 @@
     "@types/react-text-mask": "^5.4.4",
     "commondir": "^1.0.1",
     "history": "^4.7.2",
+    "ipfs-mini": "^1.1.5",
     "nyc": "^13.3.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.3",

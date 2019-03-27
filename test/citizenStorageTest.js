@@ -84,6 +84,24 @@ contract("CitizenStorage", (accounts) =>  {
       });
     });
   });
+  it("should test IPFS", () =>{
+    const IPFS = require('ipfs-mini');
+    const ipfs = new IPFS({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' });
+    var ilMioJSON = {name:"Palla", costo:13.13};
+    var hash;
+    return ipfs.addJSON(ilMioJSON).then((ris)=>{
+      hash= ris;
+      return ipfs.catJSON(hash).then((_ris2)=>{
+        var ris2 = _ris2;
+        assert.equal(
+          ilMioJSON.name,
+          ris2.name,
+          "avrebbero dovuto essere uguali"
+        )
+      })
+    })
+
+  });
   /*
   it("should revert because the caller is not the government", async () =>{
     ContractManager.deployed().then( async (_contractManager) => {
