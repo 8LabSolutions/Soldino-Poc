@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
 
-import "./TokenCubit.sol";
+import "./storage/TokenCubit.sol";
 
 contract Escrow is tokenRecipient{
     // accounts who have sent cubit to the contract
