@@ -1,20 +1,46 @@
 {
-  "contractName": "UserData",
+  "contractName": "Government",
   "abi": [
     {
       "inputs": [
         {
-          "name": "_contractManagerAddress",
+          "name": "_governmentAddress",
           "type": "address"
         }
       ],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "constructor"
+      "type": "constructor",
+      "signature": "constructor"
     }
   ],
+<<<<<<< HEAD:src/contracts_build/UserData.json
   "bytecode": "0x6080604052348015600f57600080fd5b5060405160208060c183398101806040526020811015602d57600080fd5b8101908080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050603580608c6000396000f3fe6080604052600080fdfea165627a7a7230582074f073ddf78af2e8f806267d9768a409f8da9c538f0ee624b29db3c6cd93ec7d0029",
   "deployedBytecode": "0x6080604052600080fdfea165627a7a7230582074f073ddf78af2e8f806267d9768a409f8da9c538f0ee624b29db3c6cd93ec7d0029",
+=======
+<<<<<<< HEAD:src/contracts_build/Government.json
+  "bytecode": "0x6080604052348015600f57600080fd5b5060405160208060c183398101806040526020811015602d57600080fd5b8101908080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050603580608c6000396000f3fe6080604052600080fdfea165627a7a72305820d1c1abf5be563b87e1570bc746dd2af7cdb324a6b50d42bc76b789fc9259bda30029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820d1c1abf5be563b87e1570bc746dd2af7cdb324a6b50d42bc76b789fc9259bda30029",
+  "sourceMap": "25:298:4:-;;;78:97;8:9:-1;5:2;;;30:1;27;20:12;5:2;78:97:4;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;78:97:4;;;;;;;;;;;;;;;;150:18;135:12;;:33;;;;;;;;;;;;;;;;;;78:97;25:298;;;;;;",
+  "deployedSourceMap": "25:298:4:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\ncontract Government {\n    address ownerAddress;\n\n    constructor(address _governmentAddress) public {\n        ownerAddress = _governmentAddress;\n    }\n\n    modifier onlyOwner() {\n        require(msg.sender == ownerAddress, \"Only the government can use the Government contract\");\n        _;\n    }\n\n}\n",
+  "sourcePath": "/home/samuele/Desktop/Soldino-PoC/contracts/Government.sol",
+  "ast": {
+    "absolutePath": "/home/samuele/Desktop/Soldino-PoC/contracts/Government.sol",
+    "exportedSymbols": {
+      "Government": [
+        766
+      ]
+    },
+    "id": 767,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 741,
+=======
+  "bytecode": "0x6080604052348015600f57600080fd5b5060405160208060c183398101806040526020811015602d57600080fd5b8101908080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050603580608c6000396000f3fe6080604052600080fdfea165627a7a72305820614a63d3b02de7d4d1187b212bc6e7e7627c3f033507dd89b31f3fc63ee517f90029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820614a63d3b02de7d4d1187b212bc6e7e7627c3f033507dd89b31f3fc63ee517f90029",
+>>>>>>> develop:src/contracts_build/Government.json
   "sourceMap": "57:594:5:-;;;529:118;8:9:-1;5:2;;;30:1;27;20:12;5:2;529:118:5;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;529:118:5;;;;;;;;;;;;;;;;617:23;592:22;;:48;;;;;;;;;;;;;;;;;;529:118;57:594;;;;;;",
   "deployedSourceMap": "57:594:5:-;;;;;",
   "source": "pragma solidity ^0.5.0;\nimport \"./ContractManager.sol\";\n\ncontract UserData {\n    //the manager from which the contract will get the contracts addresses\n    address contractManagerAddress;\n\n    struct User {\n        uint8 userType; //1: citizen, 2: business, 3: government\n        bool isUser; //check if it is already registered\n        bytes32 emailAddress;\n        bytes32 shippingAddress;\n    }\n    //mapping containing all the registered users\n    mapping(address => User) users;\n    //setting the contractManagerAddress\n    constructor (address _contractManagerAddress) public {\n        contractManagerAddress = _contractManagerAddress;\n    }\n\n\n}\n",
@@ -31,6 +57,7 @@
     "nodes": [
       {
         "id": 392,
+>>>>>>> develop:src/contracts_build/UserData.json
         "literals": [
           "solidity",
           "^",
@@ -38,6 +65,9 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
+<<<<<<< HEAD:src/contracts_build/Government.json
+        "src": "0:23:4"
+=======
         "src": "0:23:5"
       },
       {
@@ -50,6 +80,7 @@
         "src": "24:31:5",
         "symbolAliases": [],
         "unitAlias": ""
+>>>>>>> develop:src/contracts_build/UserData.json
       },
       {
         "baseContracts": [],
@@ -57,20 +88,34 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
+<<<<<<< HEAD:src/contracts_build/Government.json
+        "id": 766,
+        "linearizedBaseContracts": [
+          766
+=======
         "id": 419,
         "linearizedBaseContracts": [
           419
+>>>>>>> develop:src/contracts_build/UserData.json
         ],
-        "name": "UserData",
+        "name": "Government",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
+<<<<<<< HEAD:src/contracts_build/Government.json
+            "id": 743,
+            "name": "ownerAddress",
+            "nodeType": "VariableDeclaration",
+            "scope": 766,
+            "src": "51:20:4",
+=======
             "id": 395,
             "name": "contractManagerAddress",
             "nodeType": "VariableDeclaration",
             "scope": 419,
             "src": "156:30:5",
+>>>>>>> develop:src/contracts_build/UserData.json
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -78,10 +123,14 @@
               "typeString": "address"
             },
             "typeName": {
+<<<<<<< HEAD:src/contracts_build/Government.json
+              "id": 742,
+=======
               "id": 394,
+>>>>>>> develop:src/contracts_build/UserData.json
               "name": "address",
               "nodeType": "ElementaryTypeName",
-              "src": "156:7:5",
+              "src": "51:7:4",
               "stateMutability": "nonpayable",
               "typeDescriptions": {
                 "typeIdentifier": "t_address",
@@ -92,6 +141,10 @@
             "visibility": "internal"
           },
           {
+<<<<<<< HEAD:src/contracts_build/Government.json
+            "body": {
+              "id": 752,
+=======
             "canonicalName": "UserData.User",
             "id": 404,
             "members": [
@@ -256,25 +309,39 @@
           {
             "body": {
               "id": 417,
+>>>>>>> develop:src/contracts_build/UserData.json
               "nodeType": "Block",
-              "src": "582:65:5",
+              "src": "125:50:4",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
+<<<<<<< HEAD:src/contracts_build/Government.json
+                    "id": 750,
+=======
                     "id": 415,
+>>>>>>> develop:src/contracts_build/UserData.json
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
+<<<<<<< HEAD:src/contracts_build/Government.json
+                      "id": 748,
+                      "name": "ownerAddress",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 743,
+                      "src": "135:12:4",
+=======
                       "id": 413,
                       "name": "contractManagerAddress",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 395,
                       "src": "592:22:5",
+>>>>>>> develop:src/contracts_build/UserData.json
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -284,47 +351,76 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
+<<<<<<< HEAD:src/contracts_build/Government.json
+                      "id": 749,
+                      "name": "_governmentAddress",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 745,
+                      "src": "150:18:4",
+=======
                       "id": 414,
                       "name": "_contractManagerAddress",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 410,
                       "src": "617:23:5",
+>>>>>>> develop:src/contracts_build/UserData.json
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "src": "592:48:5",
+                    "src": "135:33:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
+<<<<<<< HEAD:src/contracts_build/Government.json
+                  "id": 751,
+=======
                   "id": 416,
+>>>>>>> develop:src/contracts_build/UserData.json
                   "nodeType": "ExpressionStatement",
-                  "src": "592:48:5"
+                  "src": "135:33:4"
                 }
               ]
             },
             "documentation": null,
+<<<<<<< HEAD:src/contracts_build/Government.json
+            "id": 753,
+=======
             "id": 418,
+>>>>>>> develop:src/contracts_build/UserData.json
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
+<<<<<<< HEAD:src/contracts_build/Government.json
+              "id": 746,
+=======
               "id": 411,
+>>>>>>> develop:src/contracts_build/UserData.json
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD:src/contracts_build/Government.json
+                  "id": 745,
+                  "name": "_governmentAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 753,
+                  "src": "90:26:4",
+=======
                   "id": 410,
                   "name": "_contractManagerAddress",
                   "nodeType": "VariableDeclaration",
                   "scope": 418,
                   "src": "542:31:5",
+>>>>>>> develop:src/contracts_build/UserData.json
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -332,10 +428,14 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD:src/contracts_build/Government.json
+                    "id": 744,
+=======
                     "id": 409,
+>>>>>>> develop:src/contracts_build/UserData.json
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "542:7:5",
+                    "src": "90:7:4",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -346,29 +446,213 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "541:33:5"
+              "src": "89:28:4"
             },
             "returnParameters": {
+<<<<<<< HEAD:src/contracts_build/Government.json
+              "id": 747,
+=======
               "id": 412,
+>>>>>>> develop:src/contracts_build/UserData.json
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "582:0:5"
+              "src": "125:0:4"
             },
+<<<<<<< HEAD:src/contracts_build/Government.json
+            "scope": 766,
+            "src": "78:97:4",
+=======
             "scope": 419,
             "src": "529:118:5",
+>>>>>>> develop:src/contracts_build/UserData.json
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 764,
+              "nodeType": "Block",
+              "src": "202:118:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        "id": 759,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 756,
+                            "name": "msg",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 1483,
+                            "src": "220:3:4",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_message",
+                              "typeString": "msg"
+                            }
+                          },
+                          "id": 757,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "sender",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "220:10:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address_payable",
+                            "typeString": "address payable"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "==",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "id": 758,
+                          "name": "ownerAddress",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 743,
+                          "src": "234:12:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "src": "220:26:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "4f6e6c792074686520676f7665726e6d656e742063616e207573652074686520476f7665726e6d656e7420636f6e7472616374",
+                        "id": 760,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "248:53:4",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_4eceb99d2a6890da4bc0a052890edadda80d103a3069ce40de9bd33f429e4461",
+                          "typeString": "literal_string \"Only the government can use the Government contract\""
+                        },
+                        "value": "Only the government can use the Government contract"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_4eceb99d2a6890da4bc0a052890edadda80d103a3069ce40de9bd33f429e4461",
+                          "typeString": "literal_string \"Only the government can use the Government contract\""
+                        }
+                      ],
+                      "id": 755,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        1486,
+                        1487
+                      ],
+                      "referencedDeclaration": 1487,
+                      "src": "212:7:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 761,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "212:90:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 762,
+                  "nodeType": "ExpressionStatement",
+                  "src": "212:90:4"
+                },
+                {
+                  "id": 763,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "312:1:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 765,
+            "name": "onlyOwner",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 754,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "199:2:4"
+            },
+            "src": "181:139:4",
+            "visibility": "internal"
           }
         ],
+<<<<<<< HEAD:src/contracts_build/Government.json
+        "scope": 767,
+        "src": "25:298:4"
+=======
         "scope": 420,
         "src": "57:594:5"
+>>>>>>> develop:src/contracts_build/UserData.json
       }
     ],
-    "src": "0:652:5"
+    "src": "0:324:4"
   },
   "legacyAST": {
+<<<<<<< HEAD:src/contracts_build/UserData.json
     "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/UserData.sol",
+=======
+<<<<<<< HEAD:src/contracts_build/Government.json
+    "absolutePath": "/home/samuele/Desktop/Soldino-PoC/contracts/Government.sol",
+    "exportedSymbols": {
+      "Government": [
+        766
+      ]
+    },
+    "id": 767,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 741,
+=======
+    "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/UserData.sol",
+>>>>>>> develop:src/contracts_build/Government.json
     "exportedSymbols": {
       "UserData": [
         419
@@ -379,6 +663,7 @@
     "nodes": [
       {
         "id": 392,
+>>>>>>> develop:src/contracts_build/UserData.json
         "literals": [
           "solidity",
           "^",
@@ -386,6 +671,9 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
+<<<<<<< HEAD:src/contracts_build/Government.json
+        "src": "0:23:4"
+=======
         "src": "0:23:5"
       },
       {
@@ -398,6 +686,7 @@
         "src": "24:31:5",
         "symbolAliases": [],
         "unitAlias": ""
+>>>>>>> develop:src/contracts_build/UserData.json
       },
       {
         "baseContracts": [],
@@ -405,20 +694,34 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
+<<<<<<< HEAD:src/contracts_build/Government.json
+        "id": 766,
+        "linearizedBaseContracts": [
+          766
+=======
         "id": 419,
         "linearizedBaseContracts": [
           419
+>>>>>>> develop:src/contracts_build/UserData.json
         ],
-        "name": "UserData",
+        "name": "Government",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
+<<<<<<< HEAD:src/contracts_build/Government.json
+            "id": 743,
+            "name": "ownerAddress",
+            "nodeType": "VariableDeclaration",
+            "scope": 766,
+            "src": "51:20:4",
+=======
             "id": 395,
             "name": "contractManagerAddress",
             "nodeType": "VariableDeclaration",
             "scope": 419,
             "src": "156:30:5",
+>>>>>>> develop:src/contracts_build/UserData.json
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -426,10 +729,14 @@
               "typeString": "address"
             },
             "typeName": {
+<<<<<<< HEAD:src/contracts_build/Government.json
+              "id": 742,
+=======
               "id": 394,
+>>>>>>> develop:src/contracts_build/UserData.json
               "name": "address",
               "nodeType": "ElementaryTypeName",
-              "src": "156:7:5",
+              "src": "51:7:4",
               "stateMutability": "nonpayable",
               "typeDescriptions": {
                 "typeIdentifier": "t_address",
@@ -440,6 +747,10 @@
             "visibility": "internal"
           },
           {
+<<<<<<< HEAD:src/contracts_build/Government.json
+            "body": {
+              "id": 752,
+=======
             "canonicalName": "UserData.User",
             "id": 404,
             "members": [
@@ -604,25 +915,39 @@
           {
             "body": {
               "id": 417,
+>>>>>>> develop:src/contracts_build/UserData.json
               "nodeType": "Block",
-              "src": "582:65:5",
+              "src": "125:50:4",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
+<<<<<<< HEAD:src/contracts_build/Government.json
+                    "id": 750,
+=======
                     "id": 415,
+>>>>>>> develop:src/contracts_build/UserData.json
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
+<<<<<<< HEAD:src/contracts_build/Government.json
+                      "id": 748,
+                      "name": "ownerAddress",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 743,
+                      "src": "135:12:4",
+=======
                       "id": 413,
                       "name": "contractManagerAddress",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 395,
                       "src": "592:22:5",
+>>>>>>> develop:src/contracts_build/UserData.json
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -632,47 +957,76 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
+<<<<<<< HEAD:src/contracts_build/Government.json
+                      "id": 749,
+                      "name": "_governmentAddress",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 745,
+                      "src": "150:18:4",
+=======
                       "id": 414,
                       "name": "_contractManagerAddress",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 410,
                       "src": "617:23:5",
+>>>>>>> develop:src/contracts_build/UserData.json
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "src": "592:48:5",
+                    "src": "135:33:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
+<<<<<<< HEAD:src/contracts_build/Government.json
+                  "id": 751,
+=======
                   "id": 416,
+>>>>>>> develop:src/contracts_build/UserData.json
                   "nodeType": "ExpressionStatement",
-                  "src": "592:48:5"
+                  "src": "135:33:4"
                 }
               ]
             },
             "documentation": null,
+<<<<<<< HEAD:src/contracts_build/Government.json
+            "id": 753,
+=======
             "id": 418,
+>>>>>>> develop:src/contracts_build/UserData.json
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
+<<<<<<< HEAD:src/contracts_build/Government.json
+              "id": 746,
+=======
               "id": 411,
+>>>>>>> develop:src/contracts_build/UserData.json
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD:src/contracts_build/Government.json
+                  "id": 745,
+                  "name": "_governmentAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 753,
+                  "src": "90:26:4",
+=======
                   "id": 410,
                   "name": "_contractManagerAddress",
                   "nodeType": "VariableDeclaration",
                   "scope": 418,
                   "src": "542:31:5",
+>>>>>>> develop:src/contracts_build/UserData.json
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -680,10 +1034,14 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD:src/contracts_build/Government.json
+                    "id": 744,
+=======
                     "id": 409,
+>>>>>>> develop:src/contracts_build/UserData.json
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "542:7:5",
+                    "src": "90:7:4",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -694,34 +1052,219 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "541:33:5"
+              "src": "89:28:4"
             },
             "returnParameters": {
+<<<<<<< HEAD:src/contracts_build/Government.json
+              "id": 747,
+=======
               "id": 412,
+>>>>>>> develop:src/contracts_build/UserData.json
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "582:0:5"
+              "src": "125:0:4"
             },
+<<<<<<< HEAD:src/contracts_build/Government.json
+            "scope": 766,
+            "src": "78:97:4",
+=======
             "scope": 419,
             "src": "529:118:5",
+>>>>>>> develop:src/contracts_build/UserData.json
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 764,
+              "nodeType": "Block",
+              "src": "202:118:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        "id": 759,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 756,
+                            "name": "msg",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 1483,
+                            "src": "220:3:4",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_message",
+                              "typeString": "msg"
+                            }
+                          },
+                          "id": 757,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "sender",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "220:10:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address_payable",
+                            "typeString": "address payable"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "==",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "id": 758,
+                          "name": "ownerAddress",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 743,
+                          "src": "234:12:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "src": "220:26:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "4f6e6c792074686520676f7665726e6d656e742063616e207573652074686520476f7665726e6d656e7420636f6e7472616374",
+                        "id": 760,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "248:53:4",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_4eceb99d2a6890da4bc0a052890edadda80d103a3069ce40de9bd33f429e4461",
+                          "typeString": "literal_string \"Only the government can use the Government contract\""
+                        },
+                        "value": "Only the government can use the Government contract"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_4eceb99d2a6890da4bc0a052890edadda80d103a3069ce40de9bd33f429e4461",
+                          "typeString": "literal_string \"Only the government can use the Government contract\""
+                        }
+                      ],
+                      "id": 755,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        1486,
+                        1487
+                      ],
+                      "referencedDeclaration": 1487,
+                      "src": "212:7:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 761,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "212:90:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 762,
+                  "nodeType": "ExpressionStatement",
+                  "src": "212:90:4"
+                },
+                {
+                  "id": 763,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "312:1:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 765,
+            "name": "onlyOwner",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 754,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "199:2:4"
+            },
+            "src": "181:139:4",
+            "visibility": "internal"
           }
         ],
+<<<<<<< HEAD:src/contracts_build/Government.json
+        "scope": 767,
+        "src": "25:298:4"
+=======
         "scope": 420,
         "src": "57:594:5"
+>>>>>>> develop:src/contracts_build/UserData.json
       }
     ],
-    "src": "0:652:5"
+    "src": "0:324:4"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+    "version": "0.5.4+commit.9549d8ff.Emscripten.clang"
   },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x10672415891eeCaa78f350fa2b032f0A84b1F618",
+      "transactionHash": "0xf92cf4ae9ede7e3ae3cf6fa75d566b6bdd27dfa1d4861bc6a5b6b2ec946bc145"
+    }
+  },
+<<<<<<< HEAD:src/contracts_build/Government.json
+  "schemaVersion": "3.0.0-beta.2",
+  "updatedAt": "2019-03-29T13:01:34.864Z",
+=======
   "networks": {},
+<<<<<<< HEAD:src/contracts_build/UserData.json
   "schemaVersion": "3.0.1",
   "updatedAt": "2019-03-29T22:00:33.165Z",
+=======
+  "schemaVersion": "3.0.2",
+  "updatedAt": "2019-03-29T20:25:22.219Z",
+>>>>>>> develop:src/contracts_build/UserData.json
+>>>>>>> develop:src/contracts_build/Government.json
   "devdoc": {
     "methods": {}
   },

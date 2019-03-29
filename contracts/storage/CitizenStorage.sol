@@ -1,6 +1,4 @@
 pragma solidity ^0.5.0;
-
-
 /**
   * Created: 2019-03-13
   * Modified: 2019-03-20
@@ -11,10 +9,10 @@ pragma solidity ^0.5.0;
 contract CitizenStorage {
     // The struct defines the characteristics of a citizen user
     struct Citizen {
-        bytes32 email;
-        bytes32 deliveryAddress;
-        bytes32 name;
-        bytes32 surname;
+        string email;
+        string deliveryAddress;
+        string name;
+        string surname;
         bool active;
         uint index;
     }
@@ -31,15 +29,26 @@ contract CitizenStorage {
     */
     mapping(address => Citizen) addressToCitizen;
 
-    function getName(address _userAddress) public view returns (bytes32) {
+    address governmentAddress;
+
+    modifier onlyGovernment() {
+        require(msg.sender == governmentAddress, "Only the government can able/disable users");
+        _;
+    }
+
+    constructor (address _governmentAddress) public {
+        governmentAddress = _governmentAddress;
+    }
+
+    function getName(address _userAddress) public view returns (string memory) {
         return addressToCitizen[_userAddress].name;
     }
 
-    function getEmail(address _userAddress) public view returns (bytes32) {
+    function getEmail(address _userAddress) public view returns (string memory) {
         return addressToCitizen[_userAddress].email;
     }
 
-    function getDeliveryAddressaddress (address _userAddress) public view returns (bytes32) {
+    function getDeliveryAddress(address _userAddress) public view returns (string memory) {
         return addressToCitizen[_userAddress].deliveryAddress;
     }
 
@@ -47,31 +56,31 @@ contract CitizenStorage {
         return addressToCitizen[_userAddress].active;
     }
 
-    function getSurname(address _userAddress) public view returns (bytes32) {
+    function getSurname(address _userAddress) public view returns (string memory) {
         return addressToCitizen[_userAddress].surname;
     }
 
-    function setName(address _userAddress, bytes32 _name) public {
+    function setName(address _userAddress, string memory _name) public {
         addressToCitizen[_userAddress].name = _name;
     }
 
-    function setEmail(address _userAddress, bytes32 _email) public {
+    function setEmail(address _userAddress, string memory _email) public {
         addressToCitizen[_userAddress].email = _email;
     }
 
-    function setSurname(address _userAddress, bytes32 _surname) public {
+    function setSurname(address _userAddress, string memory _surname) public {
         addressToCitizen[_userAddress].surname = _surname;
     }
 
-    function setDeliveryAddress(address _userAddress, bytes32 _devAddress) public {
+    function setDeliveryAddress(address _userAddress, string memory _devAddress) public {
         addressToCitizen[_userAddress].deliveryAddress = _devAddress;
     }
 
-    function setIndex(address _userAddress, uint _index) public {
+    function setIndex(address _userAddress, uint _index) private {
         addressToCitizen[_userAddress].index = _index;
     }
 
-    function setActive(address _userAddress, bool _active) public {
+    function setActive(address _userAddress, bool _active) public onlyGovernment {
         addressToCitizen[_userAddress].active = _active;
     }
 
@@ -84,6 +93,13 @@ contract CitizenStorage {
     }
 
     function pushToCitizenList(address _userAddress) public returns (uint){
-        return citizenList.push(_userAddress) - 1 ;
+        setIndex(_userAddress, citizenList.push(_userAddress) - 1);
     }
+
+    function getCitizenData(address _citizenAddress) public view returns (
+        string memory, string memory, string memory, string memory) {
+        Citizen storage citizen =  addressToCitizen[_citizenAddress];
+        return (citizen.email, citizen.name, citizen.surname, citizen.deliveryAddress);
+    }
+
 }

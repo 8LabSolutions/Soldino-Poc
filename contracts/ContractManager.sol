@@ -1,13 +1,16 @@
 pragma solidity ^0.5.0;
 
 contract ContractManager {
-    address userLogicAddress;
-    address userDataAddress;
-    address citizenLogicAddress;
-    address citizenDataAddress;
-    address ownerAddress;
 
-    constructor() public {
+    address ownerAddress;
+    address citizenLogicAddress;
+    address citizenStorageAddress;
+    address businessLogicAddress;
+    address businessStorageAddress;
+    address userStorageAddress;
+    address governmentAddress;
+
+    constructor () public {
         ownerAddress = msg.sender;
     }
 
@@ -16,36 +19,51 @@ contract ContractManager {
         _;
     }
 
-    function getUserDataAddress() public view returns(address) {
-        return userDataAddress;
+    function getUserStorageAddress() public view returns(address) {
+        return userStorageAddress;
     }
 
-    function getUserLogicAddress() public view returns(address) {
-        return userLogicAddress;
+    function setUserStorageAddress(address _userStorageAddress) public onlyOwner {
+        userStorageAddress = _userStorageAddress;
     }
 
-    function getCitizenDataAddress() public view returns(address) {
-        return citizenDataAddress;
+    function getGovernmentAddress() public view returns(address) {
+        return governmentAddress;
+    }
+
+    function setGovernmentAddress(address _governmentAddress) public onlyOwner {
+        governmentAddress = _governmentAddress;
     }
 
     function getCitizenLogicAddress() public view returns(address) {
         return citizenLogicAddress;
     }
 
-    function setUserDataAddress(address _newUserDataAddress) public onlyOwner {
-        userDataAddress = _newUserDataAddress;
-    }
-
-    function setUserLoginAddress(address _newUserLogicAddress) public onlyOwner {
-        userLogicAddress = _newUserLogicAddress;
-    }
-
-    function setCitizenDataAddress(address _newCitizenDataAddress) public onlyOwner {
-        citizenDataAddress = _newCitizenDataAddress;
-    }
-
     function setCitizenLogicAddress(address _newCitizenLogicAddress) public onlyOwner {
         citizenLogicAddress = _newCitizenLogicAddress;
     }
 
+    function getCitizenStorageAddress() public view returns(address) {
+        return citizenStorageAddress;
+    }
+
+    function setCitizenStorageAddress(address _newCitizenStorageAddress) public onlyOwner {
+        citizenStorageAddress = _newCitizenStorageAddress;
+    }
+
+    function getBusinessLogicAddress() public view returns(address) {
+        return businessLogicAddress;
+    }
+
+    function setBusinessLogicAddress(address _newBusinessLogicAddress) public onlyOwner {
+        businessLogicAddress = _newBusinessLogicAddress;
+    }
+
+    function getBusinessStorageAddress() public view returns(address) {
+        return businessStorageAddress;
+    }
+
+    function setBusinessStorageAddress(address _newBusinessStorageAddress) public onlyOwner {
+        businessStorageAddress = _newBusinessStorageAddress;
+    }
 }

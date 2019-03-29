@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import setWeb3 from './setWeb3'
+/*import setWeb3 from './setWeb3'
 import store from '../store/index'
 
 
@@ -32,7 +32,9 @@ export default function registerUserAction(email, addressB, VATNumber, name) {
         alert("User already registered.")
       }
       */
+     /*
     }
   })
 }
 
+*/
