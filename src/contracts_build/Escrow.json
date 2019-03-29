@@ -112,14 +112,14 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b506040516020806106fb8339810180604052602081101561003057600080fd5b8101908080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505061066a806100916000396000f3fe608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806313381fbf1461006757806380c3f6a3146100cc5780638f4ffcb114610127578063d57498ea146101f7575b600080fd5b34801561007357600080fd5b506100b66004803603602081101561008a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102bc565b6040518082815260200191505060405180910390f35b3480156100d857600080fd5b50610125600480360360408110156100ef57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506102d4565b005b34801561013357600080fd5b506101f56004803603608081101561014a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001906401000000008111156101b157600080fd5b8201836020820111156101c357600080fd5b803590602001918460018302840111640100000000831117156101e557600080fd5b90919293919293905050506104c4565b005b34801561020357600080fd5b506102ba6004803603602081101561021a57600080fd5b810190808035906020019064010000000081111561023757600080fd5b82018360208201111561024957600080fd5b8035906020019184602083028401116401000000008311171561026b57600080fd5b919080806020026020016040519081016040528093929190818152602001838360200280828437600081840152601f19601f82011690508083019250505050505050919291929050505061063b565b005b60016020528060005260406000206000915090505481565b80600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825403925050819055506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b1580156103e557600080fd5b505af11580156103f9573d6000803e3d6000fd5b505050506040513d602081101561040f57600080fd5b8101908080519060200190929190505050507f5a55de23a286149acbcbca3e25d46db29edcdf5a7a08cdcc9c8a28b8e4816865338383604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828152602001935050505060405180910390a15050565b60008390508073ffffffffffffffffffffffffffffffffffffffff166323b872dd8730886040518463ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019350505050602060405180830381600087803b1580156105a057600080fd5b505af11580156105b4573d6000803e3d6000fd5b505050506040513d60208110156105ca57600080fd5b810190808051906020019092919050505015156105e657600080fd5b84600160008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540192505081905550505050505050565b5056fea165627a7a723058206dc811825e44ec99bcd0b3fca4cd34a257beec7b109acba3696a3757be2ab9b80029",
-  "deployedBytecode": "0x608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806313381fbf1461006757806380c3f6a3146100cc5780638f4ffcb114610127578063d57498ea146101f7575b600080fd5b34801561007357600080fd5b506100b66004803603602081101561008a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102bc565b6040518082815260200191505060405180910390f35b3480156100d857600080fd5b50610125600480360360408110156100ef57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506102d4565b005b34801561013357600080fd5b506101f56004803603608081101561014a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001906401000000008111156101b157600080fd5b8201836020820111156101c357600080fd5b803590602001918460018302840111640100000000831117156101e557600080fd5b90919293919293905050506104c4565b005b34801561020357600080fd5b506102ba6004803603602081101561021a57600080fd5b810190808035906020019064010000000081111561023757600080fd5b82018360208201111561024957600080fd5b8035906020019184602083028401116401000000008311171561026b57600080fd5b919080806020026020016040519081016040528093929190818152602001838360200280828437600081840152601f19601f82011690508083019250505050505050919291929050505061063b565b005b60016020528060005260406000206000915090505481565b80600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825403925050819055506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b1580156103e557600080fd5b505af11580156103f9573d6000803e3d6000fd5b505050506040513d602081101561040f57600080fd5b8101908080519060200190929190505050507f5a55de23a286149acbcbca3e25d46db29edcdf5a7a08cdcc9c8a28b8e4816865338383604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828152602001935050505060405180910390a15050565b60008390508073ffffffffffffffffffffffffffffffffffffffff166323b872dd8730886040518463ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019350505050602060405180830381600087803b1580156105a057600080fd5b505af11580156105b4573d6000803e3d6000fd5b505050506040513d60208110156105ca57600080fd5b810190808051906020019092919050505015156105e657600080fd5b84600160008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540192505081905550505050505050565b5056fea165627a7a723058206dc811825e44ec99bcd0b3fca4cd34a257beec7b109acba3696a3757be2ab9b80029",
+  "bytecode": "0x608060405234801561001057600080fd5b506040516020806106fb8339810180604052602081101561003057600080fd5b8101908080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505061066a806100916000396000f3fe608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806313381fbf1461006757806380c3f6a3146100cc5780638f4ffcb114610127578063d57498ea146101f7575b600080fd5b34801561007357600080fd5b506100b66004803603602081101561008a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102bc565b6040518082815260200191505060405180910390f35b3480156100d857600080fd5b50610125600480360360408110156100ef57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506102d4565b005b34801561013357600080fd5b506101f56004803603608081101561014a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001906401000000008111156101b157600080fd5b8201836020820111156101c357600080fd5b803590602001918460018302840111640100000000831117156101e557600080fd5b90919293919293905050506104c4565b005b34801561020357600080fd5b506102ba6004803603602081101561021a57600080fd5b810190808035906020019064010000000081111561023757600080fd5b82018360208201111561024957600080fd5b8035906020019184602083028401116401000000008311171561026b57600080fd5b919080806020026020016040519081016040528093929190818152602001838360200280828437600081840152601f19601f82011690508083019250505050505050919291929050505061063b565b005b60016020528060005260406000206000915090505481565b80600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825403925050819055506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b1580156103e557600080fd5b505af11580156103f9573d6000803e3d6000fd5b505050506040513d602081101561040f57600080fd5b8101908080519060200190929190505050507f5a55de23a286149acbcbca3e25d46db29edcdf5a7a08cdcc9c8a28b8e4816865338383604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828152602001935050505060405180910390a15050565b60008390508073ffffffffffffffffffffffffffffffffffffffff166323b872dd8730886040518463ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019350505050602060405180830381600087803b1580156105a057600080fd5b505af11580156105b4573d6000803e3d6000fd5b505050506040513d60208110156105ca57600080fd5b810190808051906020019092919050505015156105e657600080fd5b84600160008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540192505081905550505050505050565b5056fea165627a7a7230582015d803db665bce11b8240865dad038819d522c14e17845166fa483c74f258ca50029",
+  "deployedBytecode": "0x608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806313381fbf1461006757806380c3f6a3146100cc5780638f4ffcb114610127578063d57498ea146101f7575b600080fd5b34801561007357600080fd5b506100b66004803603602081101561008a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102bc565b6040518082815260200191505060405180910390f35b3480156100d857600080fd5b50610125600480360360408110156100ef57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506102d4565b005b34801561013357600080fd5b506101f56004803603608081101561014a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001906401000000008111156101b157600080fd5b8201836020820111156101c357600080fd5b803590602001918460018302840111640100000000831117156101e557600080fd5b90919293919293905050506104c4565b005b34801561020357600080fd5b506102ba6004803603602081101561021a57600080fd5b810190808035906020019064010000000081111561023757600080fd5b82018360208201111561024957600080fd5b8035906020019184602083028401116401000000008311171561026b57600080fd5b919080806020026020016040519081016040528093929190818152602001838360200280828437600081840152601f19601f82011690508083019250505050505050919291929050505061063b565b005b60016020528060005260406000206000915090505481565b80600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825403925050819055506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b1580156103e557600080fd5b505af11580156103f9573d6000803e3d6000fd5b505050506040513d602081101561040f57600080fd5b8101908080519060200190929190505050507f5a55de23a286149acbcbca3e25d46db29edcdf5a7a08cdcc9c8a28b8e4816865338383604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828152602001935050505060405180910390a15050565b60008390508073ffffffffffffffffffffffffffffffffffffffff166323b872dd8730886040518463ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019350505050602060405180830381600087803b1580156105a057600080fd5b505af11580156105b4573d6000803e3d6000fd5b505050506040513d60208110156105ca57600080fd5b810190808051906020019092919050505015156105e657600080fd5b84600160008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540192505081905550505050505050565b5056fea165627a7a7230582015d803db665bce11b8240865dad038819d522c14e17845166fa483c74f258ca50029",
   "sourceMap": "62:926:4:-;;;313:86;8:9:-1;5:2;;;30:1;27;20:12;5:2;313:86:4;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;313:86:4;;;;;;;;;;;;;;;;385:6;358:13;;:34;;;;;;;;;;;;;;;;;;313:86;62:926;;;;;;",
   "deployedSourceMap": "62:926:4:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;183:51;;8:9:-1;5:2;;;30:1;27;20:12;5:2;183:51:4;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;183:51:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;704:220;;8:9:-1;5:2;;;30:1;27;20:12;5:2;704:220:4;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;704:220:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;420:278;;8:9:-1;5:2;;;30:1;27;20:12;5:2;420:278:4;;;;;;13:3:-1;8;5:12;2:2;;;30:1;27;20:12;2:2;420:278:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;420:278:4;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;420:278:4;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;420:278:4;;;;;;;;;;;;;;;930:56;;8:9:-1;5:2;;;30:1;27;20:12;5:2;930:56:4;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;930:56:4;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;930:56:4;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;930:56:4;;;;;;101:9:-1;95:2;81:12;77:21;67:8;63:36;60:51;39:11;25:12;22:29;11:108;8:2;;;132:1;129;122:12;8:2;930:56:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;930:56:4;;;;;;;;;;;;;;;;;;183:51;;;;;;;;;;;;;;;;;:::o;704:220::-;805:6;774:15;:27;790:10;774:27;;;;;;;;;;;;;;;;:37;;;;;;;;;;;821:13;;;;;;;;;;;:22;;;844:7;853:6;821:39;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;821:39:4;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;821:39:4;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;821:39:4;;;;;;;;;;;;;;;;;875:42;889:10;901:7;910:6;875:42;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;704:220;;:::o;420:278::-;537:21;572:6;537:42;;596:10;:23;;;620:5;635:4;642:6;596:53;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;596:53:4;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;596:53:4;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;596:53:4;;;;;;;;;;;;;;;;588:62;;;;;;;;685:6;659:15;:22;675:5;659:22;;;;;;;;;;;;;;;;:32;;;;;;;;;;;420:278;;;;;;:::o;930:56::-;;:::o",
   "source": "pragma solidity ^0.5.0;\n\n\nimport \"./storage/TokenCubit.sol\";\n\ncontract Escrow is tokenRecipient{\n    // accounts who have sent cubit to the contract\n    TokenERC20 cubitContract;\n    mapping (address => uint256) public registrantsPaid;\n\n    event OrderReceived(address _from, address _to, uint256 _ammount);\n\n    constructor(address _token) public {\n        cubitContract = TokenERC20(_token);\n    }\n\n    //override\n    function receiveApproval(address _from, uint256 _value, address _token, bytes calldata _extraData) external {\n       TokenERC20 cubitToken = TokenERC20(_token);\n       require(cubitToken.transferFrom(_from, address(this), _value));\n       registrantsPaid[_from] += _value;\n    }\n\n    function confirmBuy(address _seller, uint256 _value) public {\n        registrantsPaid[msg.sender] -= _value;\n        cubitContract.transfer(_seller, _value);\n        emit OrderReceived(msg.sender, _seller, _value);\n    }\n\n    function test(TokenERC20[] memory array) public {\n\n    }\n}\n",
-  "sourcePath": "/home/bolzo/swe/Soldino-PoC/contracts/Purchase.sol",
+  "sourcePath": "/home/bolzo/SWE/Soldino-PoC/contracts/Purchase.sol",
   "ast": {
-    "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/Purchase.sol",
+    "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/Purchase.sol",
     "exportedSymbols": {
       "Escrow": [
         390
@@ -140,12 +140,12 @@
         "src": "0:23:4"
       },
       {
-        "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/storage/TokenCubit.sol",
+        "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/storage/TokenCubit.sol",
         "file": "./storage/TokenCubit.sol",
         "id": 290,
         "nodeType": "ImportDirective",
         "scope": 391,
-        "sourceUnit": 1694,
+        "sourceUnit": 1620,
         "src": "26:34:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -159,10 +159,10 @@
               "id": 291,
               "name": "tokenRecipient",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1269,
+              "referencedDeclaration": 1195,
               "src": "81:14:4",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_tokenRecipient_$1269",
+                "typeIdentifier": "t_contract$_tokenRecipient_$1195",
                 "typeString": "contract tokenRecipient"
               }
             },
@@ -172,7 +172,7 @@
           }
         ],
         "contractDependencies": [
-          1269
+          1195
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -180,7 +180,7 @@
         "id": 390,
         "linearizedBaseContracts": [
           390,
-          1269
+          1195
         ],
         "name": "Escrow",
         "nodeType": "ContractDefinition",
@@ -195,7 +195,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_TokenERC20_$1693",
+              "typeIdentifier": "t_contract$_TokenERC20_$1619",
               "typeString": "contract TokenERC20"
             },
             "typeName": {
@@ -203,10 +203,10 @@
               "id": 293,
               "name": "TokenERC20",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1693,
+              "referencedDeclaration": 1619,
               "src": "153:10:4",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                "typeIdentifier": "t_contract$_TokenERC20_$1619",
                 "typeString": "contract TokenERC20"
               }
             },
@@ -379,7 +379,7 @@
                       "referencedDeclaration": 294,
                       "src": "358:13:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                        "typeIdentifier": "t_contract$_TokenERC20_$1619",
                         "typeString": "contract TokenERC20"
                       }
                     },
@@ -413,10 +413,10 @@
                         "name": "TokenERC20",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1693,
+                        "referencedDeclaration": 1619,
                         "src": "374:10:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_TokenERC20_$1693_$",
+                          "typeIdentifier": "t_type$_t_contract$_TokenERC20_$1619_$",
                           "typeString": "type(contract TokenERC20)"
                         }
                       },
@@ -430,13 +430,13 @@
                       "nodeType": "FunctionCall",
                       "src": "374:18:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                        "typeIdentifier": "t_contract$_TokenERC20_$1619",
                         "typeString": "contract TokenERC20"
                       }
                     },
                     "src": "358:34:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                      "typeIdentifier": "t_contract$_TokenERC20_$1619",
                       "typeString": "contract TokenERC20"
                     }
                   },
@@ -520,7 +520,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                        "typeIdentifier": "t_contract$_TokenERC20_$1619",
                         "typeString": "contract TokenERC20"
                       },
                       "typeName": {
@@ -528,10 +528,10 @@
                         "id": 329,
                         "name": "TokenERC20",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 1693,
+                        "referencedDeclaration": 1619,
                         "src": "537:10:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                          "typeIdentifier": "t_contract$_TokenERC20_$1619",
                           "typeString": "contract TokenERC20"
                         }
                       },
@@ -568,10 +568,10 @@
                       "name": "TokenERC20",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1693,
+                      "referencedDeclaration": 1619,
                       "src": "561:10:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_TokenERC20_$1693_$",
+                        "typeIdentifier": "t_type$_t_contract$_TokenERC20_$1619_$",
                         "typeString": "type(contract TokenERC20)"
                       }
                     },
@@ -585,7 +585,7 @@
                     "nodeType": "FunctionCall",
                     "src": "561:18:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                      "typeIdentifier": "t_contract$_TokenERC20_$1619",
                       "typeString": "contract TokenERC20"
                     }
                   },
@@ -621,7 +621,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 1733,
+                                "referencedDeclaration": 1659,
                                 "src": "635:4:4",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_Escrow_$390",
@@ -701,7 +701,7 @@
                             "referencedDeclaration": 330,
                             "src": "596:10:4",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                              "typeIdentifier": "t_contract$_TokenERC20_$1619",
                               "typeString": "contract TokenERC20"
                             }
                           },
@@ -712,7 +712,7 @@
                           "lValueRequested": false,
                           "memberName": "transferFrom",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1501,
+                          "referencedDeclaration": 1427,
                           "src": "596:23:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -745,10 +745,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1711,
-                        1712
+                        1637,
+                        1638
                       ],
-                      "referencedDeclaration": 1711,
+                      "referencedDeclaration": 1637,
                       "src": "588:7:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -977,7 +977,7 @@
             "scope": 390,
             "src": "420:278:4",
             "stateMutability": "nonpayable",
-            "superFunction": 1268,
+            "superFunction": 1194,
             "visibility": "external"
           },
           {
@@ -1018,7 +1018,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1708,
+                          "referencedDeclaration": 1634,
                           "src": "790:3:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1126,7 +1126,7 @@
                         "referencedDeclaration": 294,
                         "src": "821:13:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                          "typeIdentifier": "t_contract$_TokenERC20_$1619",
                           "typeString": "contract TokenERC20"
                         }
                       },
@@ -1137,7 +1137,7 @@
                       "lValueRequested": false,
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1453,
+                      "referencedDeclaration": 1379,
                       "src": "821:22:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -1174,7 +1174,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1708,
+                          "referencedDeclaration": 1634,
                           "src": "889:3:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1375,7 +1375,7 @@
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_contract$_TokenERC20_$1693_$dyn_memory_ptr",
+                    "typeIdentifier": "t_array$_t_contract$_TokenERC20_$1619_$dyn_memory_ptr",
                     "typeString": "contract TokenERC20[]"
                   },
                   "typeName": {
@@ -1384,10 +1384,10 @@
                       "id": 383,
                       "name": "TokenERC20",
                       "nodeType": "UserDefinedTypeName",
-                      "referencedDeclaration": 1693,
+                      "referencedDeclaration": 1619,
                       "src": "944:10:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                        "typeIdentifier": "t_contract$_TokenERC20_$1619",
                         "typeString": "contract TokenERC20"
                       }
                     },
@@ -1396,7 +1396,7 @@
                     "nodeType": "ArrayTypeName",
                     "src": "944:12:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_contract$_TokenERC20_$1693_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_contract$_TokenERC20_$1619_$dyn_storage_ptr",
                       "typeString": "contract TokenERC20[]"
                     }
                   },
@@ -1426,7 +1426,7 @@
     "src": "0:989:4"
   },
   "legacyAST": {
-    "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/Purchase.sol",
+    "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/Purchase.sol",
     "exportedSymbols": {
       "Escrow": [
         390
@@ -1447,12 +1447,12 @@
         "src": "0:23:4"
       },
       {
-        "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/storage/TokenCubit.sol",
+        "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/storage/TokenCubit.sol",
         "file": "./storage/TokenCubit.sol",
         "id": 290,
         "nodeType": "ImportDirective",
         "scope": 391,
-        "sourceUnit": 1694,
+        "sourceUnit": 1620,
         "src": "26:34:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1466,10 +1466,10 @@
               "id": 291,
               "name": "tokenRecipient",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1269,
+              "referencedDeclaration": 1195,
               "src": "81:14:4",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_tokenRecipient_$1269",
+                "typeIdentifier": "t_contract$_tokenRecipient_$1195",
                 "typeString": "contract tokenRecipient"
               }
             },
@@ -1479,7 +1479,7 @@
           }
         ],
         "contractDependencies": [
-          1269
+          1195
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -1487,7 +1487,7 @@
         "id": 390,
         "linearizedBaseContracts": [
           390,
-          1269
+          1195
         ],
         "name": "Escrow",
         "nodeType": "ContractDefinition",
@@ -1502,7 +1502,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_TokenERC20_$1693",
+              "typeIdentifier": "t_contract$_TokenERC20_$1619",
               "typeString": "contract TokenERC20"
             },
             "typeName": {
@@ -1510,10 +1510,10 @@
               "id": 293,
               "name": "TokenERC20",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1693,
+              "referencedDeclaration": 1619,
               "src": "153:10:4",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                "typeIdentifier": "t_contract$_TokenERC20_$1619",
                 "typeString": "contract TokenERC20"
               }
             },
@@ -1686,7 +1686,7 @@
                       "referencedDeclaration": 294,
                       "src": "358:13:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                        "typeIdentifier": "t_contract$_TokenERC20_$1619",
                         "typeString": "contract TokenERC20"
                       }
                     },
@@ -1720,10 +1720,10 @@
                         "name": "TokenERC20",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1693,
+                        "referencedDeclaration": 1619,
                         "src": "374:10:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_TokenERC20_$1693_$",
+                          "typeIdentifier": "t_type$_t_contract$_TokenERC20_$1619_$",
                           "typeString": "type(contract TokenERC20)"
                         }
                       },
@@ -1737,13 +1737,13 @@
                       "nodeType": "FunctionCall",
                       "src": "374:18:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                        "typeIdentifier": "t_contract$_TokenERC20_$1619",
                         "typeString": "contract TokenERC20"
                       }
                     },
                     "src": "358:34:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                      "typeIdentifier": "t_contract$_TokenERC20_$1619",
                       "typeString": "contract TokenERC20"
                     }
                   },
@@ -1827,7 +1827,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                        "typeIdentifier": "t_contract$_TokenERC20_$1619",
                         "typeString": "contract TokenERC20"
                       },
                       "typeName": {
@@ -1835,10 +1835,10 @@
                         "id": 329,
                         "name": "TokenERC20",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 1693,
+                        "referencedDeclaration": 1619,
                         "src": "537:10:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                          "typeIdentifier": "t_contract$_TokenERC20_$1619",
                           "typeString": "contract TokenERC20"
                         }
                       },
@@ -1875,10 +1875,10 @@
                       "name": "TokenERC20",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1693,
+                      "referencedDeclaration": 1619,
                       "src": "561:10:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_TokenERC20_$1693_$",
+                        "typeIdentifier": "t_type$_t_contract$_TokenERC20_$1619_$",
                         "typeString": "type(contract TokenERC20)"
                       }
                     },
@@ -1892,7 +1892,7 @@
                     "nodeType": "FunctionCall",
                     "src": "561:18:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                      "typeIdentifier": "t_contract$_TokenERC20_$1619",
                       "typeString": "contract TokenERC20"
                     }
                   },
@@ -1928,7 +1928,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 1733,
+                                "referencedDeclaration": 1659,
                                 "src": "635:4:4",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_Escrow_$390",
@@ -2008,7 +2008,7 @@
                             "referencedDeclaration": 330,
                             "src": "596:10:4",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                              "typeIdentifier": "t_contract$_TokenERC20_$1619",
                               "typeString": "contract TokenERC20"
                             }
                           },
@@ -2019,7 +2019,7 @@
                           "lValueRequested": false,
                           "memberName": "transferFrom",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1501,
+                          "referencedDeclaration": 1427,
                           "src": "596:23:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -2052,10 +2052,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1711,
-                        1712
+                        1637,
+                        1638
                       ],
-                      "referencedDeclaration": 1711,
+                      "referencedDeclaration": 1637,
                       "src": "588:7:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2284,7 +2284,7 @@
             "scope": 390,
             "src": "420:278:4",
             "stateMutability": "nonpayable",
-            "superFunction": 1268,
+            "superFunction": 1194,
             "visibility": "external"
           },
           {
@@ -2325,7 +2325,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1708,
+                          "referencedDeclaration": 1634,
                           "src": "790:3:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -2433,7 +2433,7 @@
                         "referencedDeclaration": 294,
                         "src": "821:13:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                          "typeIdentifier": "t_contract$_TokenERC20_$1619",
                           "typeString": "contract TokenERC20"
                         }
                       },
@@ -2444,7 +2444,7 @@
                       "lValueRequested": false,
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1453,
+                      "referencedDeclaration": 1379,
                       "src": "821:22:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -2481,7 +2481,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1708,
+                          "referencedDeclaration": 1634,
                           "src": "889:3:4",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -2682,7 +2682,7 @@
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_contract$_TokenERC20_$1693_$dyn_memory_ptr",
+                    "typeIdentifier": "t_array$_t_contract$_TokenERC20_$1619_$dyn_memory_ptr",
                     "typeString": "contract TokenERC20[]"
                   },
                   "typeName": {
@@ -2691,10 +2691,10 @@
                       "id": 383,
                       "name": "TokenERC20",
                       "nodeType": "UserDefinedTypeName",
-                      "referencedDeclaration": 1693,
+                      "referencedDeclaration": 1619,
                       "src": "944:10:4",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TokenERC20_$1693",
+                        "typeIdentifier": "t_contract$_TokenERC20_$1619",
                         "typeString": "contract TokenERC20"
                       }
                     },
@@ -2703,7 +2703,7 @@
                     "nodeType": "ArrayTypeName",
                     "src": "944:12:4",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_contract$_TokenERC20_$1693_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_contract$_TokenERC20_$1619_$dyn_storage_ptr",
                       "typeString": "contract TokenERC20[]"
                     }
                   },
@@ -2737,8 +2737,8 @@
     "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.2",
-  "updatedAt": "2019-03-29T20:25:22.216Z",
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2019-03-29T22:00:33.166Z",
   "devdoc": {
     "methods": {}
   },

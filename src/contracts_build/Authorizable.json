@@ -58,14 +58,14 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506105f9806100536000396000f3fe608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063485d7d94146100675780638da5cb5b146100b8578063cf1c316a1461010f578063f2fde38b14610160575b600080fd5b34801561007357600080fd5b506100b66004803603602081101561008a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101b1565b005b3480156100c457600080fd5b506100cd610347565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561011b57600080fd5b5061015e6004803603602081101561013257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061036c565b005b34801561016c57600080fd5b506101af6004803603602081101561018357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104c6565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610275576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260118152602001807f5065726d697373696f6e2064656e69656400000000000000000000000000000081525060200191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156102b157600080fd5b3373ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156102ec57600080fd5b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610430576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260118152602001807f5065726d697373696f6e2064656e69656400000000000000000000000000000081525060200191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561046c57600080fd5b60018060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561058a576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260118152602001807f5065726d697373696f6e2064656e69656400000000000000000000000000000081525060200191505060405180910390fd5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505056fea165627a7a7230582002759d4f68f6ad50dab29760bd79814975fd35cef5c17d1fcdf5ef606274242d0029",
-  "deployedBytecode": "0x608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063485d7d94146100675780638da5cb5b146100b8578063cf1c316a1461010f578063f2fde38b14610160575b600080fd5b34801561007357600080fd5b506100b66004803603602081101561008a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101b1565b005b3480156100c457600080fd5b506100cd610347565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561011b57600080fd5b5061015e6004803603602081101561013257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061036c565b005b34801561016c57600080fd5b506101af6004803603602081101561018357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104c6565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610275576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260118152602001807f5065726d697373696f6e2064656e69656400000000000000000000000000000081525060200191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156102b157600080fd5b3373ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156102ec57600080fd5b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610430576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260118152602001807f5065726d697373696f6e2064656e69656400000000000000000000000000000081525060200191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561046c57600080fd5b60018060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561058a576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260118152602001807f5065726d697373696f6e2064656e69656400000000000000000000000000000081525060200191505060405180910390fd5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505056fea165627a7a7230582002759d4f68f6ad50dab29760bd79814975fd35cef5c17d1fcdf5ef606274242d0029",
+  "bytecode": "0x6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506105f9806100536000396000f3fe608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063485d7d94146100675780638da5cb5b146100b8578063cf1c316a1461010f578063f2fde38b14610160575b600080fd5b34801561007357600080fd5b506100b66004803603602081101561008a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101b1565b005b3480156100c457600080fd5b506100cd610347565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561011b57600080fd5b5061015e6004803603602081101561013257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061036c565b005b34801561016c57600080fd5b506101af6004803603602081101561018357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104c6565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610275576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260118152602001807f5065726d697373696f6e2064656e69656400000000000000000000000000000081525060200191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156102b157600080fd5b3373ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156102ec57600080fd5b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610430576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260118152602001807f5065726d697373696f6e2064656e69656400000000000000000000000000000081525060200191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561046c57600080fd5b60018060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561058a576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260118152602001807f5065726d697373696f6e2064656e69656400000000000000000000000000000081525060200191505060405180910390fd5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505056fea165627a7a72305820182ac6ea466030930e6117649d7d163524e79a9bf0c6b53ae34b030a505006160029",
+  "deployedBytecode": "0x608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063485d7d94146100675780638da5cb5b146100b8578063cf1c316a1461010f578063f2fde38b14610160575b600080fd5b34801561007357600080fd5b506100b66004803603602081101561008a57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101b1565b005b3480156100c457600080fd5b506100cd610347565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561011b57600080fd5b5061015e6004803603602081101561013257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061036c565b005b34801561016c57600080fd5b506101af6004803603602081101561018357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104c6565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610275576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260118152602001807f5065726d697373696f6e2064656e69656400000000000000000000000000000081525060200191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156102b157600080fd5b3373ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156102ec57600080fd5b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610430576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260118152602001807f5065726d697373696f6e2064656e69656400000000000000000000000000000081525060200191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561046c57600080fd5b60018060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561058a576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260118152602001807f5065726d697373696f6e2064656e69656400000000000000000000000000000081525060200191505060405180910390fd5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505056fea165627a7a72305820182ac6ea466030930e6117649d7d163524e79a9bf0c6b53ae34b030a505006160029",
   "sourceMap": "512:538:0:-;;;251:10:3;243:5;;:18;;;;;;;;;;;;;;;;;;512:538:0;;;;;;",
   "deployedSourceMap": "512:538:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;856:192;;8:9:-1;5:2;;;30:1;27;20:12;5:2;856:192:0;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;856:192:0;;;;;;;;;;;;;;;;;;;;;;186:20:3;;8:9:-1;5:2;;;30:1;27;20:12;5:2;186:20:3;;;;;;;;;;;;;;;;;;;;;;;;;;;713:137:0;;8:9:-1;5:2;;;30:1;27;20:12;5:2;713:137:0;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;713:137:0;;;;;;;;;;;;;;;;;;;;;;576:95:3;;8:9:-1;5:2;;;30:1;27;20:12;5:2;576:95:3;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;576:95:3;;;;;;;;;;;;;;;;;;;;;;856:192:0;496:5:3;;;;;;;;;;;482:19;;:10;:19;;;474:49;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;957:1:0;936:23;;:9;:23;;;;928:32;;;;;;;;991:10;978:23;;:9;:23;;;;970:32;;;;;;;;1036:5;1012:10;:21;1023:9;1012:21;;;;;;;;;;;;;;;;:29;;;;;;;;;;;;;;;;;;856:192;:::o;186:20:3:-;;;;;;;;;;;;;:::o;713:137:0:-;496:5:3;;;;;;;;;;;482:19;;:10;:19;;;474:49;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;805:1:0;787:20;;:6;:20;;;;779:29;;;;;;;;839:4;818:10;:18;829:6;818:18;;;;;;;;;;;;;;;;:25;;;;;;;;;;;;;;;;;;713:137;:::o;576:95:3:-;496:5;;;;;;;;;;;482:19;;:10;:19;;;474:49;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;656:8;648:5;;:16;;;;;;;;;;;;;;;;;;576:95;:::o",
   "source": "pragma solidity ^0.5.0;\n\n\nimport \"./Owned.sol\";\n\n\n/**\n    * Created: 2019-03-29\n    * @author Mattia\n    * @title Authorizable contract\n    * @dev This contract is used by the data storage contracts. \n    * its purpose is improve the security of a storage contract.\n    * In fact the setters methods of a storage contract are public \n    * but they must be invoked only by the related logic contract (at its last version).\n    * To resolve this issues this contract defines the modifier (onlyAuthorized).\n    */\ncontract Authorizable is Owned {\n    mapping(address => bool) authorized;\n\n    modifier onlyAuthorized() {\n        require(authorized[msg.sender] == true || owner == msg.sender);\n        _;\n    }\n\n    function addAuthorized(address _toAdd) onlyOwner public {\n        require(_toAdd != address(0));\n        authorized[_toAdd] = true;\n    }\n\n    function removeAuthorized(address _toRemove) onlyOwner public {\n        require(_toRemove != address(0));\n        require(_toRemove != msg.sender);\n        authorized[_toRemove] = false;\n    }\n}",
-  "sourcePath": "/home/bolzo/swe/Soldino-PoC/contracts/Authorizable.sol",
+  "sourcePath": "/home/bolzo/SWE/Soldino-PoC/contracts/Authorizable.sol",
   "ast": {
-    "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/Authorizable.sol",
+    "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/Authorizable.sol",
     "exportedSymbols": {
       "Authorizable": [
         78
@@ -86,7 +86,7 @@
         "src": "0:23:0"
       },
       {
-        "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/Owned.sol",
+        "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/Owned.sol",
         "file": "./Owned.sol",
         "id": 2,
         "nodeType": "ImportDirective",
@@ -232,7 +232,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 1708,
+                                "referencedDeclaration": 1634,
                                 "src": "646:3:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -326,7 +326,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1708,
+                              "referencedDeclaration": 1634,
                               "src": "678:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -371,10 +371,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1711,
-                        1712
+                        1637,
+                        1638
                       ],
-                      "referencedDeclaration": 1711,
+                      "referencedDeclaration": 1637,
                       "src": "627:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -529,10 +529,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1711,
-                        1712
+                        1637,
+                        1638
                       ],
-                      "referencedDeclaration": 1711,
+                      "referencedDeclaration": 1637,
                       "src": "779:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -820,10 +820,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1711,
-                        1712
+                        1637,
+                        1638
                       ],
-                      "referencedDeclaration": 1711,
+                      "referencedDeclaration": 1637,
                       "src": "928:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -886,7 +886,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1708,
+                            "referencedDeclaration": 1634,
                             "src": "991:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -925,10 +925,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1711,
-                        1712
+                        1637,
+                        1638
                       ],
-                      "referencedDeclaration": 1711,
+                      "referencedDeclaration": 1637,
                       "src": "970:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1114,7 +1114,7 @@
     "src": "0:1050:0"
   },
   "legacyAST": {
-    "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/Authorizable.sol",
+    "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/Authorizable.sol",
     "exportedSymbols": {
       "Authorizable": [
         78
@@ -1135,7 +1135,7 @@
         "src": "0:23:0"
       },
       {
-        "absolutePath": "/home/bolzo/swe/Soldino-PoC/contracts/Owned.sol",
+        "absolutePath": "/home/bolzo/SWE/Soldino-PoC/contracts/Owned.sol",
         "file": "./Owned.sol",
         "id": 2,
         "nodeType": "ImportDirective",
@@ -1281,7 +1281,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 1708,
+                                "referencedDeclaration": 1634,
                                 "src": "646:3:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -1375,7 +1375,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1708,
+                              "referencedDeclaration": 1634,
                               "src": "678:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -1420,10 +1420,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1711,
-                        1712
+                        1637,
+                        1638
                       ],
-                      "referencedDeclaration": 1711,
+                      "referencedDeclaration": 1637,
                       "src": "627:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1578,10 +1578,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1711,
-                        1712
+                        1637,
+                        1638
                       ],
-                      "referencedDeclaration": 1711,
+                      "referencedDeclaration": 1637,
                       "src": "779:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1869,10 +1869,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1711,
-                        1712
+                        1637,
+                        1638
                       ],
-                      "referencedDeclaration": 1711,
+                      "referencedDeclaration": 1637,
                       "src": "928:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1935,7 +1935,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1708,
+                            "referencedDeclaration": 1634,
                             "src": "991:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -1974,10 +1974,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1711,
-                        1712
+                        1637,
+                        1638
                       ],
-                      "referencedDeclaration": 1711,
+                      "referencedDeclaration": 1637,
                       "src": "970:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2167,8 +2167,8 @@
     "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.2",
-  "updatedAt": "2019-03-29T20:25:22.190Z",
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2019-03-29T22:00:33.163Z",
   "devdoc": {
     "author": "Mattia",
     "details": "This contract is used by the data storage contracts.  its purpose is improve the security of a storage contract. In fact the setters methods of a storage contract are public  but they must be invoked only by the related logic contract (at its last version). To resolve this issues this contract defines the modifier (onlyAuthorized).",

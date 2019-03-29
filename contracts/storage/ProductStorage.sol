@@ -1,46 +1,26 @@
 pragma solidity ^0.5.0;
 
-contract ProductStorage {
-    //valid tells if the product is indeed an existing product
-    // in this way the array is unncessary
+
+import "../Authorizable.sol";
+
+contract ProductStorage is Authorizable {
     struct ProductInfo {
-        address seller;
-        bytes32 name;
         uint256 netSellPrice;
-        uint8 VAT;
-        string description;
+        bytes32 latestHashIPFS;
+        uint8 hashSize;
+        uint8 hashFunction;
+        uint8 VATPercentage;
         bool available;
-        bool valid;
+        address seller;
     }
 
-    mapping(address => ProductInfo) addressToProduct;
+    bytes32[] productsHashes;
+    mapping(bytes32 => ProductInfo) hashToProduct;
+    mapping(address => bytes32[]) sellerToProducts;
 
-    function getSeller(address _sellerAddress) public view returns (address){
-        return addressToProduct[_sellerAddress].seller;
+    constructor(address _owner) public {
+
     }
 
-    function getName(address _sellerAddress) public view returns (bytes32){
-        return addressToProduct[_sellerAddress].name;
-    }
-
-    function getNetSellPrice(address _sellerAddress) public view returns (uint256){
-        return addressToProduct[_sellerAddress].netSellPrice;
-    }
-
-    function getVAT(address _sellerAddress) public view returns (uint8){
-        return addressToProduct[_sellerAddress].VAT;
-    }
-
-    function getDescription(address _sellerAddress) public view returns (string memory){
-        return addressToProduct[_sellerAddress].description;
-    }
-
-    function getAvailable(address _sellerAddress) public view returns (bool){
-        return addressToProduct[_sellerAddress].available;
-    }
-
-    function getValidProduct(address _sellerAddress) public view returns (bool){
-        return addressToProduct[_sellerAddress].valid;
-    }
 
 }
