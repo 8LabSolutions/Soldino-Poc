@@ -6,13 +6,13 @@ const CitizenStorage = artifacts.require("CitizenStorage");
 var web3 = getWeb3()
 const IPFS = require('ipfs-mini');
 
-contract("CitizenStorage",(accounts) => {
+contract("CitizenStorage", (accounts) => {
   var contractManagerInstance;
   var citizenStorageInstance;
   const CITIZEN = accounts[3];
   const GOVERNMENT = accounts[9];
 
-  before(async () => {
+  before(() => {
     contractManagerInstance = new web3.eth.Contract(ContractManager.abi,
       ContractManager.networks[ContractManager.network_id].address);
     return contractManagerInstance.methods.getCitizenStorageAddress().call()
