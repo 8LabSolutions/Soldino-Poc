@@ -1,6 +1,10 @@
 pragma solidity ^0.5.0;
-
-
+/**
+* Created: 2019-03-13
+* @author Mattia
+* @title Owned contract
+* @dev This contract defines the Owner user a.k.a. the government user
+*/
 contract Owned {
     address public owner;
 
@@ -8,16 +12,17 @@ contract Owned {
         owner = msg.sender;
     }
 
-    // i modificatori modificano la sintassi delle funzioni in cui sono inseriti
-    // posso accettare parametri
-    // se il require risulta true allora "_;" indica di proseguire con la funzione,
-    //cioè esegue la funzione
+    /*
+    * The modifier onlyOwner is used to improve security
+    * Only the owner can call functions which have in their definition
+    * the onlyOwner modifier
+    */
     modifier onlyOwner {
-        require(msg.sender == owner);
+        require(msg.sender == owner, "Permission denied");
         _;
     }
 
-    //nella firma della funzione viene usato il modifier
+    //Transfer the ownership
     function transferOwnership(address newOwner) onlyOwner public {
         owner = newOwner;
     }
