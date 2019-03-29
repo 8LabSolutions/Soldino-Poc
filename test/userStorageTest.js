@@ -1,4 +1,4 @@
-import getWeb3 from '../src/utils/web_util';
+import getWeb3 from './helpers';
 
 const ContractManager = artifacts.require("ContractManager");
 const UserStorage = artifacts.require("UserStorage");
@@ -10,6 +10,7 @@ contract("UserStorage", (accounts) => {
   var contractManagerInstance;
   var userStorageInstance;
   const CITIZEN = accounts[3];
+
   before(() => {
     contractManagerInstance = new web3.eth.Contract(ContractManager.abi,
       ContractManager.networks[ContractManager.network_id].address);
