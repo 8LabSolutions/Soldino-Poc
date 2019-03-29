@@ -63,7 +63,7 @@ contract BusinessStorage {
         addressToBusiness[_userAddress].vatNumber = _vatNumber;
     }
 
-    function setIndex(address _userAddress, uint _index) public {
+    function setIndex(address _userAddress, uint _index) private {
         addressToBusiness[_userAddress].index = _index;
     }
 
@@ -79,7 +79,7 @@ contract BusinessStorage {
         return businessList[addressToBusiness[_userAddress].index];
     }
 
-     function pushToBusinessList(address _userAddress) public returns (uint){
-        return businessList.push(_userAddress) - 1 ;
+     function pushToBusinessList(address _userAddress) public {
+        setIndex(_userAddress, businessList.push(_userAddress) - 1);
     }
 }

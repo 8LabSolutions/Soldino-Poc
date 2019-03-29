@@ -3,7 +3,8 @@
         "browser": true,
         "jest": true,
         "es6": true,
-        "node":true
+        "node": true,
+        "mocha": true
     },
     "extends": [
         "airbnb",
@@ -25,5 +26,11 @@
         "react/prefer-stateless-function": "off",
         "react/prop-types": "off",
         "no-console": "off"
+    },
+    "globals": {
+      "artifacts": true,
+      "web3": true,
+      "assert": true,
+      "contract": true
     }
 }
