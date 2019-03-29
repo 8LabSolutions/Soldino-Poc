@@ -1,19 +1,24 @@
+import getWeb3 from '../src/utils/web_util';
+
 const ContractManager = artifacts.require("ContractManager");
 const CitizenStorage = artifacts.require("CitizenStorage");
 
-contract("CitizenStorage", (accounts) =>  {
+var web3 = getWeb3()
+const IPFS = require('ipfs-mini');
+
+contract("CitizenStorage",(accounts) => {
   var contractManagerInstance;
   var citizenStorageInstance;
   const CITIZEN = accounts[3];
   const GOVERNMENT = accounts[9];
 
-  before(() => {
-    return ContractManager.deployed().then(function(_contractManagerInstance){
-      contractManagerInstance = _contractManagerInstance;
-      return CitizenStorage.deployed(contractManagerInstance.getUserStorageAddress())
-      .then(function(_userStorageInstance){
-        citizenStorageInstance = _userStorageInstance;
-      })
+  before(async () => {
+    contractManagerInstance = new web3.eth.Contract(ContractManager.abi,
+      ContractManager.networks[ContractManager.network_id].address);
+    return contractManagerInstance.methods.getCitizenStorageAddress().call()
+    .then((_citizenStorageInstance)=>{
+      citizenStorageInstance = new web3.eth.Contract(CitizenStorage.abi,
+        _citizenStorageInstance);
     })
   });
 
@@ -22,25 +27,24 @@ contract("CitizenStorage", (accounts) =>  {
     var surname = "Solutions";
     var email = "8LabSolutions@gmail.com";
     var deliveryAddress = "Via Esempio, 8, Paese, 12345";
-
-    return citizenStorageInstance.setName(CITIZEN, name)
+    return citizenStorageInstance.methods.setName(CITIZEN, name).send({from: CITIZEN})
     .then(function(){
-      return citizenStorageInstance.setSurname(CITIZEN, surname);
+      return citizenStorageInstance.methods.setSurname(CITIZEN, surname).send({from: CITIZEN});
     }).then(function(){
-      return citizenStorageInstance.setEmail(CITIZEN, email);
+      return citizenStorageInstance.methods.setEmail(CITIZEN, email).send({from: CITIZEN});
     }).then(function(){
-      return citizenStorageInstance.setDeliveryAddress(CITIZEN, deliveryAddress);
+      return citizenStorageInstance.methods.setDeliveryAddress(CITIZEN, deliveryAddress).send({from: CITIZEN});
     }).then(function(){
-      return citizenStorageInstance.setActive(CITIZEN, true, {from: GOVERNMENT});
+      return citizenStorageInstance.methods.setActive(CITIZEN, true).send({from: GOVERNMENT});
     }).then(function(){
-      return citizenStorageInstance.getName.call(CITIZEN).then((ris) => {
+      return citizenStorageInstance.methods.getName(CITIZEN).call().then((ris) => {
         assert.equal(
           ris,
           name
        )
       })
     }).then(() => {
-        return citizenStorageInstance.getSurname.call(CITIZEN).then((_surname)=>{
+        return citizenStorageInstance.methods.getSurname(CITIZEN).call().then((_surname)=>{
           assert.equal(
             _surname,
             surname,
@@ -48,7 +52,7 @@ contract("CitizenStorage", (accounts) =>  {
          )
       })
     }).then(()=>{
-      return citizenStorageInstance.getEmail.call(CITIZEN).then((_email)=>{
+      return citizenStorageInstance.methods.getEmail(CITIZEN).call().then((_email)=>{
         assert.equal(
           _email,
           email,
@@ -56,7 +60,7 @@ contract("CitizenStorage", (accounts) =>  {
         )
       })
     }).then(()=>{
-      return citizenStorageInstance.getDeliveryAddress.call(CITIZEN).then((_deliveryAddress)=>{
+      return citizenStorageInstance.methods.getDeliveryAddress(CITIZEN).call().then((_deliveryAddress)=>{
         assert.equal(
           _deliveryAddress,
           deliveryAddress,
@@ -67,14 +71,14 @@ contract("CitizenStorage", (accounts) =>  {
   });
 
   it("should check that the government can actually disable a citizen account", () => {
-    return citizenStorageInstance.getActive.call(CITIZEN).then((active) => {
+    return citizenStorageInstance.methods.getActive(CITIZEN).call().then((active) => {
       assert.equal(
         active,
         true,
         "The citizen is disabled"
       );
-      return citizenStorageInstance.setActive(CITIZEN, false, {from: GOVERNMENT}).then(()=>{
-        return citizenStorageInstance.getActive.call(CITIZEN).then((active)=>{
+      return citizenStorageInstance.methods.setActive(CITIZEN, false).send({from: GOVERNMENT}).then(()=>{
+        return citizenStorageInstance.methods.getActive(CITIZEN).call().then((active)=>{
           assert.equal(
             active,
             false,
@@ -84,8 +88,8 @@ contract("CitizenStorage", (accounts) =>  {
       });
     });
   });
+
   it("should test IPFS", () =>{
-    const IPFS = require('ipfs-mini');
     const ipfs = new IPFS({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' });
     var ilMioJSON = {name:"Palla", costo:13.13};
     var hash;
@@ -100,16 +104,15 @@ contract("CitizenStorage", (accounts) =>  {
         )
       })
     })
-
   });
-  /*
-  it("should revert because the caller is not the government", async () =>{
-    ContractManager.deployed().then( async (_contractManager) => {
-      contractManager = _contractManager;
-      citizenStorage = CitizenStorage(await contractManager.getCitizenStorageAddress());
+
+  it("should revert because the caller is not the government", () =>{
+    return citizenStorageInstance.methods.setActive(CITIZEN, false).send({from: accounts[5]})
+    .then((ris) => {
+      assert.isFalse(ris, "should have been false");
+    }).catch((err) => {
+      assert.isTrue(err.toString().includes("Only the government can able/disable users"));
     })
-    let ris = citizenStorage.setActive(CITIZEN, false, {from: accounts[5]});
-    assert.isFalse(ris, "should have been false");
-  })
-*/
+  });
+
 });

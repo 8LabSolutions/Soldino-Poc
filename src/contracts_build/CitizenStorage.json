@@ -6928,12 +6928,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x0ba24c6Ce51E78FA175d3e2400B5588d0Ef94aAd",
-      "transactionHash": "0xb610d7851b3cf944c5550a810366aaa00c11d09a1261df4809577bd4c65cfe06"
+      "address": "0x3fd1b9d6eA3333ad39e75B3Eec7F93C2034ecbF0",
+      "transactionHash": "0x98a799e92cdfbe645a9537ce920738c6f6e1ee6b750c0d02a6db09ff88c9093b"
     }
   },
   "schemaVersion": "3.0.0-beta.2",
-  "updatedAt": "2019-03-27T21:39:45.573Z",
+  "updatedAt": "2019-03-29T13:01:34.867Z",
   "devdoc": {
     "author": "Mattia",
     "details": "This contract define the storage for the citizen-type user",
