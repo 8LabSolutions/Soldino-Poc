@@ -1,7 +1,8 @@
 pragma solidity ^0.5.0;
 
 
-import "./Owned.sol";
+
+import "../Owned.sol";
 
 //Le interfacce sono simili a contratti astratti ma non posso implementare funzioni
 contract tokenRecipient {
@@ -46,7 +47,7 @@ contract TokenERC20 is Owned {
     /**
      * Constructor function
      *
-     * Initializes contract with initial supply tokens to the creator of the contract
+     * Initializes contract with initial sOwnedupply tokens to the creator of the contract
      */
      /* Ci sono 2 tipi di "memoria" (in verità 3, contando "calldata" ma è da approfondire):
         *   -Storage:   memoria persistente appartentente ad ogni contratto, un contratto non

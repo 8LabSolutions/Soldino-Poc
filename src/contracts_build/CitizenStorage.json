@@ -30,8 +30,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x5fd4b08a"
+      "type": "function"
     },
     {
       "constant": true,
@@ -50,8 +49,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x4fa7353c"
+      "type": "function"
     },
     {
       "constant": true,
@@ -90,8 +88,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0xdaea3e3a"
+      "type": "function"
     },
     {
       "constant": true,

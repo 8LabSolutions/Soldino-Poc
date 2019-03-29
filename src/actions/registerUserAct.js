@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /*import setWeb3 from './setWeb3'
 import store from '../store/index'
-import  Proxy  from '../contracts_build/Proxy';
+
 
 export default function registerUserAction(email, addressB, VATNumber, name) {
   setWeb3().then(async ()  => {
@@ -11,7 +11,7 @@ export default function registerUserAction(email, addressB, VATNumber, name) {
       var hexName = web3js.utils.asciiToHex(email,32)
       var hexSede = web3js.utils.asciiToHex(email,32)
       var hexVat = web3js.utils.asciiToHex(email,32)
-
+/*
       var net = await web3js.eth.net.getId()
       var abi = Proxy.abi
       var address = Proxy.networks[net].address
@@ -31,6 +31,8 @@ export default function registerUserAction(email, addressB, VATNumber, name) {
       else {
         alert("User already registered.")
       }
+      */
+     /*
     }
   })
 }
