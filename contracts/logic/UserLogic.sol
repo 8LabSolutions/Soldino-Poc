@@ -2,6 +2,7 @@ pragma solidity ^0.5.0;
 
 import "../storage/BusinessStorage.sol";
 import "../storage/CitizenStorage.sol";
+import "../Owned.sol";
 
 /**
   * Created: 2019-03-13
