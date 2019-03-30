@@ -8,11 +8,11 @@ import "./Owned.sol";
     * Created: 2019-03-29
     * @author Mattia
     * @title Authorizable contract
-    * @dev This contract is used by the data storage contracts. 
+    * @dev This contract is used by the data storage contracts.
     * its purpose is improve the security of a storage contract.
-    * In fact the setters methods of a storage contract are public 
-    * but they must be invoked only by the related logic contract (at its last version).
-    * To resolve this issues this contract defines the modifier (onlyAuthorized).
+    * In fact the setters methods of a storage contract are external
+    * but they must be invoked only by the related logic contract (at its lasted version).
+    * To resolve this issues this contract defines the modifier onlyAuthorized.
     */
 contract Authorizable is Owned {
     mapping(address => bool) authorized;
