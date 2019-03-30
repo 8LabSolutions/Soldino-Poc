@@ -1,12 +1,12 @@
 const { getWeb3, getContractInstance  } = require("./helpers")
+
 const web3 = getWeb3()
 const getInstance = getContractInstance(web3)
 
-
+/*
 contract("Proxy", (accounts) => {
     var citStorage = getInstance('CitizenStorage', accounts[2])
     var busStorage = getInstance('BusinessStorage', accounts[2])
-    var logic = getInstance('UserLogicV2', accounts[2])
 
     it("check user registration", async () => {
         const citIns = await citStorage.deploy().send()
@@ -41,7 +41,8 @@ contract("Proxy", (accounts) => {
     })
 
 })
-
+*/
+/*
 contract("Escrow", (accounts) => {
   var token = getInstance('TokenERC20', accounts[2])
   var escrow = getInstance('Escrow', accounts[2])
@@ -71,3 +72,4 @@ contract("Escrow", (accounts) => {
       assert(res, 9999)
   })
 })
+*/

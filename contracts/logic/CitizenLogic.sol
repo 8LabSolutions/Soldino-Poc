@@ -1,8 +1,8 @@
 pragma solidity ^0.5.0;
 
-import "./ContractManager.sol";
-import "./CitizenStorage.sol";
-import "./UserStorage.sol";
+import "../ContractManager.sol";
+import "../storage/CitizenStorage.sol";
+import "../storage/UserStorage.sol";
 
 contract CitizenLogic {
     ContractManager contractManager;

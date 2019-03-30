@@ -15,7 +15,7 @@ contract Escrow is tokenRecipient{
     }
 
     //override
-    function receiveApproval(address _from, uint256 _value, address _token, bytes calldata _extraData) external {
+    function receiveApproval(address _from, uint256 _value, address _token /*, bytes calldata _extraData*/) external {
        TokenERC20 cubitToken = TokenERC20(_token);
        require(cubitToken.transferFrom(_from, address(this), _value));
        registrantsPaid[_from] += _value;
@@ -27,7 +27,7 @@ contract Escrow is tokenRecipient{
         emit OrderReceived(msg.sender, _seller, _value);
     }
 
-    function test(TokenERC20[] memory array) public {
+    /*function test(TokenERC20[] memory array) public {
 
-    }
+    }*/
 }

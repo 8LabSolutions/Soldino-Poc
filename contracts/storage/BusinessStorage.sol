@@ -11,10 +11,10 @@ pragma solidity ^0.5.0;
 contract BusinessStorage {
     // The struct defines the characteristics of a business user
     struct Business {
-        bytes32 email;
-        bytes32 deliveryAddress;
-        bytes32 name;
-        bytes32 vatNumber;
+        string email;
+        string deliveryAddress;
+        string name;
+        string vatNumber;
         bool active;
         uint index;
     }
@@ -30,15 +30,22 @@ contract BusinessStorage {
     */
     mapping(address => Business) addressToBusiness;
 
-    function getName(address _userAddress) public view returns (bytes32) {
+    address governmentAddress;
+
+    modifier onlyGovernment() {
+        require(msg.sender == governmentAddress, "Only the government can able/disable users");
+        _;
+    }
+
+    function getName(address _userAddress) public view returns (string memory) {
         return addressToBusiness[_userAddress].name;
     }
 
-    function getEmail(address _userAddress) public view returns (bytes32) {
+    function getEmail(address _userAddress) public view returns (string memory) {
         return addressToBusiness[_userAddress].email;
     }
 
-    function getDeliveryAddressaddress (address _userAddress) public view returns (bytes32) {
+    function getDeliveryAddressaddress (address _userAddress) public view returns (string memory) {
         return addressToBusiness[_userAddress].deliveryAddress;
     }
 
@@ -47,19 +54,19 @@ contract BusinessStorage {
     }
 
     //******* SETTERS ********
-    function setName(address _userAddress, bytes32 _name) public {
+    function setName(address _userAddress, string memory _name) public {
         addressToBusiness[_userAddress].name = _name;
     }
 
-    function setEmail(address _userAddress, bytes32 _email) public {
+    function setEmail(address _userAddress, string memory _email) public {
         addressToBusiness[_userAddress].email = _email;
     }
 
-    function setDeliveryAddress(address _userAddress, bytes32  _devAddress) public {
+    function setDeliveryAddress(address _userAddress, string memory _devAddress) public {
         addressToBusiness[_userAddress].deliveryAddress = _devAddress;
     }
 
-    function setVATNumber(address _userAddress, bytes32 _vatNumber) public {
+    function setVATNumber(address _userAddress, string memory _vatNumber) public {
         addressToBusiness[_userAddress].vatNumber = _vatNumber;
     }
 
@@ -67,7 +74,7 @@ contract BusinessStorage {
         addressToBusiness[_userAddress].index = _index;
     }
 
-    function setActive(address _userAddress, bool _active) public {
+    function setActive(address _userAddress, bool _active) public onlyGovernment {
         addressToBusiness[_userAddress].active = _active;
     }
 
@@ -82,4 +89,5 @@ contract BusinessStorage {
      function pushToBusinessList(address _userAddress) public {
         setIndex(_userAddress, businessList.push(_userAddress) - 1);
     }
+
 }

@@ -1,7 +1,7 @@
-import getWeb3 from './helpers';
+const {getWeb3} = require('./helpers')
 
 const ContractManager = artifacts.require("ContractManager");
-const UserStorage = artifacts.require("UserStorage");
+const UserStorage = artifacts.require("storage/UserStorage");
 
 var web3 = getWeb3()
 

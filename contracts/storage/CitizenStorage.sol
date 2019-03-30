@@ -36,7 +36,7 @@ contract CitizenStorage {
         _;
     }
 
-    constructor (address _governmentAddress) public {
+    constructor (address _governmentAddress) public{
         governmentAddress = _governmentAddress;
     }
 

@@ -1,10 +1,11 @@
-import getWeb3 from './helpers';
+const IPFS = require('ipfs-mini');
+const { getWeb3 } = require('./helpers')
 
 const ContractManager = artifacts.require("ContractManager");
 const CitizenStorage = artifacts.require("CitizenStorage");
 
 var web3 = getWeb3()
-const IPFS = require('ipfs-mini');
+
 
 contract("CitizenStorage", (accounts) => {
   var contractManagerInstance;
