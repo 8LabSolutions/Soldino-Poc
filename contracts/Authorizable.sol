@@ -15,7 +15,7 @@ import "./Owned.sol";
     * To resolve this issues this contract defines the modifier onlyAuthorized.
     */
 contract Authorizable is Owned {
-    mapping(address => bool) authorized;
+    mapping(address => bool) public authorized;
 
     modifier onlyAuthorized() {
         require(authorized[msg.sender] == true || owner == msg.sender);
