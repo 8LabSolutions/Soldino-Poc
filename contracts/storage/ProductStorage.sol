@@ -16,7 +16,8 @@ contract ProductStorage is Authorizable {
 
     bytes32[] productsHashes;
     mapping(bytes32 => ProductInfo) hashToProduct;
-    mapping(address => bytes32[]) sellerToProducts;
+
+
 
     constructor(address _owner) public {
 

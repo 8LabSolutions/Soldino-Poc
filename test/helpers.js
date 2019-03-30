@@ -29,12 +29,4 @@ const getContractInstance = (web3) => (contractName, from) => {
 
   return instance
 }
-
-const getCitStorage = (web3) => () => {
-  const artifact = artifacts.require('../contracts/storage/CitizenStorage.sol')
-
-  const instance = artifact.deployed()
-  return instance
-}
-
-module.exports = {getWeb3, getContractInstance, getCitStorage}
+module.exports = {getWeb3, getContractInstance}
