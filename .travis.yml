@@ -20,10 +20,10 @@ jobs:
     - stage: deploy
       script:
         - npm run lint
-        - npm run build
         - ganache-cli -p 9545 > /dev/null &
         - sleep 5
         - truffle migrate --reset
+        - npm run build
         - npm run coverage && cat coverage/lcov.info | coveralls
       deploy:
         provider: surge
