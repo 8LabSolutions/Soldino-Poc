@@ -90,4 +90,24 @@ contract ProductStorage is Authorizable {
         delete productsHash[hashToProduct[_keyHash].index];
         delete hashToProduct[_keyHash];
     }
+
+    function getProduct(bytes32 _keyHash) external view
+        returns(
+            bytes32,
+            uint8,
+            uint8,
+            uint8,
+            uint256,
+            address
+        )
+    {
+        return(
+            hashToProduct[_keyHash].lastestHashIPFS,
+            hashToProduct[_keyHash].hashSize,
+            hashToProduct[_keyHash].hashFunction,
+            hashToProduct[_keyHash].VATPercentage,
+            hashToProduct[_keyHash].netPrice,
+            hashToProduct[_keyHash].seller
+        );
+    }
 }

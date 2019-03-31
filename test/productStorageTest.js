@@ -51,5 +51,33 @@ contract("ProductStorage", (accounts) => {
     })
   })
 
+  /*it("should add a new product", async () => {
+    var key = "0x7465737400000000000000000000000000000000000000000000000000000000"
+    var size = 1
+    var funH = 2
+    var vat = 22
+    var price = 100
+    var seller = accounts[1]
+    return productStorageInstance.methods.addProduct(
+      key,
+      size,
+      funH,
+      vat,
+      price,
+      seller
+    )
+    .send({from: accounts[9]})
+    .then(() => {
 
+      return productStorageInstance.methods.getProduct(key).call()
+      .then((result) => {
+        assert.equal(result[0],key);
+        assert.equal(result[1],size);
+        assert.equal(result[2],funH);
+        assert.equal(result[3],vat);
+        assert.equal(result[4],price);
+        assert.equal(result[5],seller);
+      })
+    })
+  })*/
 })
