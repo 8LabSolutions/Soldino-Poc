@@ -22,7 +22,7 @@ contract ProductLogic {
 
     //TODO
     modifier onlyBusiness {
-        require(userStorage.getUserType(msg.sender) == 7, "You're not a business");
+        require(userStorage.getUserType(msg.sender) == 2, "You're not a business");
         _;
     }
 
