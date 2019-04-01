@@ -5,58 +5,65 @@ var Government = artifacts.require("Government")
 var UserStorage = artifacts.require("UserStorage")
 var CitizenStorage = artifacts.require("CitizenStorage");
 var BusinessStorage = artifacts.require("BusinessStorage");
+var ProductStorage = artifacts.require("ProductStorage");
 /***  LOGIC CONTRACTS ***/
 var UserLogic = artifacts.require("UserLogic")
-var ProductStorage = artifacts.require("ProductStorage")
-var ProductLogic = artifacts.require("ProductLogic")
-
+var ProductLogic = artifacts.require("ProductLogic");
 
 module.exports = function(deployer, network, accounts) {
-  //deployer.deploy(Accounts);
-  //deployer.deploy(Token, 10000, "Cubit", "CC", "0xA5A91DE72568141687864507423604f9Ea25E823");
-  deployer.deploy(ContractManager).then( async function(constractManagerInstance) {
-    await deployer.deploy(UserStorage, constractManagerInstance.address).then(async function(userStorageInstance){
-      constractManagerInstance.setUserStorageAddress(userStorageInstance.address);
-      await deployer.deploy(CitizenStorage, accounts[9]).then( async function(citizenStorageInstance){
-        constractManagerInstance.setCitizenStorageAddress(citizenStorageInstance.address);
-        await deployer.deploy(CitizenLogic, constractManagerInstance.address).then((citizenLogicInstance)=>{
-          constractManagerInstance.setCitizenLogicAddress(citizenLogicInstance.address);
-        })
-      });
-      return deployer.deploy(Government, accounts[9]).then(async function(governmentInstance){
-        constractManagerInstance.setGovernmentAddress(governmentInstance.address);
-        userStorageInstance.addUser(accounts[9], 3);
-      })
+  var constractManagerInstance;
+  var userStorageInstance;
+  var citizenStorageInstance;
+  var businessStorageInstance;
+  var governmentInstance;
+  var userLogicInstance;
+  //every contract must be costructed with the constractManager address as a parameter
+  //so it is instantiated before all others
+  deployer.deploy(ContractManager).then( async function(_constractManagerInstance) {
+    constractManagerInstance = _constractManagerInstance;
+    //the userStorage contract is istantiated
+    await deployer.deploy(UserStorage, constractManagerInstance.address)
+    .then(function(_userStorageInstance){
+      userStorageInstance = _userStorageInstance;
+      constractManagerInstance.methods.setContractAddress("UserStorage", userStorageInstance.address)
+      .send();
+      //the government user is added to the contract during the deployment, since it is
+      //also the general administrator
+      userStorageInstance.methods.addUser(accounts[9], 3).send();
     })
     //the citizenStorage contract is istantiated
     await deployer.deploy(CitizenStorage, accounts[9])
     .then(function(_citizenStorageInstance){
       citizenStorageInstance = _citizenStorageInstance;
-      constractManagerInstance.setContractAddress("CitizenStorage", citizenStorageInstance.address);
+      constractManagerInstance.methods.setContractAddress("CitizenStorage", citizenStorageInstance.address)
+      .send();
     })
     //the businessStorage contract is istantiated
     await deployer.deploy(BusinessStorage, accounts[9]).then(function(_businessStorageInstance){
       businessStorageInstance = _businessStorageInstance;
-      constractManagerInstance.setContractAddress("BusinessStorage", businessStorageInstance.address);
+      constractManagerInstance.methods.setContractAddress("BusinessStorage", businessStorageInstance.address)
+      .send();
     })
     //the government account
     await deployer.deploy(Government, accounts[9])
     .then(function(_governmentInstance){
       governmentInstance = _governmentInstance;
-      constractManagerInstance.setContractAddress("Government", governmentInstance.address);
+      constractManagerInstance.methods.setContractAddress("Government", governmentInstance.address)
+      .send();
     })
     //the userLogic refers to business/logic/user storages, so must be initialized after these
     await deployer.deploy(UserLogic, constractManagerInstance.address)
     .then(function(_userLogicInstance){
       userLogicInstance = _userLogicInstance;
-      constractManagerInstance.setContractAddress("UserLogic", userLogicInstance.address);
+      constractManagerInstance.methods.setContractAddress("UserLogic", userLogicInstance.address)
+      .send();
     });
 
     /*** DEPENDENCIES SET-UP (AUTHORIZATION)***/
     // UserLogic must can access UserStorage, CitizenStorage and BusinessStorage
-    await userStorageInstance.addAuthorized(userLogicInstance.address);
-    await citizenStorageInstance.addAuthorized(userLogicInstance.address);
-    await businessStorageInstance.addAuthorized(userLogicInstance.address);
+    await userStorageInstance.methods.addAuthorized(userLogicInstance.address).send();
+    await citizenStorageInstance.methods.addAuthorized(userLogicInstance.address).send();
+    await businessStorageInstance.methods.addAuthorized(userLogicInstance.address).send();
 
 
     await deployer.deploy(ProductStorage, accounts[9])

@@ -7,7 +7,7 @@ contract ContractManager is Owned {
     mapping (string => address) nameToAddress;
 
     function getContractAddress(string memory _contractName) public view returns(address) {
-        require(nameToAddress[_contractName]!= address(0), "The contract does not exist");
+        require(nameToAddress[_contractName] != address(0), "The contract does not exist");
         return nameToAddress[_contractName];
     }
 
