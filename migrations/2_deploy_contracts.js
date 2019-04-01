@@ -12,7 +12,7 @@ var ProductLogic = artifacts.require("ProductLogic");
 
 
 module.exports = function(deployer, network, accounts) {
-  var constractManagerInstance;
+  var contractManagerInstance;
   var userStorageInstance;
   var citizenStorageInstance;
   var businessStorageInstance;
@@ -20,43 +20,43 @@ module.exports = function(deployer, network, accounts) {
   var userLogicInstance;
   //every contract must be costructed with the constractManager address as a parameter
   //so it is instantiated before all others
-  deployer.deploy(ContractManager).then( async function(_constractManagerInstance) {
-    constractManagerInstance = _constractManagerInstance;
+  deployer.deploy(ContractManager).then( async function(_contractManagerInstance) {
+    contractManagerInstance = _contractManagerInstance;
     //the userStorage contract is istantiated
-    await deployer.deploy(UserStorage, constractManagerInstance.address)
-    .then(function(_userStorageInstance){
+    await deployer.deploy(UserStorage, contractManagerInstance.address)
+    .then(async function(_userStorageInstance){
       userStorageInstance = _userStorageInstance;
-      constractManagerInstance.methods.setContractAddress("UserStorage", userStorageInstance.address)
-      .send();
+      console.log(contractManagerInstance.methods)
+      await contractManagerInstance.methods.getContractAddress("UserStorage").call();
       //the government user is added to the contract during the deployment, since it is
       //also the general administrator
-      userStorageInstance.methods.addUser(accounts[9], 3).send();
+      await userStorageInstance.methods.addUser(accounts[9], 3).send();
     })
     //the citizenStorage contract is istantiated
     await deployer.deploy(CitizenStorage, accounts[9])
     .then(function(_citizenStorageInstance){
       citizenStorageInstance = _citizenStorageInstance;
-      constractManagerInstance.methods.setContractAddress("CitizenStorage", citizenStorageInstance.address)
+      contractManagerInstance.methods.setContractAddress("CitizenStorage", citizenStorageInstance.address)
       .send();
     })
     //the businessStorage contract is istantiated
     await deployer.deploy(BusinessStorage, accounts[9]).then(function(_businessStorageInstance){
       businessStorageInstance = _businessStorageInstance;
-      constractManagerInstance.methods.setContractAddress("BusinessStorage", businessStorageInstance.address)
+      contractManagerInstance.methods.setContractAddress("BusinessStorage", businessStorageInstance.address)
       .send();
     })
     //the government account
     await deployer.deploy(Government, accounts[9])
     .then(function(_governmentInstance){
       governmentInstance = _governmentInstance;
-      constractManagerInstance.methods.setContractAddress("Government", governmentInstance.address)
+      contractManagerInstance.methods.setContractAddress("Government", governmentInstance.address)
       .send();
     })
     //the userLogic refers to business/logic/user storages, so must be initialized after these
-    await deployer.deploy(UserLogic, constractManagerInstance.address)
+    await deployer.deploy(UserLogic, contractManagerInstance.address)
     .then(function(_userLogicInstance){
       userLogicInstance = _userLogicInstance;
-      constractManagerInstance.methods.setContractAddress("UserLogic", userLogicInstance.address)
+      contractManagerInstance.methods.setContractAddress("UserLogic", userLogicInstance.address)
       .send();
     });
 
@@ -71,7 +71,7 @@ module.exports = function(deployer, network, accounts) {
     .then(async (ProductStorageInstance) => {
       await deployer.deploy(
         ProductLogic,
-        constractManagerInstance.address,
+        contractManagerInstance.address,
         ProductStorageInstance.address
       )
     })
