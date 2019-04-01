@@ -51,7 +51,7 @@ contract("ProductStorage", (accounts) => {
     })
   })
 
-  /*it("should add a new product", async () => {
+  it("should add a new product", async () => {
     var key = "0x7465737400000000000000000000000000000000000000000000000000000000"
     var size = 1
     var funH = 2
@@ -66,7 +66,7 @@ contract("ProductStorage", (accounts) => {
       price,
       seller
     )
-    .send({from: accounts[9]})
+    .send({from: accounts[9], gas:6000000})
     .then(() => {
 
       return productStorageInstance.methods.getProduct(key).call()
@@ -79,5 +79,8 @@ contract("ProductStorage", (accounts) => {
         assert.equal(result[5],seller);
       })
     })
-  })*/
+  })
+  
+
+
 })

@@ -90,8 +90,8 @@ contract BusinessStorage is Authorizable{
         return businessList.length;
     }
 
-    function pushToBusinessList(address _userAddress) public onlyAuthorized{
-        setIndex(_userAddress, businessList.push(_userAddress) - 1);
+    function pushToBusinessList(address _userAddress) public onlyAuthorized {
+        setIndex(_userAddress, (businessList.push(_userAddress) - 1));
     }
 
     function getBusinessDataJSON(address _userAddress) public view returns (

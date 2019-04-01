@@ -6,7 +6,7 @@ const UserLogic = artifacts.require("UserLogic");
 
 var web3 = getWeb3()
 
-contract ("BusinessStorage", (accounts) =>{
+contract ("BusinessStorage", (accounts) => {
   var contractManagerInstance;
   var businessStorageInstance;
   var userLogicInstance;
@@ -15,7 +15,6 @@ contract ("BusinessStorage", (accounts) =>{
   before(async () => {
     contractManagerInstance = new web3.eth.Contract(ContractManager.abi,
       ContractManager.networks[ContractManager.network_id].address);
-
     await contractManagerInstance.methods.getContractAddress("BusinessStorage").call()
     .then((_businessStorageAddress)=>{
       businessStorageInstance = new web3.eth.Contract(BusinessStorage.abi,
@@ -34,7 +33,7 @@ contract ("BusinessStorage", (accounts) =>{
     var email = "8LabSolutions@gmail.com";
     var deliveryAddress = "Via Esempio, 8, Paese, 12345";
     return userLogicInstance.methods.addBusiness(name, VATNumber, email, deliveryAddress)
-    .send({from: BUSINESS})
+    .send({from: BUSINESS, gas:6000000})
     .then(function(){
       return businessStorageInstance.methods.getName(BUSINESS).call().then((ris) => {
         assert.equal(
@@ -69,3 +68,4 @@ contract ("BusinessStorage", (accounts) =>{
     })
   });
 })
+

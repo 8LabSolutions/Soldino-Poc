@@ -2,11 +2,13 @@ pragma solidity ^0.5.0;
 
 import "../storage/ProductStorage.sol";
 import "../ContractManager.sol";
+import "../storage/UserStorage.sol";
 
 
 contract ProductLogic {
     ProductStorage productStorage;
     ContractManager contractManager;
+    UserStorage userStorage;
 
     event ProductInserted(bytes32 indexed _keyHash, address indexed _seller);
 
@@ -20,11 +22,13 @@ contract ProductLogic {
 
     //TODO
     modifier onlyBusiness {
+        require(userStorage.getUserType(msg.sender) == 2, "You're not a business");
         _;
     }
 
     //TODO
-    modifier onlyProductOwner {
+    modifier onlyProductOwner (){
+        //require(productStorage.hashToProduct[]);
         _;
     }
 
@@ -37,6 +41,7 @@ contract ProductLogic {
     constructor(address _contractManager, address _productStorage) public {
         contractManager = ContractManager(_contractManager);
         productStorage = ProductStorage(_productStorage);
+        userStorage = UserStorage(contractManager.getContractAddress("UserStorage"));
     }
 
     function addProduct(
