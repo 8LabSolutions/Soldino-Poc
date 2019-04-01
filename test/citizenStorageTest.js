@@ -3,6 +3,7 @@ const { getWeb3 } = require('./helpers')
 
 const ContractManager = artifacts.require("ContractManager");
 const CitizenStorage = artifacts.require("CitizenStorage");
+const UserLogic = artifacts.require("UserLogic");
 
 var web3 = getWeb3()
 
@@ -12,32 +13,30 @@ contract("CitizenStorage", (accounts) => {
   var citizenStorageInstance;
   const CITIZEN = accounts[3];
   const GOVERNMENT = accounts[9];
+  var userLogicInstance;
 
-  before(() => {
+  before(async () => {
     contractManagerInstance = new web3.eth.Contract(ContractManager.abi,
       ContractManager.networks[ContractManager.network_id].address);
-    return contractManagerInstance.methods.getCitizenStorageAddress().call()
+    await contractManagerInstance.methods.getContractAddress("CitizenStorage").call()
     .then((_citizenStorageInstance)=>{
       citizenStorageInstance = new web3.eth.Contract(CitizenStorage.abi,
         _citizenStorageInstance);
     })
+    return contractManagerInstance.methods.getContractAddress("UserLogic").call()
+    .then((_userLogicAddress)=>{
+      userLogicInstance = new web3.eth.Contract(UserLogic.abi,
+        _userLogicAddress);
+    })
   });
 
-  it("should check if the data are correctly saved", async () => {
+  it("should check if the data are correctly saved", () => {
     var name = "8Lab";
     var surname = "Solutions";
     var email = "8LabSolutions@gmail.com";
     var deliveryAddress = "Via Esempio, 8, Paese, 12345";
-    return citizenStorageInstance.methods.setName(CITIZEN, name).send({from: CITIZEN})
-    .then(function(){
-      return citizenStorageInstance.methods.setSurname(CITIZEN, surname).send({from: CITIZEN});
-    }).then(function(){
-      return citizenStorageInstance.methods.setEmail(CITIZEN, email).send({from: CITIZEN});
-    }).then(function(){
-      return citizenStorageInstance.methods.setDeliveryAddress(CITIZEN, deliveryAddress).send({from: CITIZEN});
-    }).then(function(){
-      return citizenStorageInstance.methods.setActive(CITIZEN, true).send({from: GOVERNMENT});
-    }).then(function(){
+    return userLogicInstance.methods.addCitizen(name, surname, email, deliveryAddress)
+    .send({from: CITIZEN}).then(function(){
       return citizenStorageInstance.methods.getName(CITIZEN).call().then((ris) => {
         assert.equal(
           ris,

@@ -18,12 +18,12 @@ contract Authorizable is Owned {
     mapping(address => bool) public authorized;
 
     modifier onlyAuthorized() {
-        require(authorized[msg.sender] == true || owner == msg.sender);
+        require(authorized[msg.sender] == true || owner == msg.sender, "Permission denied");
         _;
     }
 
     function addAuthorized(address _toAdd) onlyOwner public {
-        require(_toAdd != address(0));
+        require(_toAdd != address(0),"Authorizable: addAuthorization");
         authorized[_toAdd] = true;
     }
 

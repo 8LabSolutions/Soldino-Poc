@@ -1,0 +1,109 @@
+Generating coverage environment
+Running: truffle compile --network coverage
+(this can take a few seconds)...
+Compiling ./contracts/Authorizable.sol...
+Compiling ./contracts/ContractManager.sol...
+Compiling ./contracts/Government.sol...
+Compiling ./contracts/Migrations.sol...
+Compiling ./contracts/Owned.sol...
+Compiling ./contracts/Purchase.sol...
+Compiling ./contracts/UserStorage.sol...
+Compiling ./contracts/logic/CitizenLogic.sol...
+Compiling ./contracts/storage/BusinessStorage.sol...
+Compiling ./contracts/storage/CitizenStorage.sol...
+Compiling ./contracts/storage/ProductStorage.sol...
+Compiling ./contracts/storage/TokenCubit.sol...
+Compiling ./contracts/storage/UserStorage.sol...
+Writing artifacts to ./src/contracts_build
+
+Instrumenting  ./coverageEnv/contracts/Authorizable.sol
+Instrumenting  ./coverageEnv/contracts/ContractManager.sol
+Instrumenting  ./coverageEnv/contracts/Government.sol
+Instrumenting  ./coverageEnv/contracts/logic/CitizenLogic.sol
+Skipping instrumentation of  ./coverageEnv/contracts/Migrations.sol
+Instrumenting  ./coverageEnv/contracts/Owned.sol
+Instrumenting  ./coverageEnv/contracts/Purchase.sol
+Instrumenting  ./coverageEnv/contracts/storage/BusinessStorage.sol
+Instrumenting  ./coverageEnv/contracts/storage/CitizenStorage.sol
+Instrumenting  ./coverageEnv/contracts/storage/ProductStorage.sol
+Instrumenting  ./coverageEnv/contracts/storage/TokenCubit.sol
+Instrumenting  ./coverageEnv/contracts/storage/UserStorage.sol
+Instrumenting  ./coverageEnv/contracts/UserStorage.sol
+Running: truffle compile --network coverage
+(this can take a few seconds)...
+Compiling ./contracts/Authorizable.sol...
+Compiling ./contracts/ContractManager.sol...
+Compiling ./contracts/Government.sol...
+Compiling ./contracts/Migrations.sol...
+Compiling ./contracts/Owned.sol...
+Compiling ./contracts/Purchase.sol...
+Compiling ./contracts/UserStorage.sol...
+Compiling ./contracts/logic/CitizenLogic.sol...
+Compiling ./contracts/storage/BusinessStorage.sol...
+Compiling ./contracts/storage/CitizenStorage.sol...
+Compiling ./contracts/storage/ProductStorage.sol...
+Compiling ./contracts/storage/TokenCubit.sol...
+Compiling ./contracts/storage/UserStorage.sol...
+
+Compilation warnings encountered:
+
+/home/samuele/Desktop/Soldino-PoC/coverageEnv/contracts/storage/ProductStorage.sol:28:17: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    constructor(address _owner) public {emit __FunctionCoveragePr ...
+                ^------------^
+
+Writing artifacts to ./src/contracts_build
+
+Launched testrpc on port 8545
+Running: truffle test --network coverage
+(this can take a few seconds)...
+Using network 'coverage'.
+
+Compiling ./contracts/UserStorage.sol...
+
+Compilation warnings encountered:
+
+/home/samuele/Desktop/Soldino-PoC/coverageEnv/contracts/storage/ProductStorage.sol:28:17: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    constructor(address _owner) public {emit __FunctionCoveragePr ...
+                ^------------^
+
+
+[0m[0m
+[0m  Contract: CitizenStorage[0m
+  [32m  ✓[0m[90m should check if the data are correctly saved[0m[31m (237ms)[0m
+  [32m  ✓[0m[90m should check that the government can actually disable a citizen account[0m[33m (57ms)[0m
+  [32m  ✓[0m[90m should test IPFS[0m[31m (1480ms)[0m
+  [32m  ✓[0m[90m should revert because the caller is not the government[0m
+
+[0m  Contract: UserStorage[0m
+  [32m  ✓[0m[90m should check if user 9 is registered[0m
+  [32m  ✓[0m[90m should insert a new citizen and get check its type is correct[0m[33m (41ms)[0m
+
+
+[92m [0m[32m 6 passing[0m[90m (2s)[0m
+
+----------------------|----------|----------|----------|----------|----------------|
+File                  |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------------------|----------|----------|----------|----------|----------------|
+ contracts/           |    37.14 |    11.11 |    42.86 |       35 |                |
+  Authorizable.sol    |        0 |        0 |        0 |        0 |... 27,31,32,33 |
+  ContractManager.sol |    57.14 |       50 |    57.14 |       60 |... 55,59,63,67 |
+  Government.sol      |       50 |        0 |       50 |    33.33 |          11,12 |
+  Owned.sol           |        0 |        0 |        0 |        0 |    12,21,22,27 |
+  Purchase.sol        |        0 |        0 |        0 |        0 |... 21,25,26,27 |
+  UserStorage.sol     |      100 |       50 |      100 |      100 |                |
+ contracts/logic/     |       60 |        0 |    33.33 |    27.27 |                |
+  CitizenLogic.sol    |       60 |        0 |    33.33 |    27.27 |... 29,30,36,37 |
+ contracts/storage/   |    15.19 |     7.69 |    26.67 |    15.85 |                |
+  BusinessStorage.sol |        0 |        0 |        0 |        0 |... 78,82,86,90 |
+  CitizenStorage.sol  |    66.67 |      100 |    70.59 |    68.42 |... ,96,101,102 |
+  ProductStorage.sol  |      100 |      100 |        0 |      100 |                |
+  TokenCubit.sol      |        0 |        0 |        0 |        0 |... 210,211,212 |
+  UserStorage.sol     |        0 |        0 |        0 |        0 |    11,16,20,21 |
+----------------------|----------|----------|----------|----------|----------------|
+All files             |    23.53 |      8.7 |    32.89 |    22.56 |                |
+----------------------|----------|----------|----------|----------|----------------|
+
+Istanbul coverage reports generated
+Cleaning up...
+Shutting down testrpc-sc (pid 7926)
+Done.

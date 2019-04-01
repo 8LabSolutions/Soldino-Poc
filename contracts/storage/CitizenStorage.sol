@@ -1,4 +1,6 @@
 pragma solidity ^0.5.0;
+import "../Authorizable.sol";
+
 /**
   * Created: 2019-03-13
   * Modified: 2019-03-20
@@ -6,7 +8,7 @@ pragma solidity ^0.5.0;
   * @title Citizen contract
   * @dev This contract define the storage for the citizen-type user
   */
-contract CitizenStorage {
+contract CitizenStorage is Authorizable{
     // The struct defines the characteristics of a citizen user
     struct Citizen {
         string email;
@@ -60,27 +62,27 @@ contract CitizenStorage {
         return addressToCitizen[_userAddress].surname;
     }
 
-    function setName(address _userAddress, string memory _name) public {
+    function setName(address _userAddress, string memory _name) public onlyAuthorized{
         addressToCitizen[_userAddress].name = _name;
     }
 
-    function setEmail(address _userAddress, string memory _email) public {
+    function setEmail(address _userAddress, string memory _email) public onlyAuthorized{
         addressToCitizen[_userAddress].email = _email;
     }
 
-    function setSurname(address _userAddress, string memory _surname) public {
+    function setSurname(address _userAddress, string memory _surname) public onlyAuthorized{
         addressToCitizen[_userAddress].surname = _surname;
     }
 
-    function setDeliveryAddress(address _userAddress, string memory _devAddress) public {
+    function setDeliveryAddress(address _userAddress, string memory _devAddress) public onlyAuthorized{
         addressToCitizen[_userAddress].deliveryAddress = _devAddress;
     }
 
-    function setIndex(address _userAddress, uint _index) private {
+    function setIndex(address _userAddress, uint _index) private onlyAuthorized{
         addressToCitizen[_userAddress].index = _index;
     }
 
-    function setActive(address _userAddress, bool _active) public onlyGovernment {
+    function setActive(address _userAddress, bool _active) public onlyAuthorized {
         addressToCitizen[_userAddress].active = _active;
     }
 
@@ -88,18 +90,28 @@ contract CitizenStorage {
         return citizenList.length;
     }
 
-    function getAddressAt(address _userAddress) public view returns (address) {
-        return citizenList[addressToCitizen[_userAddress].index];
-    }
-
-    function pushToCitizenList(address _userAddress) public returns (uint){
+    function pushToCitizenList(address _userAddress) public onlyAuthorized returns (uint) {
         setIndex(_userAddress, citizenList.push(_userAddress) - 1);
+        setActive(_userAddress, true);
     }
-
-    function getCitizenData(address _citizenAddress) public view returns (
-        string memory, string memory, string memory, string memory) {
-        Citizen storage citizen =  addressToCitizen[_citizenAddress];
-        return (citizen.email, citizen.name, citizen.surname, citizen.deliveryAddress);
+    /** @dev Returns a JSON rapresentation of the citizen given its address.
+      * @param _userAddress :address Address of the user.
+      * @return :string The JSON given as a string
+      */
+    function getCitizenDataJSON(address _userAddress) public view returns (
+        string memory) {
+        Citizen storage citizen =  addressToCitizen[_userAddress];
+        return string(abi.encodePacked(
+            "{\n",
+                "  email: \"",citizen.email,
+                "\",\n",
+                "  name: \"",citizen.name,
+                "\",\n",
+                "  surname: \"",citizen.surname,
+                "\",\n",
+                "  deliveryAddress: \"", citizen.deliveryAddress,
+            "\"\n}"
+        ));
     }
 
 }

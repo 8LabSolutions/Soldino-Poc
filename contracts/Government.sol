@@ -12,4 +12,13 @@ contract Government {
         _;
     }
 
+    function getGovernmentDataJSON() public pure returns (
+        string memory) {
+        return string(abi.encodePacked(
+            "{\n",
+                "  name: \"Government\"",
+            "\"\n}"
+        ));
+    }
+
 }

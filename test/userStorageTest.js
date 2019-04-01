@@ -14,7 +14,7 @@ contract("UserStorage", (accounts) => {
   before(() => {
     contractManagerInstance = new web3.eth.Contract(ContractManager.abi,
       ContractManager.networks[ContractManager.network_id].address);
-    return contractManagerInstance.methods.getUserStorageAddress().call()
+    return contractManagerInstance.methods.getContractAddress("UserStorage").call()
     .then((_userStorageInstance)=>{
       userStorageInstance = new web3.eth.Contract(UserStorage.abi,
         _userStorageInstance);

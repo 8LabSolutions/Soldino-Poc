@@ -1,5 +1,5 @@
 pragma solidity ^0.5.0;
-
+import "../Authorizable.sol";
 
 /**
 * Created: 2019-03-13
@@ -8,13 +8,13 @@ pragma solidity ^0.5.0;
 * @title Business contract
 * @dev This contract define the storage for the business-type user
 */
-contract BusinessStorage {
+contract BusinessStorage is Authorizable{
     // The struct defines the characteristics of a business user
     struct Business {
         string email;
         string deliveryAddress;
         string name;
-        string vatNumber;
+        string VATNumber;
         bool active;
         uint index;
     }
@@ -37,6 +37,10 @@ contract BusinessStorage {
         _;
     }
 
+    constructor (address _governmentAddress) public{
+        governmentAddress = _governmentAddress;
+    }
+
     function getName(address _userAddress) public view returns (string memory) {
         return addressToBusiness[_userAddress].name;
     }
@@ -45,8 +49,12 @@ contract BusinessStorage {
         return addressToBusiness[_userAddress].email;
     }
 
-    function getDeliveryAddressaddress (address _userAddress) public view returns (string memory) {
+    function getDeliveryAddress (address _userAddress) public view returns (string memory) {
         return addressToBusiness[_userAddress].deliveryAddress;
+    }
+
+    function getVATNumber (address _userAddress) public view returns (string memory) {
+        return addressToBusiness[_userAddress].VATNumber;
     }
 
     function getActive(address _userAddress) public view returns (bool) {
@@ -54,27 +62,27 @@ contract BusinessStorage {
     }
 
     //******* SETTERS ********
-    function setName(address _userAddress, string memory _name) public {
+    function setName(address _userAddress, string memory _name) public onlyAuthorized{
         addressToBusiness[_userAddress].name = _name;
     }
 
-    function setEmail(address _userAddress, string memory _email) public {
+    function setEmail(address _userAddress, string memory _email) public onlyAuthorized{
         addressToBusiness[_userAddress].email = _email;
     }
 
-    function setDeliveryAddress(address _userAddress, string memory _devAddress) public {
+    function setDeliveryAddress(address _userAddress, string memory _devAddress) public onlyAuthorized {
         addressToBusiness[_userAddress].deliveryAddress = _devAddress;
     }
 
-    function setVATNumber(address _userAddress, string memory _vatNumber) public {
-        addressToBusiness[_userAddress].vatNumber = _vatNumber;
+    function setVATNumber(address _userAddress, string memory _VATNumber) public onlyAuthorized{
+        addressToBusiness[_userAddress].VATNumber = _VATNumber;
     }
 
-    function setIndex(address _userAddress, uint _index) private {
+    function setIndex(address _userAddress, uint _index) private onlyAuthorized{
         addressToBusiness[_userAddress].index = _index;
     }
 
-    function setActive(address _userAddress, bool _active) public onlyGovernment {
+    function setActive(address _userAddress, bool _active) public onlyAuthorized {
         addressToBusiness[_userAddress].active = _active;
     }
 
@@ -82,12 +90,24 @@ contract BusinessStorage {
         return businessList.length;
     }
 
-    function getAddressAt(address _userAddress) public view returns (address) {
-        return businessList[addressToBusiness[_userAddress].index];
+    function pushToBusinessList(address _userAddress) public onlyAuthorized{
+        setIndex(_userAddress, businessList.push(_userAddress) - 1);
     }
 
-     function pushToBusinessList(address _userAddress) public {
-        setIndex(_userAddress, businessList.push(_userAddress) - 1);
+    function getBusinessDataJSON(address _userAddress) public view returns (
+        string memory) {
+        Business storage business =  addressToBusiness[_userAddress];
+        return string(abi.encodePacked(
+            "{\n",
+                "  email: \"",business.email,
+                "\",\n",
+                "  name: \"",business.name,
+                "\",\n",
+                "  VATNumber: \"", business.VATNumber,
+                "\",\n",
+                "  deliveryAddress: \"", business.deliveryAddress,
+            "\"\n}"
+        ));
     }
 
 }
