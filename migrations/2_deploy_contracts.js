@@ -10,6 +10,7 @@ var ProductStorage = artifacts.require("ProductStorage");
 var UserLogic = artifacts.require("UserLogic")
 var ProductLogic = artifacts.require("ProductLogic");
 
+
 module.exports = function(deployer, network, accounts) {
   var constractManagerInstance;
   var userStorageInstance;
