@@ -8,9 +8,6 @@ contract ContractManager is Owned {
 
     string[] public names;
 
-    constructor() public {
-        owner = msg.sender;
-    }
 
     function getContractAddress(string memory _contractName) public view returns(address) {
         require(nameToAddress[_contractName] != address(0), "The contract does not exist");

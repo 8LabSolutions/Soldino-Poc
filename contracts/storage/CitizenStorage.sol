@@ -82,7 +82,7 @@ contract CitizenStorage is Authorizable{
         addressToCitizen[_userAddress].index = _index;
     }
 
-    function setActive(address _userAddress, bool _active) public onlyAuthorized {
+    function setActive(address _userAddress, bool _active) public onlyGovernment {
         addressToCitizen[_userAddress].active = _active;
     }
 
@@ -90,9 +90,9 @@ contract CitizenStorage is Authorizable{
         return citizenList.length;
     }
 
-    function pushToCitizenList(address _userAddress) public onlyAuthorized returns (uint) {
+    function pushToCitizenList(address _userAddress) public onlyAuthorized {
         setIndex(_userAddress, citizenList.push(_userAddress) - 1);
-        setActive(_userAddress, true);
+        addressToCitizen[_userAddress].active = true;
     }
     /** @dev Returns a JSON rapresentation of the citizen given its address.
       * @param _userAddress :address Address of the user.

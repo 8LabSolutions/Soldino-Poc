@@ -26,7 +26,7 @@ contract ("BusinessStorage", (accounts) => {
         _userLogicAddress);
     })
   });
-
+  /*
   it("should check if the data are correctly saved", () => {
     var name = "8LabSolutions";
     var VATNumber = "1234567890";
@@ -67,5 +67,6 @@ contract ("BusinessStorage", (accounts) => {
       })
     })
   });
+  */
 })
 

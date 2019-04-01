@@ -16,8 +16,8 @@ module.exports = function(deployer, network, accounts) {
   var userStorageInstance;
   var citizenStorageInstance;
   var businessStorageInstance;
-  var governmentInstance;
   var userLogicInstance;
+  const GOVERNMENT = accounts[9];
 
   deployer.deploy(ContractManager).then((instance) => {
     contractManagerInstance = instance
@@ -27,20 +27,23 @@ module.exports = function(deployer, network, accounts) {
       return instance.setContractAddress("UserStorage", usInstance.address)
     })
     .then(() => {
-      return deployer.deploy(CitizenStorage, accounts[0]).then((csInstance) => {
+      return deployer.deploy(CitizenStorage, GOVERNMENT).then((csInstance) => {
         citizenStorageInstance = csInstance
         return instance.setContractAddress("CitizenStorage", csInstance.address)
       })
     })
     .then(() => {
-      return deployer.deploy(BusinessStorage, accounts[0]).then((bsInstance) => {
+      return deployer.deploy(BusinessStorage, GOVERNMENT).then((bsInstance) => {
         businessStorageInstance = bsInstance
         return instance.setContractAddress("BusinessStorage", bsInstance.address)
       })
     })
     .then(() => {
-      return deployer.deploy(Government, accounts[0]).then((govInstace) => {
-        return instance.setContractAddress("Government", govInstace.address)
+      return deployer.deploy(Government, GOVERNMENT).then((govInstace) => {
+        //insert the government account into the user storage account
+        return userStorageInstance.addUser(GOVERNMENT, 3).then(()=>{
+          return instance.setContractAddress("Government", govInstace.address)
+        })
       })
     })
     .then(() => {
@@ -55,7 +58,7 @@ module.exports = function(deployer, network, accounts) {
       return businessStorageInstance.addAuthorized(userLogicInstance.address);
     })
     .then(() => {
-      return deployer.deploy(ProductStorage, accounts[9])
+      return deployer.deploy(ProductStorage,GOVERNMENT)
       .then((ProductStorageInstance) => {
         return deployer.deploy(
           ProductLogic,
@@ -81,7 +84,7 @@ module.exports = function(deployer, network, accounts) {
       });
       //the government user is added to the contract during the deployment, since it is
       //also the general administrator
-     
+
     })
     .then(async () => {
       await deployer.deploy(CitizenStorage, accounts[9])
@@ -116,13 +119,12 @@ module.exports = function(deployer, network, accounts) {
       });
     })
       //the citizenStorage contract is istantiated
-      
+
       //the businessStorage contract is istantiated
-      
+
   }*/
     //the government account
     //the userLogic refers to business/logic/user storages, so must be initialized after thes
 
     /*** DEPENDENCIES SET-UP (AUTHORIZATION)***/
     // UserLogic must can access UserStorage, CitizenStorage and BusinessStorage
-  
