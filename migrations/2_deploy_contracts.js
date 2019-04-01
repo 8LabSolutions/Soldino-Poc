@@ -58,7 +58,7 @@ module.exports = function(deployer, network, accounts) {
       return businessStorageInstance.addAuthorized(userLogicInstance.address);
     })
     .then(() => {
-      return deployer.deploy(ProductStorage,GOVERNMENT)
+      return deployer.deploy(ProductStorage)
       .then((ProductStorageInstance) => {
         return deployer.deploy(
           ProductLogic,

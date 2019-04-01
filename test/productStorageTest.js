@@ -29,9 +29,11 @@ contract("ProductStorage", (accounts) => {
       ProductLogic.networks[ContractManager.network_id].address
     );
 
+    productStorageInstance.methods.owner().call().then((result) => {console.log(result)})
+
   });
 
-  it("should not give authorization to an unregistered address (ProductLogic)", async () => {
+  it("should not give authorization to an unregistered address (ProductLogic)", () => {
     return productStorageInstance.methods.authorized(productLogicInstance.options.address)
     .call()
     .then((result) => {
@@ -39,9 +41,9 @@ contract("ProductStorage", (accounts) => {
     })
   })
 
-  it("should set the ProductLogic contract as authorized contract", async () => {
+  it("should set the ProductLogic contract as authorized contract", () => {
     return productStorageInstance.methods.addAuthorized(productLogicInstance.options.address)
-    .send({from: accounts[9]})
+    .send({from: accounts[0]})
     .then(() => {
       return productStorageInstance.methods.authorized(productLogicInstance.options.address)
       .call()
@@ -66,7 +68,7 @@ contract("ProductStorage", (accounts) => {
       price,
       seller
     )
-    .send({from: accounts[9], gas:6000000})
+    .send({from: accounts[0], gas:6000000})
     .then(() => {
 
       return productStorageInstance.methods.getProduct(key).call()
