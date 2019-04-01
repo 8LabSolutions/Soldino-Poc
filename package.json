@@ -51,8 +51,10 @@
     "eslint-loader": "^2.1.2",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eth-gas-reporter": "^0.1.12",
     "pre-commit": "^1.2.2",
     "solidity-coverage": "^0.5.11",
+    "truffle-assertions": "^0.8.2",
     "truffle-contract": "^4.0.6"
   },
   "scripts": {

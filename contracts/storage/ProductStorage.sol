@@ -17,9 +17,8 @@ contract ProductStorage is Authorizable {
     bytes32[] public productsHash;
     mapping(bytes32 => ProductInfo) public hashToProduct;
 
-
-    constructor(address _owner) public {
-        owner = _owner;
+    function getSeller(bytes32 _keyHash) public view returns(address) {
+        return hashToProduct[_keyHash].seller;
     }
 
     // Setters

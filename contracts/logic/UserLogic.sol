@@ -13,6 +13,7 @@ contract UserLogic {
     BusinessStorage businessStorage;
     Government government;
 
+    event Log(uint8);
     constructor(address _contractManagerAddress) public {
         contractManager = ContractManager(_contractManagerAddress);
         citizenStorage = CitizenStorage(contractManager.getContractAddress("CitizenStorage"));
@@ -41,10 +42,12 @@ contract UserLogic {
         userStorage.addUser(msg.sender, 2);
         //set the businessStorage contract
         businessStorage.pushToBusinessList(msg.sender);
+        
         businessStorage.setName(msg.sender, _name);
         businessStorage.setVATNumber(msg.sender, _VATNumber);
         businessStorage.setEmail(msg.sender, _email);
         businessStorage.setDeliveryAddress(msg.sender, _deliveryAddress);
+        emit Log(1);
 
     }
 
@@ -72,6 +75,11 @@ contract UserLogic {
         //if none of the previous, revert because it's an error
         else
             revert("Wrong userType");
+    }
+
+
+    function getBusAddress() public view returns(address, address) {
+        return(address(businessStorage), contractManager.getContractAddress("BusinessStorage"));
     }
 
 }

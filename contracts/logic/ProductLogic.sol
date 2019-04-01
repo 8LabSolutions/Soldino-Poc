@@ -2,11 +2,13 @@ pragma solidity ^0.5.0;
 
 import "../storage/ProductStorage.sol";
 import "../ContractManager.sol";
+import "../storage/UserStorage.sol";
 
 
 contract ProductLogic {
     ProductStorage productStorage;
     ContractManager contractManager;
+    UserStorage userStorage;
 
     event ProductInserted(bytes32 indexed _keyHash, address indexed _seller);
 
@@ -20,11 +22,13 @@ contract ProductLogic {
 
     //TODO
     modifier onlyBusiness {
+        require(userStorage.getUserType(msg.sender) == 2, "You're not a business");
         _;
     }
 
     //TODO
-    modifier onlyProductOwner {
+    modifier onlyProductOwner (bytes32 _keyHash){
+        require(productStorage.getSeller(_keyHash) == msg.sender, "The product is not yours");
         _;
     }
 
@@ -37,6 +41,7 @@ contract ProductLogic {
     constructor(address _contractManager, address _productStorage) public {
         contractManager = ContractManager(_contractManager);
         productStorage = ProductStorage(_productStorage);
+        userStorage = UserStorage(contractManager.getContractAddress("UserStorage"));
     }
 
     function addProduct(
@@ -71,7 +76,7 @@ contract ProductLogic {
     )
         public
         onlyValidKeyHash(_keyHash)
-        onlyProductOwner
+        onlyProductOwner(_keyHash)
     {
         require(_hashIPFS[0] != 0, "The modified product's hash given is null");
         require(_hashIPFS != _keyHash, "The modified product's hash cannot be the same as the key-hash");
@@ -95,7 +100,11 @@ contract ProductLogic {
 
     }
 
-    function deleteProduct(bytes32 _keyHash) public onlyProductOwner onlyValidKeyHash(_keyHash) {
+    function deleteProduct(bytes32 _keyHash) 
+        public 
+        onlyValidKeyHash(_keyHash) 
+        onlyProductOwner(_keyHash) 
+    {
         productStorage.deleteProduct(_keyHash);
         emit ProductDeleted(_keyHash, msg.sender);
     }
