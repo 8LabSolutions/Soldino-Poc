@@ -1,4 +1,4 @@
-const IPFS = require('ipfs-mini');
+//const IPFS = require('ipfs-mini');
 const { getWeb3 } = require('./helpers')
 
 const ContractManager = artifacts.require("ContractManager");
@@ -89,7 +89,7 @@ contract("CitizenStorage", (accounts) => {
     });
   });
 
-  it("should test IPFS", () =>{
+  /*it("should test IPFS", () =>{
     const ipfs = new IPFS({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' });
     var ilMioJSON = {name:"Palla", costo:13.13};
     var hash;
@@ -104,7 +104,7 @@ contract("CitizenStorage", (accounts) => {
         )
       })
     })
-  });
+  });*/
 
   it("should revert because the caller is not the government", () =>{
     return citizenStorageInstance.methods.setActive(CITIZEN, false).send({from: accounts[5]})

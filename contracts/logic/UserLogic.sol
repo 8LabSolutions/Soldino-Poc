@@ -13,7 +13,7 @@ contract UserLogic {
     BusinessStorage businessStorage;
     Government government;
 
-    constructor (address _contractManagerAddress) public {
+    constructor(address _contractManagerAddress) public {
         contractManager = ContractManager(_contractManagerAddress);
         citizenStorage = CitizenStorage(contractManager.getContractAddress("CitizenStorage"));
         userStorage = UserStorage(contractManager.getContractAddress("UserStorage"));
@@ -38,7 +38,7 @@ contract UserLogic {
     function addBusiness(string memory _name, string memory _VATNumber,
     string memory _email, string memory _deliveryAddress) public {
         //add the new entry to userstorage
-        userStorage.addUser(msg.sender, 2);
+        userStorage.addUser(msg.sender, 2);g
         //set the businessStorage contract
         businessStorage.pushToBusinessList(msg.sender);
         businessStorage.setName(msg.sender, _name);
