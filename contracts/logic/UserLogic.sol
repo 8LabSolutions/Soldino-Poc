@@ -24,8 +24,8 @@ contract UserLogic {
     function addCitizen(string memory _name, string memory _surname,
     string memory _email, string memory _deliveryAddress) public {
         //add the new entry to userstorage
-        userStorage.addUser(msg.sender, 1);
 
+        userStorage.addUser(msg.sender, 1);
         //set the CitizenStorage contract
         citizenStorage.pushToCitizenList(msg.sender);
         citizenStorage.setName(msg.sender, _name);
@@ -38,7 +38,7 @@ contract UserLogic {
     function addBusiness(string memory _name, string memory _VATNumber,
     string memory _email, string memory _deliveryAddress) public {
         //add the new entry to userstorage
-        userStorage.addUser(msg.sender, 2);g
+        userStorage.addUser(msg.sender, 2);
         //set the businessStorage contract
         businessStorage.pushToBusinessList(msg.sender);
         businessStorage.setName(msg.sender, _name);

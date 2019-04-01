@@ -36,7 +36,7 @@ contract("CitizenStorage", (accounts) => {
     var email = "8LabSolutions@gmail.com";
     var deliveryAddress = "Via Esempio, 8, Paese, 12345";
     return userLogicInstance.methods.addCitizen(name, surname, email, deliveryAddress)
-    .send({from: CITIZEN}).then(function(){
+    .send({from: CITIZEN, gas: 4712388}).then(function(){
       return citizenStorageInstance.methods.getName(CITIZEN).call().then((ris) => {
         assert.equal(
           ris,
@@ -77,7 +77,7 @@ contract("CitizenStorage", (accounts) => {
         true,
         "The citizen is disabled"
       );
-      return citizenStorageInstance.methods.setActive(CITIZEN, false).send({from: GOVERNMENT}).then(()=>{
+      return citizenStorageInstance.methods.setActive(CITIZEN, false).send({from: GOVERNMENT, gas: 4712388}).then(()=>{
         return citizenStorageInstance.methods.getActive(CITIZEN).call().then((active)=>{
           assert.equal(
             active,
@@ -88,8 +88,8 @@ contract("CitizenStorage", (accounts) => {
       });
     });
   });
-
-  /*it("should test IPFS", () =>{
+  /*
+  it("should test IPFS", () =>{
     const ipfs = new IPFS({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' });
     var ilMioJSON = {name:"Palla", costo:13.13};
     var hash;
@@ -104,10 +104,11 @@ contract("CitizenStorage", (accounts) => {
         )
       })
     })
-  });*/
+  });
+  */
 
   it("should revert because the caller is not the government", () =>{
-    return citizenStorageInstance.methods.setActive(CITIZEN, false).send({from: accounts[5]})
+    return citizenStorageInstance.methods.setActive(CITIZEN, false).send({from: accounts[5], gas: 4712388})
     .catch(() => {
       assert.isTrue(true);
     })
