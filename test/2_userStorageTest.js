@@ -53,11 +53,21 @@ contract("UserStorage", (accounts) => {
   });
 
   it("should check if an user is already registered", function(){
-    return userStorageInstance.methods.addUser(accounts[0], 1).send({from: accounts[0], gas: 4712388})
+    return userStorageInstance.methods.addUser(accounts[0], 1)
+    .send({from: accounts[0], gas: 4712388})
     .catch(() => {
       assert.isTrue(true);
     })
   });
+
+  it("should check if the user type is correct", function(){
+    return userStorageInstance.methods.getUserType(CITIZEN)
+    .send({from:CITIZEN, gas: 2000000}).then(function(type){
+      type,
+      1,
+      "The user is not a citizen"
+    })
+  })
 
 });
 
