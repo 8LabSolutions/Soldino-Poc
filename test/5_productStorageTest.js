@@ -198,6 +198,31 @@ contract("ProductStorage", (accounts) => {
     })
   })
   
+  it("should update Hash of a product", async () => {
+    var key = "0x7475737400000000000000000000000000000000000000000000000000000000"
+    var ipfsHash = "0x7473737400000000000000000000000000000000000000000000000000000000"
+    var funH = 2;
+    var hSize = 1
+  
+    return productStorageInstance.methods.updateHash(
+      key,
+      ipfsHash,
+      funH,
+      hSize
+    )
+    .send({from: accounts[0], gas:6000000})
+    .then(() => {
+
+      return productStorageInstance.methods.getProduct(key).call()
+      .then((result) => {
+        assert.equal(result[0],ipfsHash);
+        assert.equal(result[1],hSize);
+        assert.equal(result[2],funH);
+
+
+      })
+    })
+  })
   
   it("should delete a product", async () => {
     var key = "0x7465737400000000000000000000000000000000000000000000000000000000"
