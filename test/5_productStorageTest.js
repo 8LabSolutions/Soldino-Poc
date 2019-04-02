@@ -82,7 +82,142 @@ contract("ProductStorage", (accounts) => {
       })
     })
   })
+
+  it("should set the NetPrice of a product", async () => {
+    var key = "0x7465737400000000000000000000000000000000000000000000000000000000"
+    var netPrice = 20
+    return productStorageInstance.methods.setNetPrice(
+      key,
+      netPrice
+    )
+    .send({from: accounts[0], gas:6000000})
+    .then(() => {
+
+      return productStorageInstance.methods.getProduct(key).call()
+      .then((result) => {
+        assert.equal(result[0],key);
+        assert.equal(result[4],netPrice);
+
+      })
+    })
+  })
   
+  it("should set the VAT percentage of a product", async () => {
+    var key = "0x7465737400000000000000000000000000000000000000000000000000000000"
+    var vat = 22
+    
+    return productStorageInstance.methods.setVatPercentage(
+      key,
+      vat
+    )
+    .send({from: accounts[0], gas:6000000})
+    .then(() => {
+
+      return productStorageInstance.methods.getProduct(key).call()
+      .then((result) => {
+        assert.equal(result[0],key);
+        assert.equal(result[3],vat);
+
+      })
+    })
+  })
+
+  it("should set the Seller of a product", async () => {
+    var key = "0x7465737400000000000000000000000000000000000000000000000000000000"
+    var seller = accounts[2]
+    return productStorageInstance.methods.setSeller(
+      key,
+      seller
+    )
+    .send({from: accounts[0], gas:6000000})
+    .then(() => {
+
+      return productStorageInstance.methods.getProduct(key).call()
+      .then((result) => {
+        assert.equal(result[0],key);
+        assert.equal(result[5],seller);
+
+      })
+    })
+  })
+  
+  it("should set the Hash Size of a product", async () => {
+    var key = "0x7465737400000000000000000000000000000000000000000000000000000000"
+    var size = 2
+    return productStorageInstance.methods.setHashSize(
+      key,
+      size
+    )
+    .send({from: accounts[0], gas:6000000})
+    .then(() => {
+
+      return productStorageInstance.methods.getProduct(key).call()
+      .then((result) => {
+        assert.equal(result[0],key);
+        assert.equal(result[1],size);
+
+      })
+    })
+  }) 
+
+  it("should set the Hash Function of a product", async () => {
+    var key = "0x7465737400000000000000000000000000000000000000000000000000000000"
+    var funH = 3
+    return productStorageInstance.methods.setHashFunction(
+      key,
+      funH
+    )
+    .send({from: accounts[0], gas:6000000})
+    .then(() => {
+
+      return productStorageInstance.methods.getProduct(key).call()
+      .then((result) => {
+        assert.equal(result[0],key);
+        assert.equal(result[2],funH);
+
+      })
+    })
+  })
+
+  it("should set the Latest Hash Ipfs of a product", async () => {
+    var key = "0x7465737400000000000000000000000000000000000000000000000000000000"
+    var lkey = "0x7475737400000000000000000000000000000000000000000000000000000000"
+  
+    return productStorageInstance.methods.setLatestHashIpfs(
+      key,
+      lkey
+    )
+    .send({from: accounts[0], gas:6000000})
+    .then(() => {
+
+      return productStorageInstance.methods.getProduct(key).call()
+      .then((result) => {
+        assert.equal(result[0],lkey);
+
+      })
+    })
+  })
+  
+  
+  it("should delete a product", async () => {
+    var key = "0x7465737400000000000000000000000000000000000000000000000000000000"
+    return productStorageInstance.methods.deleteProduct(
+      key
+    )
+    .send({from: accounts[0], gas:6000000})
+    .then(() => {
+
+      return productStorageInstance.methods.getProduct(key).call()
+      .then((result) => {
+        assert.equal(result[0],"0x0000000000000000000000000000000000000000000000000000000000000000");
+        assert.equal(result[1],0);
+        assert.equal(result[2],0);
+        assert.equal(result[3],0);
+        assert.equal(result[4],0);
+        assert.equal(result[5],0);
+      })
+    })
+  })
 
 
 })
